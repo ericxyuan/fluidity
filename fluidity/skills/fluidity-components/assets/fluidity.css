@@ -1,0 +1,39 @@
+/* Opt-in fallback styling; map these variables to the host project's tokens.
+ */
+.fluidity-glass-card, .fluidity-stack-card, .fluidity-stack-backing {
+  box-sizing: border-box;
+  color: var(--fluidity-foreground, #17212b);
+  background: var(--fluidity-surface, #fafbfc);
+  border: 1px solid var(--fluidity-border, #b8c2cc);
+  border-radius: var(--fluidity-radius, 1rem);
+}
+.fluidity-glass-card, .fluidity-stack-card { padding: var(--fluidity-padding, 1.25rem); min-inline-size: 0; overflow-wrap: anywhere; }
+.fluidity-glass-card { box-shadow: var(--fluidity-shadow, 0 4px 20px #14283812); }
+@supports (backdrop-filter: blur(1px)) {
+  .fluidity-glass-card {
+    background: var(--fluidity-glass-surface, rgb(250 251 252 / .88));
+    backdrop-filter: blur(var(--fluidity-blur, 12px));
+  }
+}
+.fluidity-stack { inline-size: 100%; min-inline-size: 0; }
+.fluidity-stack-stage { position: relative; padding-block-start: 16px; margin-block-end: 1rem; }
+.fluidity-stack-backing { position: absolute; inset: 16px 0 0; pointer-events: none; }
+.fluidity-stack-backing[data-depth="1"] { transform: translateY(-8px) scaleX(.97); }
+.fluidity-stack-backing[data-depth="2"] { transform: translateY(-16px) scaleX(.94); }
+.fluidity-stack-card { position: relative; }
+.fluidity-stack-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+.fluidity-stack-controls select { flex: 1 1 8rem; min-inline-size: 0; max-inline-size: 100%; }
+.fluidity-stack-controls :is(button, select), .fluidity-stack-handle { min-block-size: 2.75rem; font: inherit; }
+.fluidity-stack-handle { display: block; margin: 1rem auto 0; padding-inline: 1rem; cursor: grab; }
+.fluidity-stack-status { font-size: .875em; }
+.fluidity-stack :is(button, select):focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.fluidity-sr-only { position: absolute; inline-size: 1px; block-size: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+  .fluidity-glass-card { background: var(--fluidity-surface, #fafbfc); backdrop-filter: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fluidity-stack-backing { transform: none !important; visibility: hidden; }
+}
+@media (forced-colors: active) {
+  .fluidity-glass-card, .fluidity-stack-card, .fluidity-stack-backing { background: Canvas; color: CanvasText; border-color: CanvasText; backdrop-filter: none; box-shadow: none; }
+}

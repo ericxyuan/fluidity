@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-09-13",
+  "sources": [
+    {
+      "id": "motion-patterns",
+      "repository": "local:motion-patterns",
+      "commit": "40f59b61e567712aa8329c7dc8c2ced763054c34",
+      "checkout": ".sources/motion-patterns",
+      "report": "development/sources/motion-patterns.json",
+      "snapshot_kind": "renamed-local-copy"
+    },
+    {
+      "id": "composition-patterns",
+      "repository": "local:composition-patterns",
+      "commit": "3b855612fb524cb042cc91b65f0cd575057471cc",
+      "checkout": ".sources/composition-patterns",
+      "report": "development/sources/composition-patterns.json",
+      "snapshot_kind": "renamed-local-copy"
+    },
+    {
+      "id": "design-guidance",
+      "repository": "local:design-guidance",
+      "commit": "d23d7f88a2e21c9e4b1418c7abe420f5c1052ba7",
+      "checkout": ".sources/design-guidance",
+      "report": "development/sources/design-guidance.json",
+      "snapshot_kind": "renamed-local-copy"
+    },
+    {
+      "id": "application",
+      "repository": "local:application",
+      "commit": "8a29318ef09a97ba821cd711786ab6e241c96a57",
+      "checkout": ".sources/application-patterns",
+      "report": "development/sources/application.json",
+      "snapshot_kind": "renamed-local-copy"
+    }
+  ],
+  "snapshot_note": "Renamed local copies; not byte-identical upstream checkouts."
+}

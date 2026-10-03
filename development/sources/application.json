@@ -1,0 +1,4502 @@
+{
+  "repository": "local:application",
+  "commit": "8a29318ef09a97ba821cd711786ab6e241c96a57",
+  "method": "All animated metadata/base imports and primitive config/index inventories examined programmatically. Deep-source inspection is restricted to listed files; provisional metadata triage is not claimed as a code-quality audit. Main source map records durable extracted knowledge and explicit corrections. Catalog variants are not imported wholesale.",
+  "inventory_counts": {
+    "animated_patterns": 131,
+    "base_categories": 30,
+    "base_variant_files": 516,
+    "deep_animated_patterns": 19,
+    "deep_source_files": 37
+  },
+  "inspected_files": [
+    {
+      "path": "src/data/contents/animated-components/adaptive-slider/base.tsx",
+      "scope": "complete",
+      "sha256": "cb80ea93027d19f3df146e06612396959e71d27d236523e05636b58ea842e6db"
+    },
+    {
+      "path": "src/data/contents/animated-components/card-swipe/base.tsx",
+      "scope": "complete",
+      "sha256": "7d27dbf667370a2e05bd025051ed24540acca8e3f10e861643f8ce6e7b6e1078"
+    },
+    {
+      "path": "src/data/contents/animated-components/command-search/base.tsx",
+      "scope": "complete",
+      "sha256": "d304bd82049c44f0caa1bf7384fcb83db873b61281513c420bd1c4094fad8138"
+    },
+    {
+      "path": "src/data/contents/animated-components/copy-confirm/base.tsx",
+      "scope": "complete",
+      "sha256": "bf3eb866dd1d05a27fbb2eb5fc9b02f930dc7aff364451f51f271bf56c9894ea"
+    },
+    {
+      "path": "src/data/contents/animated-components/credit-usage-card/base.tsx",
+      "scope": "complete",
+      "sha256": "f7271ca8a72370303b455d903a36db71e33a96e556e825c15ed192a067efa195"
+    },
+    {
+      "path": "src/data/contents/animated-components/dialog-stack/base.tsx",
+      "scope": "complete",
+      "sha256": "a7444b36c2c185a5aab3e31996a4238c87afb97e75b5536d86bf7db37d0ace42"
+    },
+    {
+      "path": "src/data/contents/animated-components/filter-disclosure/base.tsx",
+      "scope": "complete",
+      "sha256": "a67a730b08cb5e9bd3207b452c5758b85f1f85e93c14a7f58aa5307057091be9"
+    },
+    {
+      "path": "src/data/contents/animated-components/inline-edit/base.tsx",
+      "scope": "complete",
+      "sha256": "3249b7cd13b8e23ca6f820e65aec272301694d077111149c2b8d2bd29de16947"
+    },
+    {
+      "path": "src/data/contents/animated-components/list-stack/base.tsx",
+      "scope": "complete",
+      "sha256": "3c4e9bfcbca07a00743cca5b0a6cd04afaf9f3e03bc71683f368a661378cd0e7"
+    },
+    {
+      "path": "src/data/contents/animated-components/range-selection-slider/base.tsx",
+      "scope": "complete",
+      "sha256": "9e1a5aa92482028d84845b50367272cf9846bb7f44e143fa9032ed2761ef6b51"
+    },
+    {
+      "path": "src/data/contents/animated-components/scrub-slider/base.tsx",
+      "scope": "complete",
+      "sha256": "550668eee28757078926595bd7dcd27d5cb64eaa8496df82f14e90734e793fc9"
+    },
+    {
+      "path": "src/data/contents/animated-components/slot-picker/base.tsx",
+      "scope": "complete",
+      "sha256": "04bc59625d2c300fbae3b6e5220e490aa96667036c3169adf50b35f569815235"
+    },
+    {
+      "path": "src/data/contents/animated-components/split-button/base.tsx",
+      "scope": "complete",
+      "sha256": "27ca59b36367815d4e9b7d0ab535f5dca86c2ac27dbb2210c18f85c05decef70"
+    },
+    {
+      "path": "src/data/contents/animated-components/status-picker/base.tsx",
+      "scope": "complete",
+      "sha256": "7bffa6eba3641dd912e2aaab60c4d2a0214f4ea6c70d0dcc48c7824ab23338fd"
+    },
+    {
+      "path": "src/data/contents/animated-components/swap-currency-card/base.tsx",
+      "scope": "complete",
+      "sha256": "e592daa30ef448263c599c5b3f78650cf1f95931459a1c4cbc93eee6aa3711b1"
+    },
+    {
+      "path": "src/data/contents/animated-components/swap-form/base.tsx",
+      "scope": "complete",
+      "sha256": "5f286c61f5f4220b575b5c5390ac0ea77dfa82dbaecf11a1a06233c322bd9928"
+    },
+    {
+      "path": "src/data/contents/animated-components/time-undo-action/base.tsx",
+      "scope": "complete",
+      "sha256": "f037ed58a18fa05b463bdf86083c74c733bfa95ccecb4ee267a4a4e92bf1107d"
+    },
+    {
+      "path": "src/data/contents/animated-components/transaction-list/base.tsx",
+      "scope": "complete",
+      "sha256": "a992338b88ca1b5d55ffe7923d56c6416c06acf6ba790db6f17fa5fbb4aa1812"
+    },
+    {
+      "path": "src/data/contents/animated-components/tree-menu/base.tsx",
+      "scope": "complete",
+      "sha256": "ae3558dfa8eda983ce61dc4f641f6421f184eb8264ec0bf19917d34a93ef8e06"
+    },
+    {
+      "path": "package.json",
+      "scope": "complete",
+      "sha256": "7b5404af896596b5f602892bec7e8c82075e31a4dcab337b0b067e9e8e8f8869"
+    },
+    {
+      "path": "skills/application-ui/SKILL.md",
+      "scope": "complete",
+      "sha256": "2258ef5aad1fa23f8c69bb5326ccb726f26e4a702d5e1e9daf335c3b004ae811"
+    },
+    {
+      "path": "src/hooks/use-controlled-state.tsx",
+      "scope": "complete",
+      "sha256": "927598a7cdfce91ef4ee589c0e94d1616ed69ff0dcf0db764941bb2251a3bff4"
+    },
+    {
+      "path": "src/hooks/use-pagination.ts",
+      "scope": "complete",
+      "sha256": "42a5182e236ba907bef6354545b301d96230c3f403303fea45b9299ec00d1da5"
+    },
+    {
+      "path": "src/hooks/use-mobile.ts",
+      "scope": "complete",
+      "sha256": "e8e1a3038ce13a60daf494e6e5eb3aa4afd9696dfdaa701e3ab91f1d6c1b8ef0"
+    },
+    {
+      "path": "src/hooks/use-auto-height.tsx",
+      "scope": "complete",
+      "sha256": "6429ca409a847ae0a257b5a7e9ad7bcf0585e94dcd52670a635355e33428c311"
+    },
+    {
+      "path": "src/hooks/use-motion-value-state.tsx",
+      "scope": "complete",
+      "sha256": "73874a456cb514d59fee51688c17351bead353e35830664a3a7f8bf832011f5a"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "scope": "complete",
+      "sha256": "1dbabebda4609892f6240f7761a6cd1a142fd6a08b51d3649d5e895b24bde316"
+    },
+    {
+      "path": "src/components/ui/dialog.tsx",
+      "scope": "complete",
+      "sha256": "5ff88213b851d6a739c5303bb770ae9f2e9744c9767fa00986eb25ca0b09b2d6"
+    },
+    {
+      "path": "src/components/ui/combobox.tsx",
+      "scope": "complete",
+      "sha256": "cbdf0e99095e68f5c44f4052679ef4df35a78ae3907dbc8d4d16b6af02e702e1"
+    },
+    {
+      "path": "src/data/contents/components/combobox/variant-10.tsx",
+      "scope": "complete",
+      "sha256": "e06f0f6fe223e0b70a3397a583f2a805bfc15de0ab2da8df4a7f210e7baaca47"
+    },
+    {
+      "path": "src/data/contents/components/data-table/variant-1.tsx",
+      "scope": "complete",
+      "sha256": "e6ac2788720f71a62e1ffe96bd551bf04db3a760985e529da7081b097f0fbeaa"
+    },
+    {
+      "path": "src/data/contents/registry/dialog-stack.mdx",
+      "scope": "complete",
+      "sha256": "05b7abe544ec4d8013faba84041e48b400025470cdcfd6381f68f5d7f4b9da57"
+    },
+    {
+      "path": "src/data/contents/dashboards/web3-dashboard/dashboard-layout.tsx",
+      "scope": "complete",
+      "sha256": "0572b0cc5358ed593f9909093cb50e911192345d50e801af041e0875d495c2ae"
+    },
+    {
+      "path": "src/data/contents/dashboards/web3-dashboard/dashboardView.tsx",
+      "scope": "complete",
+      "sha256": "841941cf0c7121c0bf4e60eeb33ed4b9e114071697b8fc0acf2b926d133b9003"
+    },
+    {
+      "path": "src/data/contents/dashboards/web3-dashboard/components/web3/asset-table-card.tsx",
+      "scope": "complete",
+      "sha256": "21a990a256aea6f8a5d4d8e28a915a493413e3c77c73c46a4ce85f5ce83debe3"
+    },
+    {
+      "path": "src/data/contents/dashboards/web3-dashboard/components/web3/charts.tsx",
+      "scope": "complete",
+      "sha256": "b9afb170ffb9a2e48bb9634a9e25c9cc7bad87ee2fd47c255d96af772b826f3a"
+    },
+    {
+      "path": "src/components/ui/sidebar.tsx",
+      "scope": "provider, responsive shell, trigger; lines 1-290",
+      "sha256": "83d04e6e532573b560113c10996eb3e6e0cc6aedb49142c8b3d9c6b86a0752f2"
+    },
+    {
+      "path": "scripts/generate-shadcn-registry.ts",
+      "scope": "registry schema, dependency extraction, builders; lines 1-210",
+      "sha256": "5fc640125d346dc856047b958082cea2048fac730c0a4e66c69146220823b3a9"
+    },
+    {
+      "path": "src/data/animated-components-metadata.ts",
+      "scope": "complete",
+      "sha256": "27dbc4dc5af35b448bb0f864d5d88f47cbe45465670636ed497fafbfdf3abe16"
+    },
+    {
+      "path": "src/data/dashboard-metadata.ts",
+      "scope": "complete",
+      "sha256": "49e0b2bd99ef3c77244a018f3423b8a2a1558b772c6f1fc96fa33af3818e796e"
+    },
+    {
+      "path": "src/data/contents/components/combobox/index.ts",
+      "scope": "registry initial entries and programmatic whole-index inventory",
+      "sha256": "2a1ce60b97cb674c89950cd470ac78561b33a8f7bfd9a1c75c23882e2ddb6e13"
+    },
+    {
+      "path": "src/data/components-registry.ts",
+      "scope": "supporting registry schema and eager dynamic loader; complete",
+      "sha256": "483782cf957c03c05f497e9911f2c0d9c0f77e48e0c8351c189ebe76b189d960"
+    },
+    {
+      "path": "src/data/contents/animated-components/slot-picker/demo-base.tsx",
+      "scope": "supporting complete demo; mock days and log-only callback",
+      "sha256": "461d9cc0120343e6ff40be76a6e256ab7199b23af4742d99f706ec5af0993999"
+    },
+    {
+      "path": "src/data/contents/animated-components/inline-edit/original.tsx",
+      "scope": "API lines 1-60 and complete original-to-base diff; behavior retained while styling changes",
+      "sha256": "0b604dfe2a5d1512bde1e5a612d2789fc5e5da8695b67a490f14885efd01d90c"
+    },
+    {
+      "path": "src/data/contents/registry/credit-usage-card.mdx",
+      "scope": "supporting complete metadata; dependency and inspiration fields",
+      "sha256": "7fe8fa45ac76c95bb1f051ba887ce9988c93d71bb932bab74b35ab61e3f71476"
+    },
+    {
+      "path": "src/data/contents/registry/slot-picker.mdx",
+      "scope": "supporting complete documentation; keyboard-friendly claim checked against implementation",
+      "sha256": "5ca9253322651af360e92273b3b152ec56cee0272b7fc7c08b3e1c7de3072b61"
+    }
+  ],
+  "source_map": [
+    {
+      "capability": "Controllable component state",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/hooks/use-controlled-state.tsx",
+        "src/data/contents/animated-components/status-picker/base.tsx"
+      ],
+      "original_name": "useControlledState / StatusPicker",
+      "classification": "CORE",
+      "retained": "value !== undefined is controlled; callbacks after change",
+      "generalized": "Shared value/defaultValue/onChange ownership",
+      "modified": "Require defaultValue; typed generic; unchanged-value guard",
+      "rejected": "unsafe defaultValue cast; implicit status sentinel",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/use-controllable-state.ts"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "lucide-react",
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "capability": "Finite page navigation",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/hooks/use-pagination.ts"
+      ],
+      "original_name": "usePagination",
+      "classification": "CORE",
+      "retained": "First/last pages and local neighbors with gaps",
+      "generalized": "Pure bounded page model independent of React",
+      "modified": "Normalize invalid inputs and zero items; define button budget",
+      "rejected": "out-of-range values; ambiguous maximum",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/pagination.ts"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "react"
+      ]
+    },
+    {
+      "capability": "ID-based scoped selection",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/components/data-table/variant-1.tsx"
+      ],
+      "original_name": "DataTable1",
+      "classification": "CORE",
+      "retained": "ID set, individual selection, mixed header, numeric formatting",
+      "generalized": "Explicit current-page/filter/all scope",
+      "modified": "Compute selected membership rather than equal lengths; empty is not all",
+      "rejected": "fixed widths and demo colors",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/selection.ts",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "react"
+      ]
+    },
+    {
+      "capability": "Transactional inline edit",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/inline-edit/base.tsx"
+      ],
+      "original_name": "InlineEditCard / EditableRow",
+      "classification": "CORE",
+      "retained": "Draft and committed value, Save/Cancel, responsive rows",
+      "generalized": "Single-value editor usable in cards or settings",
+      "modified": "Real buttons, session reset, async failure, focus, Escape, conflict handling; no motion in the frequent keyboard-driven local adapter",
+      "rejected": "hover-only div, stale cancel draft, unconditional autofocus, fixed event schema",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/InlineEdit.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "capability": "Primitive-backed selection",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/components/ui/combobox.tsx",
+        "src/data/contents/components/combobox/variant-10.tsx",
+        "src/data/contents/animated-components/status-picker/base.tsx",
+        "src/data/contents/animated-components/filter-disclosure/base.tsx"
+      ],
+      "original_name": "Combobox / Combobox10 / StatusPicker / FilterDisclosure",
+      "classification": "CORE",
+      "retained": "Grouped search, tags, selected state, compact trigger summary",
+      "generalized": "Use project native select or one accessible primitive toolkit",
+      "modified": "Button labels, menu semantics, collision handling, scoped layout identity",
+      "rejected": "nested button chip removal, arbitrary 220ms close delay, per-character blur",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "@base-ui/react",
+        "@hugeicons/react",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-icons"
+      ]
+    },
+    {
+      "capability": "Contextual command search",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/command-search/base.tsx",
+        "src/components/ui/dialog.tsx"
+      ],
+      "original_name": "CommandSearch",
+      "classification": "CORE",
+      "retained": "Query filtering, section grouping, active result, trigger-to-search continuity",
+      "generalized": "Arbitrary section strings and searchable keywords",
+      "modified": "Reuse Dialog and Combobox/cmdk semantics; guard empty results; focus immediately",
+      "rejected": "global F shortcut, global layoutIds, delayed focus, modal without focus lifecycle",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "@hugeicons/react",
+        "lucide-react",
+        "motion",
+        "radix-ui",
+        "react"
+      ]
+    },
+    {
+      "capability": "Responsive application shell",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/components/ui/sidebar.tsx",
+        "src/hooks/use-mobile.ts",
+        "src/data/contents/dashboards/web3-dashboard/dashboard-layout.tsx"
+      ],
+      "original_name": "SidebarProvider / Sidebar",
+      "classification": "CORE",
+      "retained": "Desktop expansion distinct from mobile Sheet; token widths; context slots",
+      "generalized": "Project breakpoint and routes; named navigation",
+      "modified": "Align JS/CSS breakpoints; make shortcut/persistence opt-in",
+      "rejected": "unrequested cookie and shortcut; md versus 1024 mismatch",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "@hugeicons/react",
+        "class-variance-authority",
+        "radix-ui",
+        "react"
+      ]
+    },
+    {
+      "capability": "Accessible overlay foundation",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/components/ui/dialog.tsx",
+        "src/components/ui/combobox.tsx",
+        "src/data/contents/animated-components/dialog-stack/base.tsx"
+      ],
+      "original_name": "Radix Dialog / Base UI Combobox / DialogStack",
+      "classification": "CORE",
+      "retained": "Portal, title, description, close, positioned popup",
+      "generalized": "Use existing project primitive before adding Radix or Base UI",
+      "modified": "Retain semantic shell through motion exit; only top layer interactive",
+      "rejected": "hand-built overlay with backdrop only",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "@base-ui/react",
+        "@hugeicons/react",
+        "lucide-react",
+        "motion",
+        "radix-ui",
+        "react"
+      ]
+    },
+    {
+      "capability": "Context-preserving stacked surfaces",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/dialog-stack/base.tsx",
+        "src/data/contents/animated-components/list-stack/base.tsx"
+      ],
+      "original_name": "DialogStack / ListStack",
+      "classification": "SPECIALIZED",
+      "retained": "Previous surfaces visibly recede; bounded active index; expanded versus collapsed list",
+      "generalized": "Context layering independent of form/event content",
+      "modified": "Measured flow height, stable IDs, one active focus region, clear Back and Close",
+      "rejected": "fixed sizes, reverse source order, delayed reset, ambiguous close behavior",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "@hugeicons/react",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-icons"
+      ]
+    },
+    {
+      "capability": "Swipe carousel intent",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/card-swipe/base.tsx"
+      ],
+      "original_name": "CardSwipe",
+      "classification": "SPECIALIZED",
+      "retained": "Bounded index; displacement OR velocity threshold; single shared x MotionValue",
+      "generalized": "Container-relative dimensions and project content",
+      "modified": "Measured width, labeled prev/next, hidden inactive focus targets, reduced motion",
+      "rejected": "unnecessary 90-degree rotation, dot divs, empty-array invalid constraints",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "capability": "List-to-detail record continuity",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/transaction-list/base.tsx"
+      ],
+      "original_name": "TransactionList",
+      "classification": "CORE",
+      "retained": "Selected record ID, measured inner height, shared icon/name/category/amount layout",
+      "generalized": "Any record detail with summary fields",
+      "modified": "Scope layout IDs; buttons; restore row focus; handle removed record",
+      "rejected": "fixed w-64, interactive divs, delayed metadata and 600ms default",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "lucide-react",
+        "motion",
+        "react",
+        "react-use-measure"
+      ]
+    },
+    {
+      "capability": "Application metric and history card",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/credit-usage-card/base.tsx"
+      ],
+      "original_name": "CreditUsageCard",
+      "classification": "SPECIALIZED",
+      "retained": "Metric -> limit context -> history -> actions; only one local popover open",
+      "generalized": "Generic resource usage and actual callbacks",
+      "modified": "Progress semantics; semantic table; CSV escaping; real period filtering",
+      "rejected": "75 decorative bars, mock refresh/share, invisible scrollbar and tiny labels",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "lucide-react",
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "capability": "Two-ended range editing",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/range-selection-slider/base.tsx"
+      ],
+      "original_name": "PriceRangeCard / RangeSlider",
+      "classification": "SPECIALIZED",
+      "retained": "Draft range with Apply/Cancel; relative pointer math; min/max coupling",
+      "generalized": "Arbitrary bounded numeric interval and unit",
+      "modified": "Use project range primitive; min-relative snapping; labels and keyboard",
+      "rejected": "custom div thumbs without semantics; max==min division; repeated digits exposed to AT",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "capability": "Native range under custom visualization",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/adaptive-slider/base.tsx"
+      ],
+      "original_name": "AdaptiveSlider",
+      "classification": "SPECIALIZED",
+      "retained": "Native range input owns interaction; overlay is presentation",
+      "generalized": "Unit/label/token-independent control",
+      "modified": "Associate real label; focus-within; direct thumb during drag; validate domain",
+      "rejected": "hardcoded caloric labels, demo gradients, spring lag",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "capability": "Discrete scrub ruler",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/scrub-slider/base.tsx"
+      ],
+      "original_name": "ScrubSlider",
+      "classification": "SPECIALIZED",
+      "retained": "ResizeObserver step sizing; snapped index; decorative spring follower",
+      "generalized": "Optional visualization for an accessible range",
+      "modified": "Unified pointer capture; fresh bounds; minimum tick count; cleanup",
+      "rejected": "parallel mouse/touch listeners, no keys, animation restarts each display frame",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "capability": "Availability slots",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/slot-picker/base.tsx"
+      ],
+      "original_name": "SlotPicker",
+      "classification": "SPECIALIZED",
+      "retained": "Stable day/slot identity; add/remove ranges; disabling retains slots; layout changes",
+      "generalized": "Controlled availability model independent of time format",
+      "modified": "Validate order/overlap/timezone; labeled switches/removal; focus destination",
+      "rejected": "initial-prop mirror, random IDs in core logic, unvalidated text times",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "lucide-react",
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "capability": "Hierarchical drilldown",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/tree-menu/base.tsx"
+      ],
+      "original_name": "TreeMenu",
+      "classification": "SPECIALIZED",
+      "retained": "Path stack, children versus leaf action, breadcrumb reversal, persistent label continuity",
+      "generalized": "Compact hierarchical navigation independent of domain",
+      "modified": "Focus entering/restoring branch; scoped IDs; bound indentation",
+      "rejected": "tree ARIA without tree keys; large exit travel and uncapped stagger",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "motion",
+        "react",
+        "react-icons"
+      ]
+    },
+    {
+      "capability": "Paired amount conversion",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/swap-currency-card/base.tsx"
+      ],
+      "original_name": "SwapCurrencyCard",
+      "classification": "SPECIALIZED",
+      "retained": "From/to entity selectors, reversible amount relation, visible rate",
+      "generalized": "Unit conversion or quote interface with explicit source amount",
+      "modified": "Keep edited side authoritative; validate empty/rates; visible input; real action callbacks",
+      "rejected": "remote flags, decimal financial correctness claims, fake Proceed action",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "lucide-react",
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "capability": "Async clipboard confirmation",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/copy-confirm/base.tsx"
+      ],
+      "original_name": "CopyConfirm",
+      "classification": "CORE",
+      "retained": "Await successful clipboard write before confirmation; label/icon change",
+      "generalized": "Any async action state with stable button geometry",
+      "modified": "Catch rejection; cleanup reset; announce result; one motion import path",
+      "rejected": "unhandled rejection, untracked timer, hardcoded green, unnecessary character stagger",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "framer-motion",
+        "lucide-react",
+        "react"
+      ]
+    },
+    {
+      "capability": "Split action disclosure",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/split-button/base.tsx"
+      ],
+      "original_name": "SplitButton",
+      "classification": "REFERENCE",
+      "retained": "One action surface reveals related actions",
+      "generalized": "Use conventional split button/menu where it matches task",
+      "modified": "Unmount or inert hidden layer; callbacks; named Back; wrapped mobile layout",
+      "rejected": "1-second bounce, scale-up press, opacity-only hidden controls",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion",
+        "react"
+      ]
+    },
+    {
+      "capability": "Undo opportunity",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/time-undo-action/base.tsx"
+      ],
+      "original_name": "TimedUndoAction",
+      "classification": "REFERENCE",
+      "retained": "Width adapts between action and cancel/countdown",
+      "generalized": "Externally authorized reversible operation with explicit states",
+      "modified": "Use deadline, commit callback, cancellation contract, accessible button",
+      "rejected": "demo implies deletion but only resets state; countdown inside updater",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "lucide-react",
+        "motion",
+        "react",
+        "react-use-measure"
+      ]
+    },
+    {
+      "capability": "Form mode transition",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/animated-components/swap-form/base.tsx"
+      ],
+      "original_name": "SwapForm",
+      "classification": "REFERENCE",
+      "retained": "Externally controlled mode; separate copy; keyed presence",
+      "generalized": "Keep common fields stable between compatible form modes",
+      "modified": "Proper form submit, associated label, preserve draft/focus, ease-out feedback",
+      "rejected": "nonfunctional sign-in buttons; ease-in entrance; duplicate brand icons",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "motion",
+        "react",
+        "react-icons"
+      ]
+    },
+    {
+      "capability": "Dashboard composition",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/data/contents/dashboards/web3-dashboard/dashboard-layout.tsx",
+        "src/data/contents/dashboards/web3-dashboard/dashboardView.tsx",
+        "src/data/contents/dashboards/web3-dashboard/components/web3/asset-table-card.tsx",
+        "src/data/contents/dashboards/web3-dashboard/components/web3/charts.tsx"
+      ],
+      "original_name": "Web3 Dashboard / AssetTableCard / PortfolioChart",
+      "classification": "SPECIALIZED",
+      "retained": "Shell + summary + overview + records; responsive grids; optional chart/table",
+      "generalized": "Generic data dashboard without Web3 styling",
+      "modified": "Numeric sort keys; header buttons with aria-sort; unique SVG IDs; chart summary",
+      "rejected": "formatted-string numeric parsing; decorative menu/action placeholders",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/recipes.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "lucide-react",
+        "react",
+        "recharts"
+      ]
+    },
+    {
+      "capability": "Measurement and external motion subscriptions",
+      "source_repository": "local:application",
+      "source_files": [
+        "src/hooks/use-auto-height.tsx",
+        "src/hooks/use-motion-value-state.tsx",
+        "src/lib/utils.ts"
+      ],
+      "original_name": "useAutoHeight / useMotionValueState / cn",
+      "classification": "REFERENCE",
+      "retained": "ResizeObserver cleanup, DPR rounding; useSyncExternalStore subscription; class merging",
+      "generalized": "Measure natural inner content; reserve React subscription for rendered state",
+      "modified": "Avoid double-counting border-box padding; cancel observer RAFs",
+      "rejected": "per-frame React subscriptions solely for visuals; copied global helper dependencies",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "situational",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "clsx",
+        "motion",
+        "react",
+        "tailwind-merge"
+      ]
+    },
+    {
+      "capability": "Registry packaging",
+      "source_repository": "local:application",
+      "source_files": [
+        "scripts/generate-shadcn-registry.ts",
+        "src/data/animated-components-metadata.ts",
+        "src/data/components-registry.ts",
+        "skills/application-ui/SKILL.md"
+      ],
+      "original_name": "Registry generation / Application UI Skill",
+      "classification": "CORE",
+      "retained": "Trace source files, dependencies and base/original variants; adapt project tokens",
+      "generalized": "Local curated assets and references instead of remote source fetch",
+      "modified": "Explicit transitive asset closure; offline validation; build-time inventory",
+      "rejected": "runtime MCP/search/install requirement; installing full site dependencies",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/application-patterns.md",
+        "fluidity/skills/fluidity-components/assets/application/README.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "high",
+        "interaction_quality": "retain state model; fix documented usability gaps",
+        "adaptability": "separate seven layers in local recipe",
+        "accessibility": "primitive-backed or corrected; see local gap notes",
+        "responsive_behavior": "remove gallery dimensions and verify project breakpoints",
+        "implementation_quality": "representative source inspected; fixes documented",
+        "dependency_cost": "see per-pattern local notes; do not install catalog package.json",
+        "performance": "limit animated descendants and prefer direct MotionValues for visuals",
+        "uniqueness": "retain distinct behavior; merge overlap",
+        "composability": "controlled data and callbacks; no demo side effects",
+        "maintainability": "stable IDs, scoped motion IDs, explicit state lifecycle"
+      },
+      "upstream_direct_packages": [
+        "gray-matter",
+        "react"
+      ]
+    }
+  ],
+  "animated_inventory": [
+    {
+      "slug": "aave-swap-component",
+      "title": "Aave Swap Component",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/aave-swap-component/base.tsx",
+      "source_lines": 289,
+      "direct_imports": [
+        "@number-flow/react",
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "SkiperUI",
+      "upstream_inspiration_link": "https://skiper-ui.com/v1/skiper45"
+    },
+    {
+      "slug": "activities-card",
+      "title": "Activities Card",
+      "category": "disclosure",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/activities-card/base.tsx",
+      "source_lines": 145,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "adaptive-slider",
+      "title": "Adaptive Slider",
+      "category": "sliders",
+      "classification": "SPECIALIZED",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Useful distinct interaction or application composition; opt in only when the task needs it.",
+      "source_file": "src/data/contents/animated-components/adaptive-slider/base.tsx",
+      "source_lines": 191,
+      "direct_imports": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrkr",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "add-cash-disclosure",
+      "title": "Add Cash Disclosure",
+      "category": "disclosure",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/add-cash-disclosure/base.tsx",
+      "source_lines": 301,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/md"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "budget-card",
+      "title": "Budget Card",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/budget-card/base.tsx",
+      "source_lines": 403,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "calendar-widget",
+      "title": "Calendar Widget",
+      "category": "widgets",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/calendar-widget/base.tsx",
+      "source_lines": 243,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "card-cue",
+      "title": "Card Cue",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/card-cue/base.tsx",
+      "source_lines": 97,
+      "direct_imports": [
+        "framer-motion",
+        "lucide-react",
+        "react"
+      ]
+    },
+    {
+      "slug": "card-split-accordian",
+      "title": "Card Split Accordian",
+      "category": "accordian",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/card-split-accordian/base.tsx",
+      "source_lines": 208,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/hi2",
+        "react-icons/io",
+        "react-icons/pi",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "card-swipe",
+      "title": "Card Swipe",
+      "category": "interaction",
+      "classification": "SPECIALIZED",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Useful distinct interaction or application composition; opt in only when the task needs it.",
+      "source_file": "src/data/contents/animated-components/card-swipe/base.tsx",
+      "source_lines": 239,
+      "direct_imports": [
+        "@/lib/utils",
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "carousel-navigator",
+      "title": "Carousel Navigator",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/carousel-navigator/base.tsx",
+      "source_lines": 135,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "carousel-slider",
+      "title": "Carousel Slider",
+      "category": "interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/carousel-slider/base.tsx",
+      "source_lines": 186,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "changeable-pricing-section",
+      "title": "Changeable Pricing Section",
+      "category": "marketing",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/changeable-pricing-section/base.tsx",
+      "source_lines": 252,
+      "direct_imports": [
+        "framer-motion",
+        "lucide-react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "collection-grid-disclosure",
+      "title": "Collection Grid Disclosure",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/collection-grid-disclosure/base.tsx",
+      "source_lines": 279,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons",
+        "react-icons/bs",
+        "react-icons/fa",
+        "react-icons/fa6",
+        "react-icons/io5",
+        "react-icons/md",
+        "react-icons/tb",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "command-search",
+      "title": "Command Search",
+      "category": "navigation",
+      "classification": "CORE",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Frequently reusable behavior; distilled with the corrections documented in the local reference.",
+      "source_file": "src/data/contents/animated-components/command-search/base.tsx",
+      "source_lines": 327,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "SKIPER-UI",
+      "upstream_inspiration_link": "https://skiper-ui.com/v1/skiper92"
+    },
+    {
+      "slug": "compose-email-card",
+      "title": "Compose Email Card",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/compose-email-card/base.tsx",
+      "source_lines": 810,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/lu"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "contextual-ai-bar",
+      "title": "Contextual AI Bar",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/contextual-ai-bar/base.tsx",
+      "source_lines": 133,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "continuous-pagination",
+      "title": "Continuous Pagination",
+      "category": "pagination",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/continuous-pagination/base.tsx",
+      "source_lines": 143,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "next-themes",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "continuous-tabs",
+      "title": "Continuous Tabs",
+      "category": "tabs",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/continuous-tabs/base.tsx",
+      "source_lines": 84,
+      "direct_imports": [
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "copy-confirm",
+      "title": "Copy Confirm",
+      "category": "micro-interaction",
+      "classification": "CORE",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Frequently reusable behavior; distilled with the corrections documented in the local reference.",
+      "source_file": "src/data/contents/animated-components/copy-confirm/base.tsx",
+      "source_lines": 146,
+      "direct_imports": [
+        "framer-motion",
+        "lucide-react",
+        "react"
+      ]
+    },
+    {
+      "slug": "create-community",
+      "title": "Create Community",
+      "category": "dialog",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/create-community/base.tsx",
+      "source_lines": 188,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "create-new-disclosure",
+      "title": "Create New Disclosure",
+      "category": "disclosure",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/create-new-disclosure/base.tsx",
+      "source_lines": 155,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "credit-usage-card",
+      "title": "Credit Usage Card",
+      "category": "cards",
+      "classification": "SPECIALIZED",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Useful distinct interaction or application composition; opt in only when the task needs it.",
+      "source_file": "src/data/contents/animated-components/credit-usage-card/base.tsx",
+      "source_lines": 370,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "deployment-card",
+      "title": "Deployment Card",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/deployment-card/base.tsx",
+      "source_lines": 476,
+      "direct_imports": [
+        "@/lib/utils",
+        "framer-motion",
+        "lucide-react",
+        "react",
+        "react-icons/bs",
+        "react-icons/hi2",
+        "react-icons/lu",
+        "react-icons/pi",
+        "react-icons/tb"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "dialog-stack",
+      "title": "Dialog Stack",
+      "category": "dialog",
+      "classification": "SPECIALIZED",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Useful distinct interaction or application composition; opt in only when the task needs it.",
+      "source_file": "src/data/contents/animated-components/dialog-stack/base.tsx",
+      "source_lines": 224,
+      "direct_imports": [
+        "@hugeicons/react",
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "discrete-tabs",
+      "title": "Discrete Tabs",
+      "category": "tabs",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/discrete-tabs/base.tsx",
+      "source_lines": 122,
+      "direct_imports": [
+        "@/lib/utils",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "dock",
+      "title": "Dock Component",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/dock/base.tsx",
+      "source_lines": 114,
+      "direct_imports": [
+        "@/lib/utils",
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "draw-signature",
+      "title": "Draw Signature",
+      "category": "inputs",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/draw-signature/base.tsx",
+      "source_lines": 247,
+      "direct_imports": [
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "next-themes",
+        "react",
+        "react-icons/fa",
+        "react-icons/fa6",
+        "react-icons/md",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "dropdown-disclosure",
+      "title": "Dropdown Disclosure",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/dropdown-disclosure/base.tsx",
+      "source_lines": 283,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/fa6",
+        "react-icons/si",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "edit-badge",
+      "title": "Edit Badge",
+      "category": "interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/edit-badge/base.tsx",
+      "source_lines": 277,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/bi",
+        "react-icons/bs",
+        "react-icons/fa6",
+        "react-icons/hi2",
+        "react-icons/lu",
+        "react-icons/md"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "edit-profile",
+      "title": "Edit Profile",
+      "category": "dialog",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/edit-profile/base.tsx",
+      "source_lines": 200,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "editable-chip",
+      "title": "Editable Chip",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/editable-chip/base.tsx",
+      "source_lines": 119,
+      "direct_imports": [
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/bi"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "emoji-spree-choice-chips",
+      "title": "Emoji Spree Choice Chips",
+      "category": "choice-chips",
+      "classification": "REJECT",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Provisional exclusion: decorative or novelty-focused metadata offers insufficient task value to justify importing this variant.",
+      "source_file": "src/data/contents/animated-components/emoji-spree-choice-chips/base.tsx",
+      "source_lines": 210,
+      "direct_imports": [
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "event-reminders",
+      "title": "Event Reminders",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/event-reminders/base.tsx",
+      "source_lines": 330,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/bi",
+        "react-icons/fa6",
+        "react-icons/md"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "expand-details",
+      "title": "Expand Details",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/expand-details/base.tsx",
+      "source_lines": 144,
+      "direct_imports": [
+        "framer-motion",
+        "lucide-react",
+        "react",
+        "react-use-measure"
+      ]
+    },
+    {
+      "slug": "expandable-event-card",
+      "title": "Expandable Event Card",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/expandable-event-card/base.tsx",
+      "source_lines": 101,
+      "direct_imports": [
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Application",
+      "upstream_inspiration_link": "https://application.sh"
+    },
+    {
+      "slug": "expandable-profile-card",
+      "title": "Expandable Profile Card",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/expandable-profile-card/base.tsx",
+      "source_lines": 112,
+      "direct_imports": [
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Application",
+      "upstream_inspiration_link": "https://application.sh"
+    },
+    {
+      "slug": "extended-toolbar",
+      "title": "Extended Toolbar",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/extended-toolbar/base.tsx",
+      "source_lines": 160,
+      "direct_imports": [
+        "framer-motion",
+        "lucide-react",
+        "react",
+        "react-icons",
+        "react-icons/ai",
+        "react-icons/bs",
+        "react-icons/io5",
+        "react-icons/pi",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "family-receive-button",
+      "title": "Family Receive Button",
+      "category": "buttons",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/family-receive-button/base.tsx",
+      "source_lines": 120,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "SkiperUI",
+      "upstream_inspiration_link": "https://skiper-ui.com/v1/skiper45"
+    },
+    {
+      "slug": "family-wallet",
+      "title": "Family Wallet",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/family-wallet/base.tsx",
+      "source_lines": 524,
+      "direct_imports": [
+        "@/components/ui/drawer",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/bs",
+        "react-icons/fa6",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "skipper-ui",
+      "upstream_inspiration_link": "https://skipper-ui.com/components/family-wallet"
+    },
+    {
+      "slug": "feature-tour",
+      "title": "Feature Tour",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/feature-tour/base.tsx",
+      "source_lines": 259,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "feedback",
+      "title": "Feedback",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/feedback/base.tsx",
+      "source_lines": 227,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/fa6"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "feedback-action",
+      "title": "Feedback Action",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/feedback-action/base.tsx",
+      "source_lines": 164,
+      "direct_imports": [
+        "@/lib/utils",
+        "motion/react",
+        "react",
+        "react-icons/fa6",
+        "react-icons/lu",
+        "react-icons/tb"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "filter-disclosure",
+      "title": "Filter Disclosure",
+      "category": "filters",
+      "classification": "CORE",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Frequently reusable behavior; distilled with the corrections documented in the local reference.",
+      "source_file": "src/data/contents/animated-components/filter-disclosure/base.tsx",
+      "source_lines": 171,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons",
+        "react-icons/bs",
+        "react-icons/fa",
+        "react-icons/io5",
+        "react-icons/pi",
+        "react-icons/ri"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "floating-disclosure",
+      "title": "Floating Disclosure",
+      "category": "popover",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/floating-disclosure/base.tsx",
+      "source_lines": 184,
+      "direct_imports": [
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons",
+        "react-icons/bs",
+        "react-icons/fa6",
+        "react-icons/io",
+        "react-icons/tb",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "floating-input",
+      "title": "Floating Input",
+      "category": "inputs",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/floating-input/base.tsx",
+      "source_lines": 41,
+      "direct_imports": [
+        "@/lib/utils",
+        "react"
+      ],
+      "upstream_inspiration_name": "Material UI",
+      "upstream_inspiration_link": "https://mui.com"
+    },
+    {
+      "slug": "fluid-tabs",
+      "title": "Fluid Tabs",
+      "category": "tabs",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/fluid-tabs/base.tsx",
+      "source_lines": 97,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/bi",
+        "react-icons/fa"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "fractional-picker",
+      "title": "Fractional Picker",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/fractional-picker/base.tsx",
+      "source_lines": 151,
+      "direct_imports": [
+        "@/lib/utils",
+        "framer-motion",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "frequency-selector",
+      "title": "Frequency Selector",
+      "category": "tabs",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/frequency-selector/base.tsx",
+      "source_lines": 201,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "fund-widget",
+      "title": "Fund Widget",
+      "category": "widgets",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/fund-widget/base.tsx",
+      "source_lines": 181,
+      "direct_imports": [
+        "@/lib/utils",
+        "motion/react",
+        "react",
+        "react-icons/fa6"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "gooey-menu",
+      "title": "Gooey Menu",
+      "category": "tooltip",
+      "classification": "REJECT",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Provisional exclusion: decorative or novelty-focused metadata offers insufficient task value to justify importing this variant.",
+      "source_file": "src/data/contents/animated-components/gooey-menu/base.tsx",
+      "source_lines": 167,
+      "direct_imports": [
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "SkiperUI",
+      "upstream_inspiration_link": "https://skiper-ui.com/v1/skiper46"
+    },
+    {
+      "slug": "inline-action",
+      "title": "Inline Action",
+      "category": "action",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/inline-action/base.tsx",
+      "source_lines": 147,
+      "direct_imports": [
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "inline-disclosure-menu",
+      "title": "Inline Disclosure Menu",
+      "category": "dropdown",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/inline-disclosure-menu/base.tsx",
+      "source_lines": 219,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "inline-edit",
+      "title": "Inline Edit",
+      "category": "micro-interaction",
+      "classification": "CORE",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Frequently reusable behavior; distilled with the corrections documented in the local reference.",
+      "source_file": "src/data/contents/animated-components/inline-edit/base.tsx",
+      "source_lines": 260,
+      "direct_imports": [
+        "@hugeicons/core-free-icons/index",
+        "@hugeicons/react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "inline-overflow",
+      "title": "Inline Overflow",
+      "category": "disclosure",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/inline-overflow/base.tsx",
+      "source_lines": 98,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/hi",
+        "react-icons/io5"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "inline-table-control",
+      "title": "Inline Table Control",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/inline-table-control/base.tsx",
+      "source_lines": 257,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/bs",
+        "react-icons/fa6",
+        "react-icons/go"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "inline-toast",
+      "title": "Inline Toast",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/inline-toast/base.tsx",
+      "source_lines": 108,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/io5"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "integration-card",
+      "title": "Integration Card",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/integration-card/base.tsx",
+      "source_lines": 404,
+      "direct_imports": [
+        "@/lib/utils",
+        "framer-motion",
+        "lucide-react",
+        "react",
+        "react-icons/io5"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "invite-disclosure",
+      "title": "Invite Disclosure",
+      "category": "disclosure",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/invite-disclosure/base.tsx",
+      "source_lines": 181,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/bi",
+        "react-icons/fa6",
+        "react-icons/lu",
+        "react-icons/md",
+        "react-icons/pi"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "journal-navigation",
+      "title": "Journal Navigation",
+      "category": "navigation",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/journal-navigation/base.tsx",
+      "source_lines": 340,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "knob-slider",
+      "title": "Knob Slider",
+      "category": "sliders",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/knob-slider/base.tsx",
+      "source_lines": 245,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "labeled-progress-indicator",
+      "title": "Labeled Progress Indicator",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/labeled-progress-indicator/base.tsx",
+      "source_lines": 89,
+      "direct_imports": [
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "layered-progressive-disclosure",
+      "title": "Layered Progressive Disclosure",
+      "category": "interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/layered-progressive-disclosure/base.tsx",
+      "source_lines": 339,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "licence-key",
+      "title": "Licence Key",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/licence-key/base.tsx",
+      "source_lines": 129,
+      "direct_imports": [
+        "motion/react",
+        "react"
+      ]
+    },
+    {
+      "slug": "list-stack",
+      "title": "List Stack",
+      "category": "micro-interaction",
+      "classification": "SPECIALIZED",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Useful distinct interaction or application composition; opt in only when the task needs it.",
+      "source_file": "src/data/contents/animated-components/list-stack/base.tsx",
+      "source_lines": 148,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons",
+        "react-icons/fa6",
+        "react-icons/lu"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "macos-sidebar",
+      "title": "macOS Sidebar",
+      "category": "navigation",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/macos-sidebar/base.tsx",
+      "source_lines": 138,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "meeting-card",
+      "title": "Meeting Card",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/meeting-card/base.tsx",
+      "source_lines": 260,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "minimal-carousel",
+      "title": "Minimal Carousel",
+      "category": "carousel",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/minimal-carousel/base.tsx",
+      "source_lines": 152,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "SkiperUI",
+      "upstream_inspiration_link": "https://skiper-ui.com/v1/skiper45"
+    },
+    {
+      "slug": "morphing-button",
+      "title": "Morphing Button",
+      "category": "buttons",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/morphing-button/base.tsx",
+      "source_lines": 137,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/fa6"
+      ],
+      "upstream_inspiration_name": "nitishmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "morphing-discovery-bar",
+      "title": "Morphing Discovery Bar",
+      "category": "tabs",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/morphing-discovery-bar/base.tsx",
+      "source_lines": 223,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "morphing-sidebar-controls",
+      "title": "Morphing Sidebar Controls",
+      "category": "interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/morphing-sidebar-controls/base.tsx",
+      "source_lines": 730,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "onboarding-checklist",
+      "title": "Onboarding Checklist",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/onboarding-checklist/base.tsx",
+      "source_lines": 129,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "onboarding-screen",
+      "title": "Onboarding Screen",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/onboarding-screen/base.tsx",
+      "source_lines": 200,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/hi"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "onboarding-setup",
+      "title": "Onboarding Setup",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/onboarding-setup/base.tsx",
+      "source_lines": 247,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "pagination",
+      "title": "pagination",
+      "category": "pagination",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/pagination/base.tsx",
+      "source_lines": 155,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/hi2"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "pin-item",
+      "title": "Pin Item",
+      "category": "lists",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/pin-item/base.tsx",
+      "source_lines": 194,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/fa6",
+        "react-icons/io5"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "pop-stepper",
+      "title": "Pop Stepper",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/pop-stepper/base.tsx",
+      "source_lines": 128,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "next-themes",
+        "react"
+      ]
+    },
+    {
+      "slug": "predictive-text",
+      "title": "Predictive Text",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/predictive-text/base.tsx",
+      "source_lines": 240,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "pricing-widget",
+      "title": "Pricing Widget",
+      "category": "widgets",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/pricing-widget/base.tsx",
+      "source_lines": 138,
+      "direct_imports": [
+        "@number-flow/react",
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "profile-card",
+      "title": "Profile Card",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/profile-card/base.tsx",
+      "source_lines": 209,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/ri",
+        "react-icons/rx"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "progressive-input-stack",
+      "title": "Progressive Input Stack",
+      "category": "widgets",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/progressive-input-stack/base.tsx",
+      "source_lines": 196,
+      "direct_imports": [
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/fa6"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "quick-feedback",
+      "title": "Quick Feedback",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/quick-feedback/base.tsx",
+      "source_lines": 164,
+      "direct_imports": [
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons",
+        "react-icons/fa6",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "quick-option-picker",
+      "title": "Quick Option Picker",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/quick-option-picker/base.tsx",
+      "source_lines": 227,
+      "direct_imports": [
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons",
+        "react-icons/tb"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "quick-paste",
+      "title": "Quick Paste",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/quick-paste/base.tsx",
+      "source_lines": 174,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "quick-switcher",
+      "title": "Quick Switcher",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/quick-switcher/base.tsx",
+      "source_lines": 174,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "radial-carousel",
+      "title": "Radial Carousel",
+      "category": "carousel",
+      "classification": "REJECT",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Provisional exclusion: decorative or novelty-focused metadata offers insufficient task value to justify importing this variant.",
+      "source_file": "src/data/contents/animated-components/radial-carousel/base.tsx",
+      "source_lines": 239,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "range-selection-slider",
+      "title": "Range Selection Slider",
+      "category": "widgets",
+      "classification": "SPECIALIZED",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Useful distinct interaction or application composition; opt in only when the task needs it.",
+      "source_file": "src/data/contents/animated-components/range-selection-slider/base.tsx",
+      "source_lines": 275,
+      "direct_imports": [
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "returns-calculator-snippet",
+      "title": "Returns Calculator Snippet",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/returns-calculator-snippet/base.tsx",
+      "source_lines": 260,
+      "direct_imports": [
+        "@number-flow/react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "reveal-copy",
+      "title": "Reveal Copy",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/reveal-copy/base.tsx",
+      "source_lines": 213,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/bs",
+        "react-icons/fa",
+        "react-icons/fa6"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "revealing-cards",
+      "title": "Revealing Cards",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/revealing-cards/base.tsx",
+      "source_lines": 136,
+      "direct_imports": [
+        "framer-motion",
+        "react"
+      ]
+    },
+    {
+      "slug": "run-action-button",
+      "title": "Run Action Button",
+      "category": "buttons",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/run-action-button/base.tsx",
+      "source_lines": 229,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/bs",
+        "react-icons/fa6",
+        "react-icons/hi",
+        "react-icons/io5",
+        "react-icons/ri",
+        "react-icons/tb"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions"
+    },
+    {
+      "slug": "run-widget",
+      "title": "Run Widget",
+      "category": "widgets",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/run-widget/base.tsx",
+      "source_lines": 89,
+      "direct_imports": [
+        "@number-flow/react",
+        "motion/react",
+        "react",
+        "react-icons/fa",
+        "react-icons/hi2"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "save-toggle",
+      "title": "Save Toggle",
+      "category": "buttons",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/save-toggle/base.tsx",
+      "source_lines": 247,
+      "direct_imports": [
+        "@/lib/utils",
+        "motion/react",
+        "next-themes",
+        "react",
+        "react-icons/bs"
+      ],
+      "upstream_inspiration_name": "nitishmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "schedule-button",
+      "title": "Schedule Button",
+      "category": "interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/schedule-button/base.tsx",
+      "source_lines": 178,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion/react",
+        "react",
+        "react-icons/bs",
+        "react-icons/fa6"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "schedule-date",
+      "title": "Schedule Date",
+      "category": "scheduler",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/schedule-date/base.tsx",
+      "source_lines": 267,
+      "direct_imports": [
+        "@/lib/utils",
+        "framer-motion",
+        "lucide-react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "scroll-island",
+      "title": "Scroll Island",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/scroll-island/base.tsx",
+      "source_lines": 244,
+      "direct_imports": [
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-dom",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "scrub-slider",
+      "title": "Scrub Slider",
+      "category": "micro-interaction",
+      "classification": "SPECIALIZED",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Useful distinct interaction or application composition; opt in only when the task needs it.",
+      "source_file": "src/data/contents/animated-components/scrub-slider/base.tsx",
+      "source_lines": 189,
+      "direct_imports": [
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "select-ai-agent",
+      "title": "Select AI Agent",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/select-ai-agent/base.tsx",
+      "source_lines": 241,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "send-money",
+      "title": "Send Money",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/send-money/base.tsx",
+      "source_lines": 344,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/md"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "share-sheet",
+      "title": "share sheet",
+      "category": "widgets",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/share-sheet/base.tsx",
+      "source_lines": 225,
+      "direct_imports": [
+        "@/lib/utils",
+        "motion/react",
+        "react",
+        "react-icons/fi"
+      ],
+      "upstream_inspiration_name": "nitishmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "shimmer-button",
+      "title": "Shimmer Button",
+      "category": "buttons",
+      "classification": "REJECT",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Provisional exclusion: decorative or novelty-focused metadata offers insufficient task value to justify importing this variant.",
+      "source_file": "src/data/contents/animated-components/shimmer-button/base.tsx",
+      "source_lines": 29,
+      "direct_imports": [
+        "@/lib/utils"
+      ],
+      "upstream_inspiration_name": "Aceternity UI",
+      "upstream_inspiration_link": "https://ui.aceternity.com"
+    },
+    {
+      "slug": "show-qr",
+      "title": "Show QR",
+      "category": "widgets",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/show-qr/base.tsx",
+      "source_lines": 191,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "qrcode.react",
+        "react",
+        "react-icons/io5",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "shuffle-pinned-item",
+      "title": "Shuffle Pinned List",
+      "category": "lists",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/shuffle-pinned-item/base.tsx",
+      "source_lines": 277,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/bs"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "slot-picker",
+      "title": "Slot Picker",
+      "category": "interaction",
+      "classification": "SPECIALIZED",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Useful distinct interaction or application composition; opt in only when the task needs it.",
+      "source_file": "src/data/contents/animated-components/slot-picker/base.tsx",
+      "source_lines": 196,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "split-actions",
+      "title": "Split Actions",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/split-actions/base.tsx",
+      "source_lines": 143,
+      "direct_imports": [
+        "@/lib/utils",
+        "framer-motion",
+        "lucide-react",
+        "react"
+      ]
+    },
+    {
+      "slug": "split-button",
+      "title": "Split Button",
+      "category": "buttons",
+      "classification": "REFERENCE",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/split-button/base.tsx",
+      "source_lines": 86,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "split-to-edit",
+      "title": "Split To edit",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/split-to-edit/base.tsx",
+      "source_lines": 222,
+      "direct_imports": [
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "status-picker",
+      "title": "Status Picker",
+      "category": "micro-interaction",
+      "classification": "CORE",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Frequently reusable behavior; distilled with the corrections documented in the local reference.",
+      "source_file": "src/data/contents/animated-components/status-picker/base.tsx",
+      "source_lines": 289,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "step-indicator",
+      "title": "Step Indicator",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/step-indicator/base.tsx",
+      "source_lines": 194,
+      "direct_imports": [
+        "@/lib/utils",
+        "motion/react",
+        "react",
+        "react-icons"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "step-pager",
+      "title": "Step Pager",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/step-pager/base.tsx",
+      "source_lines": 181,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/bs",
+        "react-icons/hi",
+        "react-icons/md",
+        "react-icons/ri"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "stepper",
+      "title": "stepper",
+      "category": "buttons",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/stepper/base.tsx",
+      "source_lines": 140,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/hi"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "subscription-calendar",
+      "title": "Subscription Calendar",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/subscription-calendar/base.tsx",
+      "source_lines": 334,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/tb"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "swap-currency-card",
+      "title": "Swap Currency Card",
+      "category": "widgets",
+      "classification": "SPECIALIZED",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Useful distinct interaction or application composition; opt in only when the task needs it.",
+      "source_file": "src/data/contents/animated-components/swap-currency-card/base.tsx",
+      "source_lines": 333,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "swap-form",
+      "title": "Swap Form",
+      "category": "interaction",
+      "classification": "REFERENCE",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/swap-form/base.tsx",
+      "source_lines": 171,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/fa"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "switch-disclosure",
+      "title": "Switch Disclosure",
+      "category": "disclosure",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/switch-disclosure/base.tsx",
+      "source_lines": 144,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/ri"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "switch-mode",
+      "title": "Switch Mode",
+      "category": "toggle",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/switch-mode/base.tsx",
+      "source_lines": 108,
+      "direct_imports": [
+        "motion/react",
+        "next-themes",
+        "react",
+        "react-icons/io5"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "tags",
+      "title": "Tags",
+      "category": "interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/tags/base.tsx",
+      "source_lines": 121,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "task-widget-disclosure",
+      "title": "Task Widget Disclosure",
+      "category": "disclosure",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/task-widget-disclosure/base.tsx",
+      "source_lines": 401,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/bi",
+        "react-icons/io"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "time-undo-action",
+      "title": "Timed Undo Action",
+      "category": "buttons",
+      "classification": "REFERENCE",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/time-undo-action/base.tsx",
+      "source_lines": 239,
+      "direct_imports": [
+        "@/lib/utils",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "tooltip-navbar",
+      "title": "Tooltip Navbar",
+      "category": "tooltip",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/tooltip-navbar/base.tsx",
+      "source_lines": 253,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "SkiperUI",
+      "upstream_inspiration_link": "https://skiper-ui.com/v1/skiper43"
+    },
+    {
+      "slug": "trade-summary",
+      "title": "Trade Summary",
+      "category": "cards",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/trade-summary/base.tsx",
+      "source_lines": 511,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "Maxim Kuznetsov",
+      "upstream_inspiration_link": "https://x.com/disarto_max"
+    },
+    {
+      "slug": "transaction-list",
+      "title": "Transaction List",
+      "category": "micro-interaction",
+      "classification": "CORE",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Frequently reusable behavior; distilled with the corrections documented in the local reference.",
+      "source_file": "src/data/contents/animated-components/transaction-list/base.tsx",
+      "source_lines": 233,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-use-measure"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "tree-menu",
+      "title": "Tree-menu",
+      "category": "navigation",
+      "classification": "SPECIALIZED",
+      "inspection": "deep-source",
+      "decision_status": "evaluated",
+      "rationale": "Useful distinct interaction or application composition; opt in only when the task needs it.",
+      "source_file": "src/data/contents/animated-components/tree-menu/base.tsx",
+      "source_lines": 153,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/tb"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "uniswap-dialog",
+      "title": "Uniswap Dialog",
+      "category": "dialog",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/uniswap-dialog/base.tsx",
+      "source_lines": 215,
+      "direct_imports": [
+        "clsx",
+        "lucide-react",
+        "motion/react",
+        "react",
+        "tailwind-merge"
+      ],
+      "upstream_inspiration_name": "SkiperUI",
+      "upstream_inspiration_link": "https://skiper-ui.com/v1/skiper45"
+    },
+    {
+      "slug": "vertical-tooltip-navbar",
+      "title": "Vertical Tooltip Navbar",
+      "category": "tooltip",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/vertical-tooltip-navbar/base.tsx",
+      "source_lines": 222,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react"
+      ],
+      "upstream_inspiration_name": "SkiperUI",
+      "upstream_inspiration_link": "https://skiper-ui.com/v1/skiper43"
+    },
+    {
+      "slug": "view-on-map",
+      "title": "View On Map",
+      "category": "map",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/view-on-map/base.tsx",
+      "source_lines": 128,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/fa6"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "voice-chat-disclosure",
+      "title": "Voice Chat Disclosure",
+      "category": "interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/voice-chat-disclosure/base.tsx",
+      "source_lines": 200,
+      "direct_imports": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react",
+        "motion/react",
+        "react",
+        "react-icons/io5"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "voice-note",
+      "title": "Voice Note",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/voice-note/base.tsx",
+      "source_lines": 391,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/fa6",
+        "react-icons/ri"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "voice-transcribe",
+      "title": "Voice Transcribe",
+      "category": "micro-interaction",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/voice-transcribe/base.tsx",
+      "source_lines": 229,
+      "direct_imports": [
+        "motion/react",
+        "react",
+        "react-icons/tb"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://x.com/nitishkmrk"
+    },
+    {
+      "slug": "waveform-scrub",
+      "title": "Waveform Scrub",
+      "category": "media",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/waveform-scrub/base.tsx",
+      "source_lines": 211,
+      "direct_imports": [
+        "framer-motion",
+        "next-themes",
+        "react",
+        "react-icons/tb"
+      ],
+      "upstream_inspiration_name": "nitishkmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    },
+    {
+      "slug": "weight-widget",
+      "title": "Weight Widget",
+      "category": "widgets",
+      "classification": "REFERENCE",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Catalogued for coverage; no dedicated reusable component justified by this pass.",
+      "source_file": "src/data/contents/animated-components/weight-widget/base.tsx",
+      "source_lines": 229,
+      "direct_imports": [
+        "motion/react",
+        "next-themes",
+        "react"
+      ]
+    },
+    {
+      "slug": "wiggling-cards",
+      "title": "Wiggling Cards",
+      "category": "carousel",
+      "classification": "REJECT",
+      "inspection": "metadata-and-import-inventory-only",
+      "decision_status": "provisional-not-a-quality-audit",
+      "rationale": "Provisional exclusion: decorative or novelty-focused metadata offers insufficient task value to justify importing this variant.",
+      "source_file": "src/data/contents/animated-components/wiggling-cards/base.tsx",
+      "source_lines": 221,
+      "direct_imports": [
+        "lucide-react",
+        "motion/react",
+        "react",
+        "react-icons/fa6"
+      ],
+      "upstream_inspiration_name": "nitishmrk",
+      "upstream_inspiration_link": "https://khagwal.com/interactions/"
+    }
+  ],
+  "base_category_inventory": [
+    {
+      "category": "accordion",
+      "variant_count": 16,
+      "registered_variant_ids": [
+        "accordion-01",
+        "accordion-02",
+        "accordion-03",
+        "accordion-04",
+        "accordion-05",
+        "accordion-06",
+        "accordion-07",
+        "accordion-08",
+        "accordion-09",
+        "accordion-10",
+        "accordion-11",
+        "accordion-12",
+        "accordion-13",
+        "accordion-14",
+        "accordion-15",
+        "accordion-16"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A vertically stacked set of interactive headings that each reveal a section of content.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "alerts",
+      "variant_count": 30,
+      "registered_variant_ids": [
+        "alerts-01",
+        "alerts-02",
+        "alerts-03",
+        "alerts-04",
+        "alerts-05",
+        "alerts-06",
+        "alerts-07",
+        "alerts-08",
+        "alerts-09",
+        "alerts-10",
+        "alerts-11",
+        "alerts-12",
+        "alerts-13",
+        "alerts-14",
+        "alerts-15",
+        "alerts-16",
+        "alerts-17",
+        "alerts-18",
+        "alerts-19",
+        "alerts-20",
+        "alerts-21",
+        "alerts-22",
+        "alerts-23",
+        "alerts-24",
+        "alerts-25",
+        "alerts-26",
+        "alerts-27",
+        "alerts-28",
+        "alerts-29",
+        "alerts-30"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A component used to display important messages, notifications, or feedback to the user.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "avatar",
+      "variant_count": 21,
+      "registered_variant_ids": [
+        "avatar-01",
+        "avatar-02",
+        "avatar-03",
+        "avatar-04",
+        "avatar-05",
+        "avatar-06",
+        "avatar-07",
+        "avatar-08",
+        "avatar-09",
+        "avatar-10",
+        "avatar-11",
+        "avatar-12",
+        "avatar-13",
+        "avatar-14",
+        "avatar-15",
+        "avatar-16",
+        "avatar-17",
+        "avatar-18",
+        "avatar-19",
+        "avatar-20",
+        "avatar-21"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "Displays images, icons, or text in a circular or rounded shape.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "badge",
+      "variant_count": 24,
+      "registered_variant_ids": [
+        "badge-01",
+        "badge-02",
+        "badge-03",
+        "badge-04",
+        "badge-05",
+        "badge-06",
+        "badge-07",
+        "badge-08",
+        "badge-09",
+        "badge-10",
+        "badge-11",
+        "badge-12",
+        "badge-13",
+        "badge-14",
+        "badge-15",
+        "badge-16",
+        "badge-17",
+        "badge-18",
+        "badge-19",
+        "badge-20",
+        "badge-21",
+        "badge-22",
+        "badge-23",
+        "badge-24"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A small visual indicator used to highlight status, counts, or labels.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "breadcrumb",
+      "variant_count": 8,
+      "registered_variant_ids": [
+        "breadcrumb-01",
+        "breadcrumb-02",
+        "breadcrumb-03",
+        "breadcrumb-04",
+        "breadcrumb-05",
+        "breadcrumb-06",
+        "breadcrumb-07",
+        "breadcrumb-08"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "Displays the hierarchical structure of a website or application.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "button",
+      "variant_count": 38,
+      "registered_variant_ids": [
+        "button-01",
+        "button-02",
+        "button-03",
+        "button-04",
+        "button-05",
+        "button-06",
+        "button-07",
+        "button-08",
+        "button-09",
+        "button-10",
+        "button-11",
+        "button-12",
+        "button-13",
+        "button-14",
+        "button-15",
+        "button-16",
+        "button-17",
+        "button-18",
+        "button-19",
+        "button-20",
+        "button-21",
+        "button-22",
+        "button-23",
+        "button-24",
+        "button-25",
+        "button-26",
+        "button-27",
+        "button-28",
+        "button-29",
+        "button-30",
+        "button-31",
+        "button-32",
+        "button-33",
+        "button-34",
+        "button-35",
+        "button-36",
+        "button-37",
+        "button-38"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "An interactive element used to trigger actions, submissions, or navigation.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "button-group",
+      "variant_count": 12,
+      "registered_variant_ids": [
+        "button-group-01",
+        "button-group-02",
+        "button-group-03",
+        "button-group-04",
+        "button-group-05",
+        "button-group-06",
+        "button-group-07",
+        "button-group-08",
+        "button-group-09",
+        "button-group-10",
+        "button-group-11",
+        "button-group-12"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A group of buttons that are displayed together.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "calendar",
+      "variant_count": 25,
+      "registered_variant_ids": [
+        "calendar-01",
+        "calendar-02",
+        "calendar-03",
+        "calendar-04",
+        "calendar-05",
+        "calendar-06",
+        "calendar-07",
+        "calendar-08",
+        "calendar-09",
+        "calendar-10",
+        "calendar-11",
+        "calendar-12",
+        "calendar-13",
+        "calendar-14",
+        "calendar-15",
+        "calendar-16",
+        "calendar-17",
+        "calendar-18",
+        "calendar-19",
+        "calendar-20",
+        "calendar-21",
+        "calendar-22",
+        "calendar-23",
+        "calendar-24",
+        "calendar-25"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A calendar component for displaying and selecting dates.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "card",
+      "variant_count": 15,
+      "registered_variant_ids": [
+        "card-01",
+        "card-02",
+        "card-03",
+        "card-04",
+        "card-05",
+        "card-06",
+        "card-07",
+        "card-08",
+        "card-09",
+        "card-10",
+        "card-11",
+        "card-12",
+        "card-13",
+        "card-14",
+        "card-15"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A card is a container that displays content in a structured and visually appealing way.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "checkbox",
+      "variant_count": 16,
+      "registered_variant_ids": [
+        "checkbox-01",
+        "checkbox-02",
+        "checkbox-03",
+        "checkbox-04",
+        "checkbox-05",
+        "checkbox-06",
+        "checkbox-07",
+        "checkbox-08",
+        "checkbox-09",
+        "checkbox-10",
+        "checkbox-11",
+        "checkbox-12",
+        "checkbox-13",
+        "checkbox-14",
+        "checkbox-15",
+        "checkbox-16"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A checkbox component for selecting options.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "collapsible",
+      "variant_count": 9,
+      "registered_variant_ids": [
+        "collapsible-01",
+        "collapsible-02",
+        "collapsible-03",
+        "collapsible-04",
+        "collapsible-05",
+        "collapsible-06",
+        "collapsible-07",
+        "collapsible-08",
+        "collapsible-09"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A collapsible is a component that allows users to show or hide content.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "combobox",
+      "variant_count": 12,
+      "registered_variant_ids": [
+        "combobox-01",
+        "combobox-02",
+        "combobox-03",
+        "combobox-04",
+        "combobox-05",
+        "combobox-06",
+        "combobox-07",
+        "combobox-08",
+        "combobox-09",
+        "combobox-10",
+        "combobox-11",
+        "combobox-12"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A combobox component for selecting from a list of options.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "data-table",
+      "variant_count": 13,
+      "registered_variant_ids": [
+        "data-table-01",
+        "data-table-02",
+        "data-table-03",
+        "data-table-04",
+        "data-table-05",
+        "data-table-06",
+        "data-table-07",
+        "data-table-08",
+        "data-table-09",
+        "data-table-10",
+        "data-table-11",
+        "data-table-12",
+        "data-table-13"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A component for displaying and managing tabular data.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "date-picker",
+      "variant_count": 13,
+      "registered_variant_ids": [
+        "date-picker-01",
+        "date-picker-02",
+        "date-picker-03",
+        "date-picker-04",
+        "date-picker-05",
+        "date-picker-06",
+        "date-picker-07",
+        "date-picker-08",
+        "date-picker-09",
+        "date-picker-10",
+        "date-picker-11",
+        "date-picker-12",
+        "date-picker-13"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A date picker component for selecting dates.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "dialog",
+      "variant_count": 23,
+      "registered_variant_ids": [
+        "dialog-01",
+        "dialog-02",
+        "dialog-03",
+        "dialog-04",
+        "dialog-05",
+        "dialog-06",
+        "dialog-07",
+        "dialog-08",
+        "dialog-09",
+        "dialog-10",
+        "dialog-11",
+        "dialog-12",
+        "dialog-13",
+        "dialog-14",
+        "dialog-15",
+        "dialog-16",
+        "dialog-17",
+        "dialog-18",
+        "dialog-19",
+        "dialog-20",
+        "dialog-21",
+        "dialog-22",
+        "dialog-23"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A dialog component for displaying important information or prompts.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "dropdown-menu",
+      "variant_count": 14,
+      "registered_variant_ids": [
+        "dropdown-menu-01",
+        "dropdown-menu-02",
+        "dropdown-menu-03",
+        "dropdown-menu-04",
+        "dropdown-menu-05",
+        "dropdown-menu-06",
+        "dropdown-menu-07",
+        "dropdown-menu-08",
+        "dropdown-menu-09",
+        "dropdown-menu-10",
+        "dropdown-menu-11",
+        "dropdown-menu-12",
+        "dropdown-menu-13",
+        "dropdown-menu-14"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A menu that displays a list of actions or options when triggered, typically by a button or icon.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "form",
+      "variant_count": 10,
+      "registered_variant_ids": [
+        "form-01",
+        "form-02",
+        "form-03",
+        "form-04",
+        "form-05",
+        "form-06",
+        "form-07",
+        "form-08",
+        "form-09",
+        "form-10"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A collection of input fields, controls, and actions used to capture and submit user data, such as text, selections, and files.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "input-mask",
+      "variant_count": 6,
+      "registered_variant_ids": [
+        "input-mask-01",
+        "input-mask-02",
+        "input-mask-03",
+        "input-mask-04",
+        "input-mask-05",
+        "input-mask-06"
+      ],
+      "classification": "SPECIALIZED",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "An input field that enforces a specific format as users type, such as phone numbers, dates, or credit card details, improving data consistency and user experience.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "input-otp",
+      "variant_count": 10,
+      "registered_variant_ids": [
+        "input-otp-01",
+        "input-otp-02",
+        "input-otp-03",
+        "input-otp-04",
+        "input-otp-05",
+        "input-otp-06",
+        "input-otp-07",
+        "input-otp-08",
+        "input-otp-09",
+        "input-otp-10"
+      ],
+      "classification": "SPECIALIZED",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A set of input fields designed to capture one-time passwords (OTP) or verification codes, typically split into individual boxes for better UX and security.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "pagination",
+      "variant_count": 15,
+      "registered_variant_ids": [
+        "pagination-01",
+        "pagination-02",
+        "pagination-03",
+        "pagination-04",
+        "pagination-05",
+        "pagination-06",
+        "pagination-07",
+        "pagination-08",
+        "pagination-09",
+        "pagination-10",
+        "pagination-11",
+        "pagination-12",
+        "pagination-13",
+        "pagination-14",
+        "pagination-15"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "Pagination is used to guide users through a series of related content.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "popover",
+      "variant_count": 12,
+      "registered_variant_ids": [
+        "popover-01",
+        "popover-02",
+        "popover-03",
+        "popover-04",
+        "popover-05",
+        "popover-06",
+        "popover-07",
+        "popover-08",
+        "popover-09",
+        "popover-10",
+        "popover-11",
+        "popover-12"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "Popovers are used to display rich content within an overlay that is triggered by a button click.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "radiogroup",
+      "variant_count": 13,
+      "registered_variant_ids": [
+        "radio-group-01",
+        "radio-group-02",
+        "radio-group-03",
+        "radio-group-04",
+        "radio-group-05",
+        "radio-group-06",
+        "radio-group-07",
+        "radio-group-08",
+        "radio-group-09",
+        "radio-group-10",
+        "radio-group-11",
+        "radio-group-12",
+        "radio-group-13"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A set of mutually exclusive options where only one choice can be selected at a time.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "select",
+      "variant_count": 36,
+      "registered_variant_ids": [
+        "select-01",
+        "select-02",
+        "select-03",
+        "select-04",
+        "select-05",
+        "select-06",
+        "select-07",
+        "select-08",
+        "select-09",
+        "select-10",
+        "select-11",
+        "select-12",
+        "select-13",
+        "select-14",
+        "select-15",
+        "select-16",
+        "select-17",
+        "select-18",
+        "select-19",
+        "select-20",
+        "select-21",
+        "select-22",
+        "select-23",
+        "select-24",
+        "select-25",
+        "select-26",
+        "select-27",
+        "select-28",
+        "select-29",
+        "select-30",
+        "select-31",
+        "select-32",
+        "select-33",
+        "select-34",
+        "select-35",
+        "select-36"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A versatile selection component that provides a sleek, accessible way to choose options from a list.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "sheet",
+      "variant_count": 7,
+      "registered_variant_ids": [
+        "sheet-01",
+        "sheet-02",
+        "sheet-03",
+        "sheet-04",
+        "sheet-05",
+        "sheet-06",
+        "sheet-07"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A panel that slides in from the edge of the screen to display additional content, forms, or actions without navigating away.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "sonner",
+      "variant_count": 20,
+      "registered_variant_ids": [
+        "sonner-01",
+        "sonner-02",
+        "sonner-03",
+        "sonner-04",
+        "sonner-05",
+        "sonner-06",
+        "sonner-07",
+        "sonner-08",
+        "sonner-09",
+        "sonner-10",
+        "sonner-11",
+        "sonner-12",
+        "sonner-13",
+        "sonner-14",
+        "sonner-15",
+        "sonner-16",
+        "sonner-17",
+        "sonner-18",
+        "sonner-19",
+        "sonner-20"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "An opinionated toast component for React.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "switch",
+      "variant_count": 20,
+      "registered_variant_ids": [
+        "switch-01",
+        "switch-02",
+        "switch-03",
+        "switch-04",
+        "switch-05",
+        "switch-06",
+        "switch-07",
+        "switch-08",
+        "switch-09",
+        "switch-10",
+        "switch-11",
+        "switch-12",
+        "switch-13",
+        "switch-14",
+        "switch-15",
+        "switch-16",
+        "switch-17",
+        "switch-18",
+        "switch-19",
+        "switch-20"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A toggle control that allows users to switch between two states, typically on or off.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "table",
+      "variant_count": 16,
+      "registered_variant_ids": [
+        "table-01",
+        "table-02",
+        "table-03",
+        "table-04",
+        "table-05",
+        "table-06",
+        "table-07",
+        "table-08",
+        "table-09",
+        "table-10",
+        "table-11",
+        "table-12",
+        "table-13",
+        "table-14",
+        "table-15",
+        "table-16"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A structured layout used to display data in rows and columns, enabling easy comparison, sorting, and organization of information.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "tabs",
+      "variant_count": 26,
+      "registered_variant_ids": [
+        "tabs-01",
+        "tabs-02",
+        "tabs-03",
+        "tabs-04",
+        "tabs-05",
+        "tabs-06",
+        "tabs-07",
+        "tabs-08",
+        "tabs-09",
+        "tabs-10",
+        "tabs-11",
+        "tabs-12",
+        "tabs-13",
+        "tabs-14",
+        "tabs-15",
+        "tabs-16",
+        "tabs-17",
+        "tabs-18",
+        "tabs-19",
+        "tabs-20",
+        "tabs-21",
+        "tabs-22",
+        "tabs-23",
+        "tabs-24",
+        "tabs-25",
+        "tabs-26"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "textarea",
+      "variant_count": 21,
+      "registered_variant_ids": [
+        "textarea-01",
+        "textarea-02",
+        "textarea-03",
+        "textarea-04",
+        "textarea-05",
+        "textarea-06",
+        "textarea-07",
+        "textarea-08",
+        "textarea-09",
+        "textarea-10",
+        "textarea-11",
+        "textarea-12",
+        "textarea-13",
+        "textarea-14",
+        "textarea-15",
+        "textarea-16",
+        "textarea-17",
+        "textarea-18",
+        "textarea-19",
+        "textarea-20",
+        "textarea-21"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A multi-line input field that allows users to enter longer blocks of text, such as messages, descriptions, or comments.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    },
+    {
+      "category": "tooltip",
+      "variant_count": 15,
+      "registered_variant_ids": [
+        "tooltip-01",
+        "tooltip-02",
+        "tooltip-03",
+        "tooltip-04",
+        "tooltip-05",
+        "tooltip-06",
+        "tooltip-07",
+        "tooltip-08",
+        "tooltip-09",
+        "tooltip-10",
+        "tooltip-11",
+        "tooltip-12",
+        "tooltip-13",
+        "tooltip-14",
+        "tooltip-15"
+      ],
+      "classification": "CORE",
+      "inspection": "metadata-index-inventory; only explicitly listed representative variants deeply inspected",
+      "description": "A small popup that appears when a user hovers over or focuses on an element, providing additional information or context.",
+      "rationale": "Retain the established primitive family, reuse the current project primitive first, and collapse styling-only variants."
+    }
+  ],
+  "composition_inventory": {
+    "dashboards": [
+      "agndex-dashboard",
+      "astrix-dashboard",
+      "bionis-dashboard",
+      "demostack-dashboard",
+      "gridline-dashboard",
+      "jobtracker-dashboard",
+      "library-dashboard",
+      "medesk-dashboard",
+      "portfolio-dashboard",
+      "tallie-dashboard",
+      "web3-dashboard"
+    ],
+    "inspection": "directory inventory only except explicit Web3 dashboard files"
+  },
+  "conflicts_resolved": [
+    {
+      "conflict": "Decorative animated selectors lack semantic interaction while registry primitives implement it",
+      "decision": "Retain animated summary/state continuity; use project primitives for actual controls."
+    },
+    {
+      "conflict": "Composition measured expandable cards versus Application fixed-height stacks",
+      "decision": "Use measured flow size and semantic disclosure from unified component implementation; retain Application contextual layering."
+    },
+    {
+      "conflict": "Animated demo spring and stagger durations versus frequent application use",
+      "decision": "Design-derived interaction policy governs timing; source numeric configurations are examples to understand the mechanism, not global defaults."
+    },
+    {
+      "conflict": "Source skill requests online MCP search at runtime",
+      "decision": "Use curated local references/assets; remote repositories are build-time inputs only."
+    }
+  ],
+  "snapshot_kind": "renamed-local-copy",
+  "evidence_note": "Hashes describe edited local files; commit identifies historical origin only."
+}

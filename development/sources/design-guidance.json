@@ -1,0 +1,333 @@
+{
+  "repository": "local:design-guidance",
+  "commit": "d23d7f88a2e21c9e4b1418c7abe420f5c1052ba7",
+  "method": "Read listed skills/reference sections as build-time material; reconciled rules locally. Scope explicitly distinguishes full reading, selected sections, and heading inventory. No upstream native app or source example conformance claimed.",
+  "inventory_counts": {
+    "source_skill_entrypoints": 12,
+    "inspected_files": 20,
+    "source_map_capabilities": 11
+  },
+  "inspected_files": [
+    {
+      "path": "skills/apple-design/SKILL.md",
+      "scope": "complete",
+      "sha256": "da9581408c2b37a49565a9c7e32f26763f78b581c7e802dfa2357738e43ba7d5",
+      "line_count": 282
+    },
+    {
+      "path": "skills/interface-engineering/SKILL.md",
+      "scope": "complete",
+      "sha256": "1f4ff1ee9f13cfe6290a6e4ec81092345c48d03f6b443484c7afafe39e8b4aa4",
+      "line_count": 674
+    },
+    {
+      "path": "skills/animate/SKILL.md",
+      "scope": "complete",
+      "sha256": "12f68f44cefcbb92732d0a7a7dcd07646bb181eec5401552d665c777598e1bfe",
+      "line_count": 199
+    },
+    {
+      "path": "skills/animate/RECIPES.md",
+      "scope": "complete",
+      "sha256": "7b835d46748f13e05048ef1a7f3b49587a1b7fee4a72854c788992e184af9cf5",
+      "line_count": 324
+    },
+    {
+      "path": "skills/review-animations/SKILL.md",
+      "scope": "workflow sections",
+      "sha256": "51d00f47d834550a3f6e1b73436af96347ed619201133bc42e6963a880f30558",
+      "line_count": 112
+    },
+    {
+      "path": "skills/review-animations/STANDARDS.md",
+      "scope": "complete",
+      "sha256": "dc60044bf6c76cd34b52969749daf041b1f48decf6c57165b9e407e0c7037ae0",
+      "line_count": 187
+    },
+    {
+      "path": "skills/improve-animations/SKILL.md",
+      "scope": "complete",
+      "sha256": "a04146938f8282d32bea966562a2475f7306b2169bf4fd79ce418ca9de2fc658",
+      "line_count": 101
+    },
+    {
+      "path": "skills/improve-animations/AUDIT.md",
+      "scope": "complete",
+      "sha256": "4aeb590df035e5b40e29b231c6042e1a2e055ff518dc9f1d12079a46e78a5c25",
+      "line_count": 115
+    },
+    {
+      "path": "skills/improve-animations/PLAN-TEMPLATE.md",
+      "scope": "complete",
+      "sha256": "886e54b73ac550749b434eebe928df7be0683684f5a66a1bf0cf8326e09fe50b",
+      "line_count": 73
+    },
+    {
+      "path": "skills/find-animation-opportunities/SKILL.md",
+      "scope": "gates, report format and candidate examples",
+      "sha256": "a14792ab38799efc2ccb9230c5d92e71b7c94932f80d17808a919b5e110f158a",
+      "line_count": 132
+    },
+    {
+      "path": "skills/animation-vocabulary/SKILL.md",
+      "scope": "complete",
+      "sha256": "de5828e11055239691504b288519b894fd4b355d6bfc418a88762e9d75568267",
+      "line_count": 173
+    },
+    {
+      "path": "skills/pick-ui-library/SKILL.md",
+      "scope": "complete",
+      "sha256": "26c7dc79e9f38550076bd2643f591bbbd2b839895e4861fdd3e8354af4f0775d",
+      "line_count": 77
+    },
+    {
+      "path": "skills/prototype/SKILL.md",
+      "scope": "complete",
+      "sha256": "5c173088ab6f232491df45ea76d2c366302124c0b8279ec3ac52892548fa13f0",
+      "line_count": 90
+    },
+    {
+      "path": "skills/prototype/PICKER.md",
+      "scope": "complete",
+      "sha256": "e04b8ceb7686888f05eefc301dc1197963cfa699189c95966e5a39b1f1cf6c24",
+      "line_count": 197
+    },
+    {
+      "path": "skills/animate-expo/SKILL.md",
+      "scope": "first 100 lines: platform, runtime, tool and property decisions",
+      "sha256": "8893293d36b73e0ff998aa71ced0ac99c4e72bbcc0d7caab8666f6cad4475233",
+      "line_count": 255
+    },
+    {
+      "path": "skills/animate-expo/RECIPES.md",
+      "scope": "recipe heading inventory only",
+      "sha256": "c8ffbd6233744e045ec67b7f80b15a2b67303a23ad45c0b40d823ecc87c68d03",
+      "line_count": 385
+    },
+    {
+      "path": "skills/ask-sonner/API.md",
+      "scope": "first 100 lines: toaster props, toast options and functions",
+      "sha256": "5d85db5cbd0d4f3b0c68259e897b8d6d3c6518bdadaca0b0fb830176a44f4038",
+      "line_count": 64
+    },
+    {
+      "path": "skills/write-swift/SKILL.md",
+      "scope": "section heading inventory only; no Swift implementation imported",
+      "sha256": "116c408d987ac387e54f96557b80c2fa1cc7bed853ade1b165cdc561016e6c95",
+      "line_count": 388
+    },
+    {
+      "path": "README.md",
+      "scope": "role and catalog overview",
+      "sha256": "72a289ee76d83ea0a9b405606ddbef11f594010350f4d429d20141f7e43c9cf0",
+      "line_count": 54
+    }
+  ],
+  "source_map": [
+    {
+      "capability": "Apple-like behavioral and design foundation",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/apple-design/SKILL.md",
+        "skills/interface-engineering/SKILL.md"
+      ],
+      "original_name": "apple-design, interface-engineering",
+      "classification": "CORE",
+      "retained": "Purpose, predictability, agency, direct response, physical continuity, spatial consistency, typography and material hierarchy",
+      "generalized": "Project-relative hierarchy and host typography/material tokens",
+      "modified": "Viewing Importance explicitly marked as conservative Fluidity extension; no mandated brand or glass",
+      "rejected": "Promotional introduction, required waiting, blanket visuals detached from project purpose",
+      "outputs": [
+        "fluidity/skills/fluidity-core/SKILL.md",
+        "fluidity/skills/fluidity-core/references/design-foundations.md"
+      ]
+    },
+    {
+      "capability": "Purpose/frequency/function motion gate",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/animate/SKILL.md",
+        "skills/find-animation-opportunities/SKILL.md"
+      ],
+      "original_name": "animate, find-animation-opportunities",
+      "classification": "CORE",
+      "retained": "Immediate keyboard/frequent interactions; named purpose; data readability and restrained rare delight",
+      "generalized": "One policy shared across construction, components and review",
+      "modified": "Instant state or gentler feedback depending preference; no forced opportunity count",
+      "rejected": "Mandatory animation from catalog availability and mandatory refusal to execute an authorized fix",
+      "outputs": [
+        "fluidity/skills/fluidity-motion/SKILL.md",
+        "fluidity/skills/fluidity-motion/references/motion-policy.md",
+        "fluidity/skills/fluidity-review/SKILL.md"
+      ]
+    },
+    {
+      "capability": "Timing, properties and interruption",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/animate/SKILL.md",
+        "skills/animate/RECIPES.md",
+        "skills/review-animations/STANDARDS.md"
+      ],
+      "original_name": "animate, animate, review-animations",
+      "classification": "CORE",
+      "retained": "Exact cubic-bezier starting values, timing bands, current-state retargeting, trigger origins, same enter/exit route",
+      "generalized": "Existing tokens take precedence over parallel default tokens",
+      "modified": "Resolve sub300ms versus longer drawer/toast examples; allow measured disclosure height; profile driver/compositor separately",
+      "rejected": "Blanket shorthand/height bans, guaranteed GPU claims, obligatory asymmetric timing or group stagger",
+      "outputs": [
+        "fluidity/skills/fluidity-motion/references/motion-policy.md",
+        "fluidity/skills/fluidity-motion/references/recipes.md"
+      ]
+    },
+    {
+      "capability": "Direct manipulation and spring mechanics",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/apple-design/SKILL.md",
+        "skills/animate/RECIPES.md"
+      ],
+      "original_name": "apple-design, animate",
+      "classification": "CORE",
+      "retained": "Grab offset, pointer capture, velocity handoff, exponential projection, rubberband formula, multi-pointer protection",
+      "generalized": "Distinct functional 1:1 drag versus spring-lagged decorative tracking",
+      "modified": "Explicit px/s versus px/ms, damping ratio versus coefficient, response versus duration, bounded card selection",
+      "rejected": "Whole-gesture average velocity as a universal flick metric; substituting duration springs for velocity-aware physics",
+      "outputs": [
+        "fluidity/skills/fluidity-motion/references/gesture-mechanics.md",
+        "fluidity/skills/fluidity-components/assets/extensions/stacked-card-set.tsx",
+        "fluidity/skills/fluidity-components/assets/extensions/stack-model.ts"
+      ]
+    },
+    {
+      "capability": "Material and preference handling",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/apple-design/SKILL.md"
+      ],
+      "original_name": "apple-design",
+      "classification": "CORE",
+      "retained": "Independent reduced motion, reduced transparency and contrast; translucent functional layers and readable hierarchy",
+      "generalized": "Semantic nonmodal glass card with replaceable tokens",
+      "modified": "Static bounded backdrop blur; solid fallback and forced colors",
+      "rejected": "Mandatory blur-radius animation, nested glass, decorative loops or Apple-native equivalence claims",
+      "outputs": [
+        "fluidity/skills/fluidity-core/references/design-foundations.md",
+        "fluidity/skills/fluidity-components/references/extensions.md",
+        "fluidity/skills/fluidity-components/assets/extensions/apple-glass-card.tsx",
+        "fluidity/skills/fluidity-components/assets/fluidity.css"
+      ]
+    },
+    {
+      "capability": "Reusable practical animation recipes",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/animate/RECIPES.md",
+        "skills/interface-engineering/SKILL.md"
+      ],
+      "original_name": "animate, interface-engineering",
+      "classification": "CORE",
+      "retained": "Press, popover origin, tooltip grouping, measured collapse, presence, text, clip comparison and toast update lifecycle",
+      "generalized": "Compose with source-derived React implementations and host accessible primitives",
+      "modified": "Hold fill distinguished from cancellation/commit logic; semantic text independent of decorative fragments",
+      "rejected": "Copying a CSS demo as a complete accessible control or notification system",
+      "outputs": [
+        "fluidity/skills/fluidity-motion/references/recipes.md"
+      ]
+    },
+    {
+      "capability": "Evidence-based critique, audit and improvement plans",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/review-animations/SKILL.md",
+        "skills/review-animations/STANDARDS.md",
+        "skills/improve-animations/SKILL.md",
+        "skills/improve-animations/AUDIT.md",
+        "skills/improve-animations/PLAN-TEMPLATE.md"
+      ],
+      "original_name": "review-animations, review-animations, improve-animations, improve-animations, improve-animations",
+      "classification": "CORE",
+      "retained": "Recon, frequency map, eight review categories, confirm findings, concrete before/after and self-contained plans",
+      "generalized": "Review, plan or implement according to user authorization; bounded independent review where useful",
+      "modified": "Severity favors task completion; accept justified contextual exceptions and don't manufacture findings",
+      "rejected": "Mandatory no-fix posture, extra approval stages, report quotas and arbitrary model preferences",
+      "outputs": [
+        "fluidity/skills/fluidity-review/SKILL.md",
+        "fluidity/skills/fluidity-review/references/review-criteria.md",
+        "fluidity/skills/fluidity-review/references/implementation-plan.md"
+      ]
+    },
+    {
+      "capability": "Motion naming and disambiguation",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/animation-vocabulary/SKILL.md"
+      ],
+      "original_name": "animation-vocabulary",
+      "classification": "SPECIALIZED",
+      "retained": "Distinct terms for timing, continuity, transformations, gestures, springs, reveals and performance",
+      "generalized": "Concise local reverse-lookup table",
+      "modified": "Paraphrase mechanism and clarify overlapping terms",
+      "rejected": "Requirement to quote verbatim and inability to explain an unlisted term",
+      "outputs": [
+        "fluidity/skills/fluidity-motion/references/vocabulary.md"
+      ]
+    },
+    {
+      "capability": "Component choice and notification lifecycle",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/pick-ui-library/SKILL.md",
+        "skills/ask-sonner/API.md"
+      ],
+      "original_name": "pick-ui-library, ask-sonner",
+      "classification": "REFERENCE",
+      "retained": "Existing dependency inspection; dedicated accessible primitives; stable toast ID/loading-result updates",
+      "generalized": "Retain host primitive family and avoid installing an entire catalog",
+      "modified": "React adapters self-contained against source repositories; APIs belong to consumer dependency versions",
+      "rejected": "Automatic library migration, broad automatic installs, remote-source lookup in normal use",
+      "outputs": [
+        "fluidity/skills/fluidity-core/references/design-foundations.md",
+        "fluidity/skills/fluidity-motion/references/recipes.md",
+        "fluidity/skills/fluidity-components/references/selection-and-integration.md"
+      ]
+    },
+    {
+      "capability": "Scoped prototype comparison",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/prototype/SKILL.md",
+        "skills/prototype/PICKER.md"
+      ],
+      "original_name": "prototype, prototype",
+      "classification": "REFERENCE",
+      "retained": "Meaningfully different directions, isolated working prototypes, instant comparison, user choice before promotion",
+      "generalized": "Only invoked for requested alternatives; use host context and realistic content",
+      "modified": "No mandatory fixed picker styling or automatic deletion of user artifacts",
+      "rejected": "Global prototype workflow for routine fixes; copying a fixed glass picker and highest possible z-index",
+      "outputs": [
+        "fluidity/skills/fluidity-core/SKILL.md"
+      ]
+    },
+    {
+      "capability": "Platform boundaries",
+      "source_repository": "local:design-guidance",
+      "source_files": [
+        "skills/animate-expo/SKILL.md",
+        "skills/animate-expo/RECIPES.md",
+        "skills/write-swift/SKILL.md"
+      ],
+      "original_name": "animate-expo, animate-expo, write-swift",
+      "classification": "REFERENCE",
+      "retained": "No-hover touch model and separating continuous UI runtime work from application rendering",
+      "generalized": "Transfer interaction model, not web TSX into native code",
+      "modified": "Explicitly limited to inspected opening sections and heading inventory; web adapter package scope",
+      "rejected": "Full Expo/Swift implementation layer and unverified native recipes outside this plugin's implemented scope",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/selection-and-integration.md"
+      ]
+    }
+  ],
+  "snapshot_kind": "renamed-local-copy",
+  "evidence_note": "Hashes describe edited local files; commit identifies historical origin only."
+}

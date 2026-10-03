@@ -1,0 +1,22 @@
+{
+  "name": "fluidity",
+  "version": "0.1.0",
+  "description": "A self-contained design-engineering system for purposeful interfaces and motion.",
+  "homepage": "https://github.com/ericxyuan/fluidity",
+  "repository": "https://github.com/ericxyuan/fluidity",
+  "author": {
+    "name": "Fluidity contributors"
+  },
+  "skills": "./skills/",
+  "license": "MIT",
+  "keywords": ["design-engineering", "ui", "motion", "react", "accessibility"],
+  "interface": {
+    "displayName": "Fluidity",
+    "shortDescription": "Purposeful interfaces, precise motion, reusable patterns.",
+    "longDescription": "Four coherent design-engineering skills with local React implementations and detailed offline recipes. Build purposeful interfaces, refine motion and gestures, adapt reusable components, and review interaction quality while preserving your project's identity.",
+    "developerName": "Fluidity contributors",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": ["Use Fluidity to refine this interface.", "Review the motion and fix the important issues.", "Build a card interaction that fits this project."]
+  }
+}

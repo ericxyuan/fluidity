@@ -1,0 +1,14 @@
+.sources/
+.validation/
+dist/*
+!dist/fluidity-0.1.0.zip
+!dist/release-manifest.json
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db

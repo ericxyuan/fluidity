@@ -1,0 +1,169 @@
+{
+  "archive": "dist/fluidity-0.1.0.zip",
+  "version": "0.1.0",
+  "sha256": "4c80da7388b58655b3a9a562dbda47bed4d1654d3043c6f35a66694033cddf2a",
+  "file_count": 40,
+  "standalone_validation": "passed",
+  "files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "65c7c40e8b7c3d3d9d44fe041088725a07d562a734dbd46fee253856032ec108"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "d3cf619a7aac1348c36a50e0b115a67366290fbbaa0a6b60cde9828a2a75d453"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7ec9720a76f5ee820bbf510340817b578c5a08fe5bec3a6fd47f1f08745d0c8b"
+    },
+    {
+      "path": "skills/fluidity-components/assets/application/InlineEdit.tsx",
+      "sha256": "d88d84a0075d40e624d1a20f2b512b8a7190913ed5abbbe8452ce535ec868fd6"
+    },
+    {
+      "path": "skills/fluidity-components/assets/application/pagination.ts",
+      "sha256": "73ee5378ec861b4408a760a9d95d0e8b26882d6c41638b5bb1d63267e66fddd6"
+    },
+    {
+      "path": "skills/fluidity-components/assets/application/README.md",
+      "sha256": "650150200a0e92579e5c48344721ae87a007cd1c414c041bad90ae1fffea9b24"
+    },
+    {
+      "path": "skills/fluidity-components/assets/application/recipes.md",
+      "sha256": "a6eb722f45c3663f412ea0272b55dac857b804a5b8a63d6d1b1e6e99568b0739"
+    },
+    {
+      "path": "skills/fluidity-components/assets/application/selection.ts",
+      "sha256": "9fbc3638b4d452d2421c708e2b922374c002b1c9c21b7fdcc243d990b2502731"
+    },
+    {
+      "path": "skills/fluidity-components/assets/application/use-controllable-state.ts",
+      "sha256": "7e8df06ee7f4efdb91821bf923bb0032e51782e8d6cb1c98546f7169ad8ae27d"
+    },
+    {
+      "path": "skills/fluidity-components/assets/composition/direction-aware-tabs.tsx",
+      "sha256": "f9a0edc5ac079cdf1f8e8ccccacaf983d5c6738f4bc88bf682818431c4384bf3"
+    },
+    {
+      "path": "skills/fluidity-components/assets/composition/measured-disclosure.tsx",
+      "sha256": "b1b3f1aeddf337262fbd37d2147369966f036149fab5421d7b0a1b36062a78ed"
+    },
+    {
+      "path": "skills/fluidity-components/assets/composition/use-measured-size.ts",
+      "sha256": "8fa0fcc79b8bdfc257894d081a46964f33ce8c6e768fb88b95eeef732f2e3d19"
+    },
+    {
+      "path": "skills/fluidity-components/assets/composition/use-outside-interaction.ts",
+      "sha256": "b643c092e792acb77f30e85e7b8e9c7697651e15eed90c7fda4aa81d913e641a"
+    },
+    {
+      "path": "skills/fluidity-components/assets/examples.tsx",
+      "sha256": "62f3bbef032a1b8f548f99232a20c1896d144082c7d772afafcf378de9ce0381"
+    },
+    {
+      "path": "skills/fluidity-components/assets/extensions/apple-glass-card.tsx",
+      "sha256": "2555e74c0c2be0e5c25403f8d330d9df718d9e87d3b47c9e3b750cfdfdda07bc"
+    },
+    {
+      "path": "skills/fluidity-components/assets/extensions/stack-model.ts",
+      "sha256": "180d683a8a9628325d3d78d5d1b12aac865b5f82d1e96cd726903b2d5cf6ce55"
+    },
+    {
+      "path": "skills/fluidity-components/assets/extensions/stacked-card-set.tsx",
+      "sha256": "81a29c98fc95974c2e7f3e49b05b9b387560c95d901c66029f780636d44417ba"
+    },
+    {
+      "path": "skills/fluidity-components/assets/fluidity.css",
+      "sha256": "26014077db27cea3139683ada6c90d42b474834330f54b8a8a37b611bc046554"
+    },
+    {
+      "path": "skills/fluidity-components/assets/motion/animated-number.tsx",
+      "sha256": "3420cd9b26fbf90773ab539eff1bb7798cd9281819c332df6e94afd08ae460e2"
+    },
+    {
+      "path": "skills/fluidity-components/assets/motion/disclosure.tsx",
+      "sha256": "b0a734196df82f3c74310c0022d8a29a5e06e5bdca5dc6a35d8783e7ea1602c2"
+    },
+    {
+      "path": "skills/fluidity-components/assets/motion/pointer-tilt.tsx",
+      "sha256": "652f0d1e7337b640bc2c56c7141ab52ceb8140a0a1b48ee1b7b4db97d426c256"
+    },
+    {
+      "path": "skills/fluidity-components/assets/motion/selection-indicator.tsx",
+      "sha256": "08680a7160e725bec7fc89408c6062ffe786016596c69bb50c971dee4b4fc45f"
+    },
+    {
+      "path": "skills/fluidity-components/assets/motion/text-reveal.tsx",
+      "sha256": "428913882cdf496ead039072d6c756a6370bb835fc3612470fd401ef4d9f9694"
+    },
+    {
+      "path": "skills/fluidity-components/assets/motion/transition-panel.tsx",
+      "sha256": "d0223da507bdae4b2e9c88c8f860bf61a931de8d23bda1647d125c243ea201f6"
+    },
+    {
+      "path": "skills/fluidity-components/references/application-patterns.md",
+      "sha256": "dbffe436f62c924e53fcb53f285c527c285465d0a3cc1694fe90a942743af015"
+    },
+    {
+      "path": "skills/fluidity-components/references/composition-patterns.md",
+      "sha256": "858c1af68e2694bdca75d9809c530e65ea5385473eccdeefa6c061846bc2589b"
+    },
+    {
+      "path": "skills/fluidity-components/references/extensions.md",
+      "sha256": "50134761bfe4bee380d6294a2da30e45804fa02b8d923e67eedd1f6b854ca8ac"
+    },
+    {
+      "path": "skills/fluidity-components/references/motion-architecture.md",
+      "sha256": "0f81f1878cf22cfe1b8c61df9b3742788b9a1fba4033a32e9d0816f64008a52d"
+    },
+    {
+      "path": "skills/fluidity-components/references/selection-and-integration.md",
+      "sha256": "cfe1217b1dbd6c65596ff38d81d601ea8b493466abf1b5cbeedbecb5327f82c9"
+    },
+    {
+      "path": "skills/fluidity-components/SKILL.md",
+      "sha256": "874c4476d17930269b7f7567d980ed8603232c59b1a7865191af257a2a754933"
+    },
+    {
+      "path": "skills/fluidity-core/references/design-foundations.md",
+      "sha256": "2054cf736ade763c717b3116d2eed013c491eb443122b7e43ff4fdac0c631c36"
+    },
+    {
+      "path": "skills/fluidity-core/SKILL.md",
+      "sha256": "2e7aa0bbb686112e3fb48eb453920ee5860909b590df26d66f4e23deefc7230f"
+    },
+    {
+      "path": "skills/fluidity-motion/references/gesture-mechanics.md",
+      "sha256": "8bb337cbe49a292a3ea116625ac818bb8ebd5e17ec49fa6d826d5f46ef872a7d"
+    },
+    {
+      "path": "skills/fluidity-motion/references/motion-policy.md",
+      "sha256": "bfe86b92b687278716b4cf497de13f1d0f371301aace7ed9300bd5b2b28d3e7a"
+    },
+    {
+      "path": "skills/fluidity-motion/references/recipes.md",
+      "sha256": "0b43ae8d2c953af0709425d0b65dc963b3ce85e030a4472b6d7d5adeb1cdc9a4"
+    },
+    {
+      "path": "skills/fluidity-motion/references/vocabulary.md",
+      "sha256": "53131a79615320567daed7cd3f60d0d2f47369315d18886fe878b0882fdcd9ef"
+    },
+    {
+      "path": "skills/fluidity-motion/SKILL.md",
+      "sha256": "40c748fa46f20f37afe6456ff164ad938266da43dc00da14d8f60a175eb4cf0c"
+    },
+    {
+      "path": "skills/fluidity-review/references/implementation-plan.md",
+      "sha256": "6923c9022cee4db197d103779c3f6e2c886e3aec66480e0c551f3e7718f28e1d"
+    },
+    {
+      "path": "skills/fluidity-review/references/review-criteria.md",
+      "sha256": "a3b5bc6085732e15a6f714ca09b5bc150664f69dee47a6559893fad5f200b0a0"
+    },
+    {
+      "path": "skills/fluidity-review/SKILL.md",
+      "sha256": "18a30617604f9771113a2d20914b64db69a9b500ddcd43b1d1ff045e26d35159"
+    }
+  ]
+}

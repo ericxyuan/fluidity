@@ -1,0 +1,1594 @@
+{
+  "repository": "local:motion-patterns",
+  "commit": "40f59b61e567712aa8329c7dc8c2ced763054c34",
+  "method": "Read all 33 components/core TSX implementations, both hooks, registry definitions/build/schema, utility/CSS/package imports, and listed representative docs/examples. Enumerated 95 documentation example TSX paths; did not claim to read every example. Static source inspection only; upstream browser/device conformance not tested. Local reusable adapters and substantial offline recipes distill mechanisms and document corrections rather than import source wholesale.",
+  "inventory_counts": {
+    "core_components": 33,
+    "doc_example_tsx": 95,
+    "hooks": 2,
+    "core_implementations_read": 33,
+    "local_tsx_adapters": 6,
+    "classification_counts": {
+      "CORE": 9,
+      "SPECIALIZED": 11,
+      "REFERENCE": 7,
+      "REJECT": 6
+    }
+  },
+  "inspected_files": [
+    {
+      "path": "components/core/animated-background.tsx",
+      "scope": "complete",
+      "sha256": "60fe0b560827e4e6a00b2f1c2a8892203ae66a7871a8f9115d881efc60fb6bab"
+    },
+    {
+      "path": "components/core/transition-panel.tsx",
+      "scope": "complete",
+      "sha256": "786a7ed5dd39c86912796e1928b621c57d94bc35bf49a18b1ecbcb168ef65cb0"
+    },
+    {
+      "path": "components/core/disclosure.tsx",
+      "scope": "complete",
+      "sha256": "05fe9162f95724dc70125337526d6b5cb1076764904f82f62ccf4940a66cb126"
+    },
+    {
+      "path": "components/core/accordion.tsx",
+      "scope": "complete",
+      "sha256": "12c5bb95afbb65c3c91334aade4d2aa0ae3b3c1e23db7b1e2ee75d3539354a80"
+    },
+    {
+      "path": "components/core/animated-group.tsx",
+      "scope": "complete",
+      "sha256": "d2580c93743511784cda57fa945d3197121158a60970677fd837c2fab2113bfe"
+    },
+    {
+      "path": "components/core/animated-number.tsx",
+      "scope": "complete",
+      "sha256": "42f685ad122fdb2fe8b1daf2aea686b6a42c591a31adb8acf2394bc2e7db7f94"
+    },
+    {
+      "path": "components/core/in-view.tsx",
+      "scope": "complete",
+      "sha256": "bc6044180ee9cfe4674c8626c4d91a3198b4f033a5131d793c3751a33ac407e3"
+    },
+    {
+      "path": "components/core/dialog.tsx",
+      "scope": "complete",
+      "sha256": "655db3c05e82a0beb4324beb034bb67f34a397be8ff6b9cb5f17083bf870f0c8"
+    },
+    {
+      "path": "components/core/morphing-dialog.tsx",
+      "scope": "complete",
+      "sha256": "b6536d4643d20edd1d667120775ce507f23f97d36b9b91d63bf92546517a2ea6"
+    },
+    {
+      "path": "components/core/morphing-popover.tsx",
+      "scope": "complete",
+      "sha256": "f0802888849403bad7a55b5ebb33dd6e791a7c9727774db93f3db3cef01f0e45"
+    },
+    {
+      "path": "components/core/text-effect.tsx",
+      "scope": "complete",
+      "sha256": "3ff9d64037d8a56eb46ddf378358ddbe7e2d4612d9d3d66a56d54708e6305778"
+    },
+    {
+      "path": "components/core/text-morph.tsx",
+      "scope": "complete",
+      "sha256": "ba9f413805a59ccbdbf3d84964182b13b24e6921f44c405f6453700f2d018142"
+    },
+    {
+      "path": "components/core/text-roll.tsx",
+      "scope": "complete",
+      "sha256": "61d335da143a92a10cbcd2cdc222647181bb06f706241a912bb1f0d0be9bdd5e"
+    },
+    {
+      "path": "components/core/text-loop.tsx",
+      "scope": "complete",
+      "sha256": "073105bf91802dc83d63cfae538544d78b1bc227f76c5eba91c0ce3385fdd7c6"
+    },
+    {
+      "path": "components/core/carousel.tsx",
+      "scope": "complete",
+      "sha256": "8d4648c85575d0f777050c41c0ec691d6b407be3e33a35f5b1bb246cf2cc6e75"
+    },
+    {
+      "path": "components/core/image-comparison.tsx",
+      "scope": "complete",
+      "sha256": "724cdc59efd05755f70357449a219de392fc6a6ed00ca73a258f74553449a1d9"
+    },
+    {
+      "path": "components/core/dock.tsx",
+      "scope": "complete",
+      "sha256": "c200860fe8909b6c6b44de5a195b77477b50d46283bd81f6b75855fd695e0e4e"
+    },
+    {
+      "path": "components/core/tilt.tsx",
+      "scope": "complete",
+      "sha256": "aeeee396523e7f063fb4c4aab132f02cc8daeb91d40ea8693eb97917d7023331"
+    },
+    {
+      "path": "components/core/magnetic.tsx",
+      "scope": "complete",
+      "sha256": "0831f2afde1c5bd0cfa6fdc00c5fd7c7eb62ed3e680d122a52cecf9d689f3ecf"
+    },
+    {
+      "path": "components/core/sliding-number.tsx",
+      "scope": "complete",
+      "sha256": "eb12663d39672a8c66e912069acdb33ed1fb5506c77044d3ec22d9fffb67fdc3"
+    },
+    {
+      "path": "components/core/infinite-slider.tsx",
+      "scope": "complete",
+      "sha256": "d2c44690dccc07991df041a7cf6efb3ade87a1cf37f220006d95d377be9d8243"
+    },
+    {
+      "path": "components/core/scroll-progress.tsx",
+      "scope": "complete",
+      "sha256": "a08844e10e42a5fe06863ff3648db80e9e7028634e7e71db174bf244c6a6726a"
+    },
+    {
+      "path": "components/core/toolbar-expandable.tsx",
+      "scope": "complete",
+      "sha256": "4a4595fc2e1a52c1e763309346569af283d951e4edd5f72cb8f4b279dcdfc19b"
+    },
+    {
+      "path": "components/core/toolbar-dynamic.tsx",
+      "scope": "complete",
+      "sha256": "c1d464222bde2a891f00a01cbd8d512ff6e43bbf17041fd1750a8c3c02a3e3c8"
+    },
+    {
+      "path": "components/core/progressive-blur.tsx",
+      "scope": "complete",
+      "sha256": "c2a9cea444556165a28ae5fa0ff680c96264fe38779c9713ffafae73c61d9083"
+    },
+    {
+      "path": "components/core/spotlight.tsx",
+      "scope": "complete",
+      "sha256": "37e53afea62615a781bc6a583670dcd896df18b53289304b4e738dfab72e5107"
+    },
+    {
+      "path": "components/core/border-trail.tsx",
+      "scope": "complete",
+      "sha256": "76ff37e0a1eba249e6ba325902602f3fc271679e0b6f386cd2739d779dcfd157"
+    },
+    {
+      "path": "components/core/glow-effect.tsx",
+      "scope": "complete",
+      "sha256": "3e480f15fe6b701bc0a96cd6101d3be6386664a69637677613964b0d92ccd0db"
+    },
+    {
+      "path": "components/core/cursor.tsx",
+      "scope": "complete",
+      "sha256": "a9bad288fc856b36c52aaee87bfbb1ed94704415767ee92b1fd25c0e652578d5"
+    },
+    {
+      "path": "components/core/text-scramble.tsx",
+      "scope": "complete",
+      "sha256": "82c871355f351232f4fa3c3be96a96ceeb2b0aa321977d681dbb9707e485ace3"
+    },
+    {
+      "path": "components/core/text-shimmer.tsx",
+      "scope": "complete",
+      "sha256": "017a64a7b751c91b23e3faa095a535cb38c98658fd4bf8847e6d5234226f148a"
+    },
+    {
+      "path": "components/core/text-shimmer-wave.tsx",
+      "scope": "complete",
+      "sha256": "b30984d144d6c719df08492f8d142bfef52f0a7f29b31cac225fb6bd54bf0b27"
+    },
+    {
+      "path": "components/core/spinning-text.tsx",
+      "scope": "complete",
+      "sha256": "61217d08709eaf1c82d89fae4c7030ba39e6cc6f2e45bc8f4fe3cde954186a59"
+    },
+    {
+      "path": "package.json",
+      "scope": "complete",
+      "sha256": "454b0aeab6600e095e89bddd6b4bc9377844e3403753ef8b5e194c75f1b8a55c"
+    },
+    {
+      "path": "scripts/registry-components.ts",
+      "scope": "complete",
+      "sha256": "cef7329dd2fc80995d416aac02ff45f88ccaa0c70e338ddbe43822d0c4e1c995"
+    },
+    {
+      "path": "scripts/registry-hooks.ts",
+      "scope": "complete",
+      "sha256": "a75457b1e0aac9d0c24a5b58541c21f05a519f7492dd0c03d4b2e2414e511b3e"
+    },
+    {
+      "path": "scripts/registry-build.ts",
+      "scope": "complete",
+      "sha256": "d18b149c79384ec68bff4fa6ac1dcc2079f44e67492e5ed92de415075d9e9f73"
+    },
+    {
+      "path": "scripts/registry-schema.ts",
+      "scope": "complete",
+      "sha256": "1111374723f3cd62ec875a315ea9a57c2b4b58da0529a7415928cc0d60ef05fa"
+    },
+    {
+      "path": "hooks/useClickOutside.tsx",
+      "scope": "complete",
+      "sha256": "ea7754c459d4ca6c36fa28baf1624c3df73b28bf857d455c033990d829cd6ec5"
+    },
+    {
+      "path": "hooks/usePreventScroll.tsx",
+      "scope": "complete",
+      "sha256": "bca43547f99a89af2589b99f6779b2922f95c77a79bfed54441a38b922796c6a"
+    },
+    {
+      "path": "lib/utils.ts",
+      "scope": "complete",
+      "sha256": "4b705c7d7e5c7a2dd73d26ad35e9c0583d3d3655e2a5be1e67cea21458f29c01"
+    },
+    {
+      "path": "app/globals.css",
+      "scope": "complete",
+      "sha256": "1e9b02177f0d6b801645a65473d47fe4a5fc55dd7be50f964125d87cac1e26dc"
+    },
+    {
+      "path": "app/docs/animated-background/page.mdx",
+      "scope": "complete",
+      "sha256": "ce2687d72d3906cfa487b1c123386327baa9b8c9ca6751959562eaaa40e82c17"
+    },
+    {
+      "path": "app/docs/animated-background/segmented-control.tsx",
+      "scope": "complete",
+      "sha256": "6265554f397128559e99fb995af217c916ab8b2fe2e2379c273289179798ea21"
+    },
+    {
+      "path": "app/docs/transition-panel/page.mdx",
+      "scope": "complete",
+      "sha256": "f062f70c664372aa7e17c674b05cd6ef778684189415e0aa5e88d221453557aa"
+    },
+    {
+      "path": "app/docs/transition-panel/transition-panel-tabs.tsx",
+      "scope": "complete",
+      "sha256": "979d01b28ee6f0bc0eccca33c1e74acd86216794133508aa8a7d332ce420fdd8"
+    },
+    {
+      "path": "app/docs/disclosure/disclosure-card.tsx",
+      "scope": "complete",
+      "sha256": "7742ae52e8caeb737885417a4d9098062b9c754b39e9e450ecd5476d2177cff2"
+    },
+    {
+      "path": "app/docs/text-effect/text-effect-exit.tsx",
+      "scope": "complete",
+      "sha256": "898cd5df92f6556748e17169ccdf155362aea53e46f0b337220b90cb662cd262"
+    },
+    {
+      "path": "app/docs/morphing-dialog/morphing-dialog-basic-1.tsx",
+      "scope": "complete",
+      "sha256": "31e398580adf636fd57a464453a715394b65a23d4797e1c3f6c10d06655e1636"
+    },
+    {
+      "path": "app/docs/morphing-popover/morphing-popover-textarea.tsx",
+      "scope": "complete",
+      "sha256": "a75b66c5708202d0857ca34e4db63526545855e2ec52199d0aba9181bec823c2"
+    },
+    {
+      "path": "app/docs/carousel/carousel-custom-sizes.tsx",
+      "scope": "complete",
+      "sha256": "385265243b53db8a24e078e6e1315db65579d003d3b777b6334f088a0525620f"
+    },
+    {
+      "path": "app/docs/image-comparison/image-comparison-spring.tsx",
+      "scope": "complete",
+      "sha256": "8e3120d265c22d4387e62abd43bd1eedce35617ee6977dd7bffd4c96de383c78"
+    },
+    {
+      "path": "app/docs/tilt/tilt-card-1.tsx",
+      "scope": "complete",
+      "sha256": "d744338caeb730c575c1f3e5a13aa289c7c942b5298399b558740886ab90c20e"
+    },
+    {
+      "path": "app/docs/infinite-slider/page.mdx",
+      "scope": "complete",
+      "sha256": "ff8d4d55f48a6fbc67698e881e133359ac2da5eb6b98dd070842f71979e71a22"
+    },
+    {
+      "path": "app/docs/animated-number/animated-number-in-view.tsx",
+      "scope": "complete",
+      "sha256": "53620fc22226c98c10d2a2584dd7b010f3fe87c6a22af22688e157410c5acd03"
+    },
+    {
+      "path": "app/docs/in-view/page.mdx",
+      "scope": "complete",
+      "sha256": "72bede73a202794bd13732ad3ec40602d59591642bad41e2a77680ae16e88dec"
+    },
+    {
+      "path": "app/docs/text-effect/page.mdx",
+      "scope": "API/examples and timing documentation; terminal output partially truncated",
+      "sha256": "21b2b5b5a7335dd9f191a603019db3e7bdc5771b9092fa122c5bf8a4811425e6"
+    },
+    {
+      "path": "scripts/registry-examples.ts",
+      "scope": "first 90 lines and repository-wide filename inventory",
+      "sha256": "fa816c1723d77173262da6c6b1ebf654fabc212e52aa15cb60564b7fa5e0d6c7"
+    }
+  ],
+  "source_map": [
+    {
+      "capability": "Shared selected-item background",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/animated-background.tsx"
+      ],
+      "original_name": "animated-background",
+      "classification": "CORE",
+      "retained": "One scoped useId-generated layoutId; absolute indicator; label above indicator; presence opacity",
+      "generalized": "Decoration layer inside native/project controls rather than cloning children",
+      "modified": "Caller owns selected value and event handlers; explicit groupId; instant keyboard mode; reduced motion",
+      "rejected": "Handler replacement, index keys, data-checked as a substitute for semantics, defaultValue synchronization as control",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md",
+        "fluidity/skills/fluidity-components/assets/motion/selection-indicator.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent useful model; deep local support",
+        "interaction_quality": "Stable spatial feedback follows authoritative selection; hover preview remains independent",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Caller preserves native pressed/tab/radio semantics and focus; decoration aria-hidden",
+        "responsive_behavior": "Follows actual control layout including wrap; hover-gap caveat documented",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "One selected shared layer per group; no per-pointer React updates",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "Works inside Composition/Application/native controls without replacing their event APIs",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Keyed presence and directional panel replacement",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/transition-panel.tsx"
+      ],
+      "original_name": "transition-panel",
+      "classification": "CORE",
+      "retained": "AnimatePresence initial=false mode=popLayout; keyed frame; custom direction supplied through presence",
+      "generalized": "Stable activeKey instead of array position; visual layer independent of tabs/wizard semantics",
+      "modified": "Forwarded popLayout frame ref; exiting content inert and aria-hidden; latest instant flag passed to exiting frame",
+      "rejected": "Array-index identity, unbounded motion-prop overrides, treating visual panel as complete tabs",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md",
+        "fluidity/skills/fluidity-components/assets/motion/transition-panel.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent useful model; deep local support",
+        "interaction_quality": "New state commits immediately; entering and exiting frames can coexist",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Exiting controls become inert; caller retains focus on meaningful trigger or new panel",
+        "responsive_behavior": "Positioned parent; optional content-height reservation; overflow clipping only when needed",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "One departing and one active frame; transform/opacity instead of broad filter",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Document remount/form-state contract; caller lifts drafts above keyed subtree"
+      }
+    },
+    {
+      "capability": "Single disclosure with coordinated expanded state",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/disclosure.tsx"
+      ],
+      "original_name": "disclosure",
+      "classification": "CORE",
+      "retained": "Height auto/0 plus opacity; presence inside state owner; shared state may coordinate card media",
+      "generalized": "Small semantic component or motion layer around project disclosure",
+      "modified": "Native trigger, linked IDs, named region, controlled-value distinction, focus return, inert exit, instant keyboard activation",
+      "rejected": "Only-first-two-children contract, arbitrary cloneElement role-button simulation, callback overrides",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md",
+        "fluidity/skills/fluidity-components/assets/motion/disclosure.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent useful model; deep local support",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source generated content ID lacks trigger linkage; local native button and aria-controls repair this",
+        "responsive_behavior": "Height follows content; cap overflow only where product requires it",
+        "implementation_quality": "Source synchronizes open into internal state; local controlled mode reads open directly",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Height animation accepted because document reflow is the behavior; keep subtree limited",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Single/multiple disclosure composition",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/accordion.tsx"
+      ],
+      "original_name": "accordion",
+      "classification": "CORE",
+      "retained": "Identity-valued expansion context; native button; expanded/collapsed state targets and data markers",
+      "generalized": "Use existing accessible accordion or compose controlled local Disclosure instances",
+      "modified": "Add matching trigger/content IDs; distinguish controlled value from presence of callback; multiple mode owns a set",
+      "rejected": "Callback-presence state branch, hidden injected value props, disconnected aria-expanded content",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md",
+        "fluidity/skills/fluidity-components/assets/motion/disclosure.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent useful model; deep local support",
+        "interaction_quality": "Selection model explicit: single identity or set, not contradictory per-item local booleans",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Native button retained; local recipe supplies region links and immediate closing inertness",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Use only when purpose justifies animation; profile at representative scale",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "Unified with single disclosure instead of duplicated animation engines",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Parent-child variant orchestration",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/animated-group.tsx"
+      ],
+      "original_name": "animated-group",
+      "classification": "CORE",
+      "retained": "Parent visible variant staggers child variants; memoized motion.create wrapper types",
+      "generalized": "One intentional semantic group with explicit wrapper elements",
+      "modified": "Bound total stagger; preserve list semantics/entity keys; follow central motion policy and keyboard instant state",
+      "rejected": "Preset catalog of flips/bounces/rotations as defaults; index keys for mutable data",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent useful model; deep local support",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Wrappers must not break ul/li or native semantics; usable controls never wait for stagger",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Bound children and delay; do not wrap large daily data tables for entrances",
+        "uniqueness": "Provides group coordination distinct from per-text segmentation",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Optional interpolated numeric display",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/animated-number.tsx"
+      ],
+      "original_name": "animated-number",
+      "classification": "CORE",
+      "retained": "useSpring target plus useTransform formatted display; tabular numeric layout",
+      "generalized": "Explicit locale and Intl format options; exact semantic value separate from decorative interpolation",
+      "modified": "Stable motion tag, reduced-motion jump, instant flag, finite spring fallback",
+      "rejected": "motion.create on every render; unqualified rounded locale number; animating critical transaction truth",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md",
+        "fluidity/skills/fluidity-components/assets/motion/animated-number.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent useful model; deep local support",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Exact semantic number updates immediately; visual intermediate values aria-hidden",
+        "responsive_behavior": "Reserve space with numeric font metrics/width as needed; formatting may expand",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "Local adapter only React, motion/react and native Intl",
+        "performance": "Motion value formats without React state per frame",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Precision/locale and nonfinite value handling documented"
+      }
+    },
+    {
+      "capability": "Viewport-gated entrance lifecycle",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/in-view.tsx"
+      ],
+      "original_name": "in-view",
+      "classification": "CORE",
+      "retained": "Observed element ref plus hidden/visible variants and configurable observer options",
+      "generalized": "Optional enhancement at meaningful section boundaries",
+      "modified": "Use observer once semantics; keep essential/focusable content available; reduced-motion static branch",
+      "rejected": "Any animation completion counted as viewed; repeated incidental entrances",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent useful model; deep local support",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Never put keyboard focus into invisible content; fallback remains visible",
+        "responsive_behavior": "Root margin and root container must match actual scrolling surface",
+        "implementation_quality": "Source local once flag is set by onAnimationComplete without confirming visible phase",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Prefer section boundaries over observer per letter/card",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Native modal semantics with optional presence",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/dialog.tsx"
+      ],
+      "original_name": "dialog",
+      "classification": "CORE",
+      "retained": "Native dialog/showModal model; generated title/description IDs; portal and controlled/uncontrolled state",
+      "generalized": "Keep established/native modal behavior in charge of motion shell",
+      "modified": "Verify portal/ref mount order, native close lifecycle, robust nested scroll lock and focus return; define explicit exit target",
+      "rejected": "Missing default exit variant; copying site body-class scroll manipulation and Adobe-derived hook",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent useful model; deep local support",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Native showModal direction retained; do not replace actual modality with aria-modal alone",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + ReactDOM + Motion + Lucide + cn + upstream-derived scroll hook; use project overlay instead",
+        "performance": "One bounded modal shell/backdrop; no general heavy blur requirement",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Recipe only; avoids vendoring fragile scroll/focus lifecycle"
+      }
+    },
+    {
+      "capability": "Card-to-overlay shared-element continuity",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/morphing-dialog.tsx"
+      ],
+      "original_name": "morphing-dialog",
+      "classification": "SPECIALIZED",
+      "retained": "Shared shell/image/title/subtitle layout IDs; separately fading backdrop; portalled expanded content",
+      "generalized": "Visual pieces layered inside trusted accessible dialog; project radii/images/layout",
+      "modified": "Namespace IDs; preserve modality/focus; viewport max-height; reduced motion; correct labels and trigger linkage",
+      "rejected": "Manual focus-trap/scroll-lock implementation, mismatched ARIA IDs, unwired context triggerRef, nested button demo",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "One object has compact and expanded representations; new details may fade independently",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source labels/description/content IDs do not match and modal background not robustly inert",
+        "responsive_behavior": "Expanded shell gets dynamic viewport limits and scrolling; demo widths discarded",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "Source Motion + ReactDOM + Lucide + cn + useClickOutside; reuse project dialog semantics",
+        "performance": "Use only when purpose justifies animation; profile at representative scale",
+        "uniqueness": "Specialized layout knowledge retained; no competing dialog accessibility implementation",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Trigger-to-popover shared shell and label",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/morphing-popover.tsx"
+      ],
+      "original_name": "morphing-popover",
+      "classification": "SPECIALIZED",
+      "retained": "Shared shell/label layout IDs; correct controlledOpen ?? uncontrolledOpen state logic",
+      "generalized": "Reusable expansion pattern around project popover primitive",
+      "modified": "Use real nonmodal/modal semantics, focus and outside policy; responsive positioning; instant activation",
+      "rejected": "aria-modal=true without focus/background modality; source custom-child handler replacement",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Role/aria-modal not a substitute for actual modal behavior; require matching semantics",
+        "responsive_behavior": "Source absolute demo lacks collision positioning; inherit project primitive strategy",
+        "implementation_quality": "Retain robust state ownership helper concept, not entire DOM wrapper",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Use only when purpose justifies animation; profile at representative scale",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "Useful with inline note/composer, but application submit/storage belongs to caller",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Bounded segmented text reveal",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/text-effect.tsx"
+      ],
+      "original_name": "text-effect",
+      "classification": "SPECIALIZED",
+      "retained": "Parent/container and item variants; whitespace-preserving segments; explicit lines; one semantic string",
+      "generalized": "Short opt-in display copy with unit and bounded stagger settings",
+      "modified": "Reduced/instant mode; cap total stagger; word/line local asset; grapheme-aware recipe for explicit character needs",
+      "rejected": "12px blur/scale-zero defaults; UTF-16 split for international text; docs blur-sm mismatch; invalid speed values",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md",
+        "fluidity/skills/fluidity-components/assets/motion/text-reveal.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Unsplitted accessible text plus aria-hidden decorative segments; not delayed status/form feedback",
+        "responsive_behavior": "Preserve whitespace and word wrapping; line means newline not measured layout line",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "Local adapter React + Motion only; inline sr-only style has no Tailwind dependency",
+        "performance": "Bound segment count/delay; omit animated blur",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Source per/speed/transition merge formulas recorded accurately"
+      }
+    },
+    {
+      "capability": "Stable glyph identity across short label changes",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/text-morph.tsx"
+      ],
+      "original_name": "text-morph",
+      "classification": "SPECIALIZED",
+      "retained": "Occurrence-count IDs per lowercased character; layoutId for reused glyphs; presence for added/removed glyphs",
+      "generalized": "Explicit short-label effect with stable namespace and semantic string",
+      "modified": "Grapheme segmentation, locale/case decisions, static fallback and explicit copy semantics",
+      "rejected": "Treating code-unit occurrence matching as general textual diff; generic aria-label alone",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Use unsplit text node and hide glyphs; aria-label on generic elements is not enough",
+        "responsive_behavior": "Inline glyph layout can complicate wrap; restrict to brief labels",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Layout node per glyph; avoid paragraphs/live feeds",
+        "uniqueness": "Distinct glyph-reuse mechanism retained locally as recipe",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Two-face rolling glyph construction",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/text-roll.tsx"
+      ],
+      "original_name": "text-roll",
+      "classification": "REFERENCE",
+      "retained": "Two absolutely positioned glyph faces, distinct transform origins, invisible width-reserving glyph",
+      "generalized": "Specialized opt-in label recipe",
+      "modified": "Stable semantic text, grapheme awareness, reduced motion, bounded total delay",
+      "rejected": "Routine action labels delayed by per-character flip",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Reusable engineering idea, no dedicated default component",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source supplies hidden full string; preserve it without delayed availability",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Three DOM spans per glyph plus 3D composition; high cost for ordinary copy",
+        "uniqueness": "Reference technique distinct from layout-based morph",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Timer selection separated from presence",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/text-loop.tsx"
+      ],
+      "original_name": "text-loop",
+      "classification": "REFERENCE",
+      "retained": "Index cycling; presence variants; timer cleanup; configurable interval in seconds",
+      "generalized": "Event-driven replacement is default; autonomous rotation only when justified",
+      "modified": "Empty-array and shrinking-array guards, pause controls, focus/hover/visibility pause, reduced motion",
+      "rejected": "Two-second automatic content replacement as a universal pattern",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Reusable engineering idea, no dedicated default component",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source has no pause mechanism; must not swap focused/reading-critical content",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Single timer with cleanup; pause when hidden",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Document stale index/zero-length and callback dependency behavior"
+      }
+    },
+    {
+      "capability": "Finite carousel state and gesture composition",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/carousel.tsx"
+      ],
+      "original_name": "carousel",
+      "classification": "CORE",
+      "retained": "Context separates index/content/item/navigation/indicators; bounded buttons; nonshrinking flex items; MotionValue drag",
+      "generalized": "Choose uniform measured slides, variable measured offsets, or native scroll snapping",
+      "modified": "Fix visibility count bookkeeping; measure actual offsets; clamp after resize/data changes; explicit gesture threshold/velocity; instant keyboard controls",
+      "rejected": "IntersectionObserver changed-entry count as total visibility; fixed 10px universal threshold; hover-only buttons",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent useful model; deep local support",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Real labeled navigation retained; add region/current item, offscreen inertness, always available touch/keyboard controls",
+        "responsive_behavior": "Source visible-item computation unreliable; local recipe gives real measured offset models",
+        "implementation_quality": "All source composition and custom-size example inspected; original math not vendored",
+        "dependency_cost": "Source imports Lucide and cn although registry lists Motion only",
+        "performance": "MotionValue during drag; ResizeObserver measurements batched",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "Concept feeds carousel or stack selection without forcing same geometry",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "One-position two-image reveal",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/image-comparison.tsx"
+      ],
+      "original_name": "image-comparison",
+      "classification": "SPECIALIZED",
+      "retained": "Clamped pointer percentage; one motion value drives complementary clip paths and handle position",
+      "generalized": "Native labeled range authoritative; optional pointer-captured handle shares its value",
+      "modified": "Keyboard/touch support, pointer cancellation, before/after labels, direct drag without spring lag",
+      "rejected": "Pointer-only div, mouse/touch separate drag flags, source position-name ambiguity",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source has no keyboard slider; local recipe specifies native input range and visible label/value text",
+        "responsive_behavior": "Measure client coordinate against stable rect; retain matching image fit/aspect ratio",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Clip-path may repaint; keep images bounded and profile; no React state required per visual frame",
+        "uniqueness": "Useful comparison information model, not decorative gallery novelty",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Shared pointer distance drives neighboring magnification",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/dock.tsx"
+      ],
+      "original_name": "dock",
+      "classification": "SPECIALIZED",
+      "retained": "Shared mouse value; per-item distance transform; bounded influence; spring width; independent tooltip presence",
+      "generalized": "Optional desktop command dock with static touch form",
+      "modified": "Native actions, accessible names/tooltips, correct client coordinates, focus behavior and reduced motion",
+      "rejected": "pageX/rect.x mismatch; role-button div lacking activation keys; generic aria-haspopup; mandatory magnification",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source focus shows tooltip but does not implement native keyboard activation; use real buttons/links",
+        "responsive_behavior": "Source reserves height and scrolls horizontally; preserve overflow room without clipping focus",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Width animation triggers neighboring layout and per-item rect reads; limit items/profile",
+        "uniqueness": "Meaningfully different proximity interaction; specialized only",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Optional pointer-linked card surface",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/tilt.tsx"
+      ],
+      "original_name": "tilt",
+      "classification": "SPECIALIZED",
+      "retained": "Normalized local pointer values; spring smoothing; rotate transforms via useMotionTemplate",
+      "generalized": "Stable untransformed outer hit surface, small bounded optional tilt",
+      "modified": "Fine mouse only, pointer leave/cancel reset, reduced motion, no React state per move",
+      "rejected": "15deg default used indiscriminately; transformed self-measurement; misspelled isRevese API",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md",
+        "fluidity/skills/fluidity-components/assets/motion/pointer-tilt.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Decorative only; functionality and readable content remain static/accessible",
+        "responsive_behavior": "Normalized to current wrapper bounds; neutral on touch/coarse pointer",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "Local React + Motion only",
+        "performance": "Two MotionValues and springs; transform output; scope rect reads",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Distance-based attraction falloff",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/magnetic.tsx"
+      ],
+      "original_name": "magnetic",
+      "classification": "REFERENCE",
+      "retained": "Vector-to-center times intensity times 1-distance/range within influence radius",
+      "generalized": "Decorative sublayer movement inside stable target only when requested",
+      "modified": "Scope listeners, cleanup, client coordinates, reduced/coarse-pointer static branch",
+      "rejected": "Global document follower per control and chasing hit targets",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Reusable engineering idea, no dedicated default component",
+        "interaction_quality": "Motion of actual precision targets impairs targeting; retain formula not routine behavior",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source has no reduced-motion branch; local rule requires static/instant spatial fallback",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Source document listener and measurement per event per instance scale poorly",
+        "uniqueness": "Falloff formula retained; no duplicate pointer wrapper implementation",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Cyclic rolling digit offsets",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/sliding-number.tsx"
+      ],
+      "original_name": "sliding-number",
+      "classification": "SPECIALIZED",
+      "retained": "Place-value extraction; ten-row ring; shortest cyclic offset times measured glyph height; negative/decimal support",
+      "generalized": "Optional compact numeric display recipe distinct from simple spring number",
+      "modified": "Share glyph measurement; static premeasure and reduced fallback; locale/precision/semantics explicit",
+      "rejected": "Observer per glyph row at scale; scientific-notation string parsing; repeated accessible digits",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Expose one exact semantic number and hide decorative rows",
+        "responsive_behavior": "Tabular 1ch slot; reserve signs/separators and new digit places",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "Motion + react-use-measure + React; local recipe can share ResizeObserver",
+        "performance": "Ten layers per digit and repeated useMeasure; only small displays",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Offset formula and source spring values preserved offline"
+      }
+    },
+    {
+      "capability": "Constant-speed measured loop with phase preservation",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/infinite-slider.tsx"
+      ],
+      "original_name": "infinite-slider",
+      "classification": "REFERENCE",
+      "retained": "Duplicate track; distance/speed duration; current-position-to-boundary transition on speed change; controls.stop cleanup",
+      "generalized": "Optional presentation recipe; default static scrollable list",
+      "modified": "Finite positive speed; zero means pause; duplicate inert/aria-hidden; focus/hover/pause and reduced/visibility behavior",
+      "rejected": "speedOnHover truthiness ignores zero; duplicate interactive content; autonomous marquee default",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Reusable engineering idea, no dedicated default component",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source repeats interactive children; explicit duplicate suppression and user pause required",
+        "responsive_behavior": "Measure one repeated group plus seam gap; remeasure content/axis",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "Motion + react-use-measure + cn + React",
+        "performance": "Constant transform loop still continuous work; stop hidden and unused",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Timing unit px/s and boundary-continuation math preserved"
+      }
+    },
+    {
+      "capability": "Scroll-linked reading-position supplement",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/scroll-progress.tsx"
+      ],
+      "original_name": "scroll-progress",
+      "classification": "SPECIALIZED",
+      "retained": "useScroll container value; optional useSpring; origin-left scaleX",
+      "generalized": "Project scrolling container and informational semantics",
+      "modified": "Raw value for reduced motion; dynamic-content checks; semantic progress only when appropriate",
+      "rejected": "Decorative progress bar mistaken for accessible reading structure",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Hide pure decoration; named progress element only with justified update semantics",
+        "responsive_behavior": "Identify actual container; content insertion changes denominator",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Transform instead of width; no React render each frame",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Measured contextual toolbar panel",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/toolbar-expandable.tsx"
+      ],
+      "original_name": "toolbar-expandable",
+      "classification": "SPECIALIZED",
+      "retained": "Measure active content height; clip animated shell; buttons below content; shared open/active state",
+      "generalized": "Supplied id/label/trigger/content entries; controlled selection/open model",
+      "modified": "Responsive width remeasurement, one active content subtree, Escape/focus return, project tokens",
+      "rejected": "Hard-coded application ITEMS and icons/content; capture width only once",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source labeled buttons useful but state relationships/Escape/focus need explicit handling",
+        "responsive_behavior": "Source maxWidth captured once; reobserve parent and content/font changes",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "Motion + react-use-measure + Lucide + cn + useClickOutside; project recipe minimizes imports",
+        "performance": "Measure selected panel only; avoid rendering all hidden content",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Compact actions expand into contextual input",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/toolbar-dynamic.tsx"
+      ],
+      "original_name": "toolbar-dynamic",
+      "classification": "SPECIALIZED",
+      "retained": "One state switches actions/input in an animated shell; input autofocus; back control",
+      "generalized": "Project contextual command/search form with supplied data and explicit state",
+      "modified": "Accessible label, responsive measured width, focus restore, Escape and instant keyboard expansion",
+      "rejected": "98px/300px constants and hard-coded profile/search demo",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful for a specific stated interaction",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source input has placeholder but lacks real label; fix in project recipe",
+        "responsive_behavior": "Use available inline size instead of fixed width",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "Motion + Lucide + useClickOutside; no need for entire source UI",
+        "performance": "Use only when purpose justifies animation; profile at representative scale",
+        "uniqueness": "Distinct replacement interaction versus expandable toolbar additional panel",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Masked layered backdrop-filter technique",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/progressive-blur.tsx"
+      ],
+      "original_name": "progressive-blur",
+      "classification": "REFERENCE",
+      "retained": "Direction-to-angle mapping; overlapping four-stop alpha masks; blur grows by layer index",
+      "generalized": "Exceptional bounded visual edge treatment, not default glass surface",
+      "modified": "Normalize layer count once; single-layer opaque fallback first; profile compositing/readability",
+      "rejected": "Eight backdrop layers per ordinary card; segment-size inconsistency for clamped layer count",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Reusable engineering idea, no dedicated default component",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Decoration noninteractive; adequate contrast cannot depend on predictable background",
+        "responsive_behavior": "Mask dimensions follow actual container; opaque fallback remains readable",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Multiple backdrop-filter layers can be expensive; explicit testing needed",
+        "uniqueness": "Supports glass explanation but not a separate default card family",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Scoped pointer highlight and abortable listeners",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/spotlight.tsx"
+      ],
+      "original_name": "spotlight",
+      "classification": "REFERENCE",
+      "retained": "Pointer-relative radial gradient; AbortController listener cleanup",
+      "generalized": "Optional decorative surface with explicit positioned parent",
+      "modified": "Use stable parent layout, transforms where appropriate, reset/coarse/reduced behavior",
+      "rejected": "Mutating parent position/overflow without restoration; decoration as sole affordance",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Reusable engineering idea, no dedicated default component",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Never sole focus/selected indicator; pointer-events:none retained",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Source left/top and broad blur can repaint; bound effect",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Retain abortable listener pattern, not hidden parent side effects"
+      }
+    },
+    {
+      "capability": "Offset-path border effect reference",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/border-trail.tsx"
+      ],
+      "original_name": "border-trail",
+      "classification": "REJECT",
+      "retained": "Masked border and offsetPath/offsetDistance mechanism documented",
+      "generalized": "Only exceptional explicit decorative effect",
+      "modified": "Require nonanimated semantic status and reduced-motion branch if adapted",
+      "rejected": "Perpetual ornament without informational purpose",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Insufficient general utility for a dedicated reusable component",
+        "interaction_quality": "Provides no essential action model",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Cannot be sole validation/loading signal",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Infinite path animation and mask; unjustified as default",
+        "uniqueness": "Technique noted, no reusable asset",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Gradient animation implementation caution",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/glow-effect.tsx"
+      ],
+      "original_name": "glow-effect",
+      "classification": "REJECT",
+      "retained": "Gradient mode/blur ideas documented for review",
+      "generalized": "No default component; project static styling usually sufficient",
+      "modified": "Use fixed classes or inline blur instead of dynamic undetected Tailwind classes",
+      "rejected": "Perpetual gradient/blur modes and gallery colors as default identity",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Insufficient general utility for a dedicated reusable component",
+        "interaction_quality": "Primarily decoration",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source has no reduced-motion branch; local rule requires static/instant spatial fallback",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Dynamic blur-[value] classes require safelist/static replacement",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Animated gradient strings/blur can repaint; permanent will-change not proof of benefit",
+        "uniqueness": "Does not justify competing general surface primitive",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Custom cursor lifecycle caution",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/cursor.tsx"
+      ],
+      "original_name": "cursor",
+      "classification": "REJECT",
+      "retained": "MotionValue follower mechanism noted",
+      "generalized": "Reference of pitfalls only",
+      "modified": "Restore original styles and remove exact registered listener functions if explicitly adapting",
+      "rejected": "Replacing system cursor for routine UI; unscoped body mutation; broken anonymous listener removal",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Insufficient general utility for a dedicated reusable component",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Hiding user's cursor overrides a familiar/platform affordance",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Global event stream plus follower layer",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Source cleanup cannot remove anonymous callbacks recreated in cleanup"
+      }
+    },
+    {
+      "capability": "Timed random substitution caution",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/text-scramble.tsx"
+      ],
+      "original_name": "text-scramble",
+      "classification": "REJECT",
+      "retained": "Progressive random-character algorithm documented",
+      "generalized": "Reference only for explicit exceptional effect",
+      "modified": "Cleanup interval on unmount/retrigger; validate speed/charset and text changes; semantic stable text",
+      "rejected": "Unreadable application text and unfinished interval lifecycle",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Insufficient general utility for a dedicated reusable component",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source exposes transient nonsense string; need one stable readable string",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "React state update every timer tick; no routine use",
+        "uniqueness": "One consolidated capability; no duplicate style variants",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Effect observes only trigger and returns no interval cleanup"
+      }
+    },
+    {
+      "capability": "Text gradient masking",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/text-shimmer.tsx"
+      ],
+      "original_name": "text-shimmer",
+      "classification": "REFERENCE",
+      "retained": "Background-clip text with moving gradient and length-scaled spread",
+      "generalized": "Reference for explicitly justified temporary treatment",
+      "modified": "Static readable color fallback, pause/reduced motion, stable motion component",
+      "rejected": "Indefinite shimmer applied to ordinary copy",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Reusable engineering idea, no dedicated default component",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Transparent text needs fallback and contrast verification",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Animated background position repaints; restrict duration/area",
+        "uniqueness": "Gradient technique documented; no dedicated general text component",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Per-glyph 3D shimmer caution",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/text-shimmer-wave.tsx"
+      ],
+      "original_name": "text-shimmer-wave",
+      "classification": "REJECT",
+      "retained": "Per-letter phase offsets and keyframe transforms documented",
+      "generalized": "No default implementation",
+      "modified": "Use graphemes, accessible unsplit string, reduced-motion/static behavior if explicitly needed",
+      "rejected": "Repeating multi-axis glyph movement and color changes for ordinary text",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Insufficient general utility for a dedicated reusable component",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "No single semantic text or reduced-motion branch in source",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Many independent perpetually animated glyphs",
+        "uniqueness": "Decoration overlaps simpler text treatment",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    },
+    {
+      "capability": "Circular glyph arrangement reference",
+      "source_repository": "local:motion-patterns",
+      "source_files": [
+        "components/core/spinning-text.tsx"
+      ],
+      "original_name": "spinning-text",
+      "classification": "REJECT",
+      "retained": "Angle index/total; rotate then radial translate; hidden unsplit semantic text",
+      "generalized": "Reference for exceptional branding requirement only",
+      "modified": "Pause/reduced-motion static fallback and grapheme segmentation",
+      "rejected": "Continuous spinning copy as a reusable UI default",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Insufficient general utility for a dedicated reusable component",
+        "interaction_quality": "See retained model and explicit corrections",
+        "adaptability": "Remove source zinc/gray palette, demo imagery, radii and sizing; bind project tokens",
+        "accessibility": "Source unsplit sr-only text is useful; moving visible reading remains difficult",
+        "responsive_behavior": "Host layout and content size govern; no gallery-size guarantee",
+        "implementation_quality": "Full source implementation statically inspected; not a browser conformance result",
+        "dependency_cost": "React + motion/react + source cn helper (clsx/tailwind-merge); local adapters remove cn",
+        "performance": "Perpetual container rotation plus per-glyph layout",
+        "uniqueness": "Circular composition can be static; no default animated component",
+        "composability": "State and visual layer remain separately adaptable",
+        "maintainability": "Pinned source and local constraints; no upstream runtime requirement"
+      }
+    }
+  ],
+  "component_inventory": [
+    {
+      "name": "animated-background",
+      "path": "components/core/animated-background.tsx",
+      "classification": "CORE",
+      "deeply_inspected": true,
+      "source_map_capability": "Shared selected-item background"
+    },
+    {
+      "name": "transition-panel",
+      "path": "components/core/transition-panel.tsx",
+      "classification": "CORE",
+      "deeply_inspected": true,
+      "source_map_capability": "Keyed presence and directional panel replacement"
+    },
+    {
+      "name": "disclosure",
+      "path": "components/core/disclosure.tsx",
+      "classification": "CORE",
+      "deeply_inspected": true,
+      "source_map_capability": "Single disclosure with coordinated expanded state"
+    },
+    {
+      "name": "accordion",
+      "path": "components/core/accordion.tsx",
+      "classification": "CORE",
+      "deeply_inspected": true,
+      "source_map_capability": "Single/multiple disclosure composition"
+    },
+    {
+      "name": "animated-group",
+      "path": "components/core/animated-group.tsx",
+      "classification": "CORE",
+      "deeply_inspected": true,
+      "source_map_capability": "Parent-child variant orchestration"
+    },
+    {
+      "name": "animated-number",
+      "path": "components/core/animated-number.tsx",
+      "classification": "CORE",
+      "deeply_inspected": true,
+      "source_map_capability": "Optional interpolated numeric display"
+    },
+    {
+      "name": "in-view",
+      "path": "components/core/in-view.tsx",
+      "classification": "CORE",
+      "deeply_inspected": true,
+      "source_map_capability": "Viewport-gated entrance lifecycle"
+    },
+    {
+      "name": "dialog",
+      "path": "components/core/dialog.tsx",
+      "classification": "CORE",
+      "deeply_inspected": true,
+      "source_map_capability": "Native modal semantics with optional presence"
+    },
+    {
+      "name": "morphing-dialog",
+      "path": "components/core/morphing-dialog.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "Card-to-overlay shared-element continuity"
+    },
+    {
+      "name": "morphing-popover",
+      "path": "components/core/morphing-popover.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "Trigger-to-popover shared shell and label"
+    },
+    {
+      "name": "text-effect",
+      "path": "components/core/text-effect.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "Bounded segmented text reveal"
+    },
+    {
+      "name": "text-morph",
+      "path": "components/core/text-morph.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "Stable glyph identity across short label changes"
+    },
+    {
+      "name": "text-roll",
+      "path": "components/core/text-roll.tsx",
+      "classification": "REFERENCE",
+      "deeply_inspected": true,
+      "source_map_capability": "Two-face rolling glyph construction"
+    },
+    {
+      "name": "text-loop",
+      "path": "components/core/text-loop.tsx",
+      "classification": "REFERENCE",
+      "deeply_inspected": true,
+      "source_map_capability": "Timer selection separated from presence"
+    },
+    {
+      "name": "carousel",
+      "path": "components/core/carousel.tsx",
+      "classification": "CORE",
+      "deeply_inspected": true,
+      "source_map_capability": "Finite carousel state and gesture composition"
+    },
+    {
+      "name": "image-comparison",
+      "path": "components/core/image-comparison.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "One-position two-image reveal"
+    },
+    {
+      "name": "dock",
+      "path": "components/core/dock.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "Shared pointer distance drives neighboring magnification"
+    },
+    {
+      "name": "tilt",
+      "path": "components/core/tilt.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "Optional pointer-linked card surface"
+    },
+    {
+      "name": "magnetic",
+      "path": "components/core/magnetic.tsx",
+      "classification": "REFERENCE",
+      "deeply_inspected": true,
+      "source_map_capability": "Distance-based attraction falloff"
+    },
+    {
+      "name": "sliding-number",
+      "path": "components/core/sliding-number.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "Cyclic rolling digit offsets"
+    },
+    {
+      "name": "infinite-slider",
+      "path": "components/core/infinite-slider.tsx",
+      "classification": "REFERENCE",
+      "deeply_inspected": true,
+      "source_map_capability": "Constant-speed measured loop with phase preservation"
+    },
+    {
+      "name": "scroll-progress",
+      "path": "components/core/scroll-progress.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "Scroll-linked reading-position supplement"
+    },
+    {
+      "name": "toolbar-expandable",
+      "path": "components/core/toolbar-expandable.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "Measured contextual toolbar panel"
+    },
+    {
+      "name": "toolbar-dynamic",
+      "path": "components/core/toolbar-dynamic.tsx",
+      "classification": "SPECIALIZED",
+      "deeply_inspected": true,
+      "source_map_capability": "Compact actions expand into contextual input"
+    },
+    {
+      "name": "progressive-blur",
+      "path": "components/core/progressive-blur.tsx",
+      "classification": "REFERENCE",
+      "deeply_inspected": true,
+      "source_map_capability": "Masked layered backdrop-filter technique"
+    },
+    {
+      "name": "spotlight",
+      "path": "components/core/spotlight.tsx",
+      "classification": "REFERENCE",
+      "deeply_inspected": true,
+      "source_map_capability": "Scoped pointer highlight and abortable listeners"
+    },
+    {
+      "name": "border-trail",
+      "path": "components/core/border-trail.tsx",
+      "classification": "REJECT",
+      "deeply_inspected": true,
+      "source_map_capability": "Offset-path border effect reference"
+    },
+    {
+      "name": "glow-effect",
+      "path": "components/core/glow-effect.tsx",
+      "classification": "REJECT",
+      "deeply_inspected": true,
+      "source_map_capability": "Gradient animation implementation caution"
+    },
+    {
+      "name": "cursor",
+      "path": "components/core/cursor.tsx",
+      "classification": "REJECT",
+      "deeply_inspected": true,
+      "source_map_capability": "Custom cursor lifecycle caution"
+    },
+    {
+      "name": "text-scramble",
+      "path": "components/core/text-scramble.tsx",
+      "classification": "REJECT",
+      "deeply_inspected": true,
+      "source_map_capability": "Timed random substitution caution"
+    },
+    {
+      "name": "text-shimmer",
+      "path": "components/core/text-shimmer.tsx",
+      "classification": "REFERENCE",
+      "deeply_inspected": true,
+      "source_map_capability": "Text gradient masking"
+    },
+    {
+      "name": "text-shimmer-wave",
+      "path": "components/core/text-shimmer-wave.tsx",
+      "classification": "REJECT",
+      "deeply_inspected": true,
+      "source_map_capability": "Per-glyph 3D shimmer caution"
+    },
+    {
+      "name": "spinning-text",
+      "path": "components/core/spinning-text.tsx",
+      "classification": "REJECT",
+      "deeply_inspected": true,
+      "source_map_capability": "Circular glyph arrangement reference"
+    }
+  ],
+  "auxiliary_source_map": [
+    {
+      "capability": "Pointer outside-boundary listener lifecycle",
+      "source_files": [
+        "hooks/useClickOutside.tsx"
+      ],
+      "classification": "REFERENCE",
+      "retained": "contains(event.target) boundary and listener cleanup",
+      "modified": "Use established overlay outside-interaction semantics for portals/nested surfaces; listener is not modal logic",
+      "rejected": "Assuming one DOM containment ref handles all portals/shadow trees/touch interactions",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ]
+    },
+    {
+      "capability": "Scroll locking provenance and native overlay behavior",
+      "source_files": [
+        "hooks/usePreventScroll.tsx",
+        "components/core/dialog.tsx"
+      ],
+      "classification": "REFERENCE",
+      "retained": "Recognize nested lock counting, mobile visual viewport/keyboard complexities",
+      "modified": "Delegate to project overlay; do not vendor this hook",
+      "rejected": "Source header states Adobe React Spectrum ancestry; incomplete/mutated mobile styles and non-iOS behavior are not reusable generic lock",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ]
+    },
+    {
+      "capability": "Registry-oriented self-contained component packaging",
+      "source_files": [
+        "scripts/registry-components.ts",
+        "scripts/registry-hooks.ts",
+        "scripts/registry-build.ts",
+        "scripts/registry-schema.ts",
+        "scripts/registry-examples.ts"
+      ],
+      "classification": "CORE",
+      "retained": "Per-unit files/dependencies and embedded source content, separate UI/hook/library roles",
+      "modified": "Local plugin assets/references and explicit copy instructions instead of runtime upstream CLI",
+      "rejected": "Copying documentation site dependency graph or requiring remote registries at runtime",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/motion-architecture.md"
+      ]
+    }
+  ],
+  "source_derived_api_notes": {
+    "dependency_audit": "Source registry often lists only motion despite cn and Lucide imports; react-use-measure needed by infinite-slider/sliding-number/toolbar-expandable. Site Radix deps do not imply core custom semantics are Radix-based.",
+    "reduced_motion": "No useReducedMotion or prefers-reduced-motion matches in components/core at pinned commit. Local adapters add conservative preference and instant-mode handling.",
+    "animation_units": "Motion duration/delay/stagger in seconds; InfiniteSlider speed in pixels/second; raw spring damping coefficient is not a damping ratio.",
+    "docs_disagreement": "TextEffect implementation preset union contains blur while documentation table lists blur-sm; implementation takes precedence."
+  },
+  "conflicts_resolved": [
+    {
+      "issue": "Visual shared-element continuity versus complete accessible overlay",
+      "reason": "Gallery component prioritizes motion composition; manual focus/ARIA/scroll gaps remain",
+      "decision": "Preserve shared shell/media/title IDs and controlled state; use native or trusted project overlay semantics"
+    },
+    {
+      "issue": "Expressive catalog defaults versus frequent-task behavioral policy",
+      "reason": "Demos intentionally exhibit blur/rotation/bounce/loops independent of application frequency",
+      "decision": "Canonical Design-derived Fluidity motion policy controls when and how much; no decorative default imports"
+    },
+    {
+      "issue": "Pointer-only visual components versus keyboard and assistive activation",
+      "reason": "Source mechanisms often bind mouse/touch handlers directly",
+      "decision": "Native controls own semantics; propagate instant on keyboard/assistive activation; direct manipulation avoids spring lag"
+    },
+    {
+      "issue": "Large catalog versus reusable implementation value",
+      "reason": "33 source components include display effects, application demos and primitives",
+      "decision": "Six small local adapters, deep recipes for valuable models, reference/reject classifications for redundant/ornamental variants"
+    }
+  ],
+  "validation_scope": {
+    "source_reading": "Complete core implementation inspection; exact representative docs above",
+    "local_verification": "Root integration harness owns type/build/browser verification; report artifacts separately",
+    "limitations": [
+      "No upstream browser/device test claimed",
+      "Every consumer must validate focus, keyboard, reduced motion, responsive behavior and real interaction after integration",
+      "Full Adobe hook provenance not assumed; hook deliberately not copied"
+    ]
+  },
+  "snapshot_kind": "renamed-local-copy",
+  "evidence_note": "Hashes describe edited local files; commit identifies historical origin only."
+}

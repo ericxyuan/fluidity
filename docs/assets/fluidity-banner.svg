@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Fluidity</title>
+  <desc id="desc">Interfaces that feel right. A dark blue banner with flowing blue contours.</desc>
+  <rect width="1280" height="360" rx="24" fill="#101b2d"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M790 360C750 248 1090 280 1040 148S1140-14 1280 40" stroke="#31486a" stroke-width="48"/>
+    <path d="M868 360C825 251 1162 298 1112 161S1217-6 1320 47" stroke="#466b99" stroke-width="33"/>
+    <path d="M937 360C890 268 1221 310 1181 179S1256 42 1320 77" stroke="#6fa7e7" stroke-width="21"/>
+    <path d="M1004 360C970 277 1289 320 1247 198S1332 48 1350 93" stroke="#accdf2" stroke-width="10"/>
+  </g>
+  <text x="76" y="100" fill="#91b3de" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="4">DESIGN ENGINEERING FOR CODEX</text>
+  <text x="72" y="220" fill="#f5f8fd" font-family="Arial, Helvetica, sans-serif" font-size="108" font-weight="700" letter-spacing="-5">Fluidity</text>
+  <text x="78" y="283" fill="#c3d1e4" font-family="Arial, Helvetica, sans-serif" font-size="26">Interfaces that feel right.</text>
+</svg>

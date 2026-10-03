@@ -1,0 +1,2375 @@
+{
+  "repository": "local:composition-patterns",
+  "commit": "3b855612fb524cb042cc91b65f0cd575057471cc",
+  "method": "Inspected registry metadata, source implementations, bundled design-engineering skill, hooks, examples, docs, theming, utilities and dependency manifests. Inventory is separate from deep reading. Selected sections are identified where files were not read completely. Evaluations are static judgments rather than browser or performance benchmark claims.",
+  "inventory_counts": {
+    "registered_ui_entries": 78,
+    "ui_source_files": 82,
+    "example_files": 79,
+    "component_docs": 77,
+    "source_components_with_code_inspection": 24,
+    "evaluated_component_candidates": 22,
+    "source_map_capabilities": 24
+  },
+  "scope_exclusions": [
+    "components/ai-elements was inventoried only as directory presence, not audited or imported",
+    "Generated registry copies are metadata/build outputs, not distinct components",
+    "Unreviewed catalog items are not implicitly accepted or rejected",
+    "No full source-repository runtime build was run"
+  ],
+  "inspected_files": [
+    {
+      "path": "apps/www/registry/default/ui/expandable.tsx",
+      "scope": "complete",
+      "sha256": "5ac476495108b68eda7f215b185c1c85aad0190babc7dfadec079465ead50261",
+      "line_count": 555
+    },
+    {
+      "path": "apps/www/registry/default/ui/direction-aware-tabs.tsx",
+      "scope": "complete",
+      "sha256": "ea4c27899a8dda7b41a8338a01a2e7b89e9fc557838d563fe1de1ec1f399f30e",
+      "line_count": 137
+    },
+    {
+      "path": "apps/www/registry/default/ui/minimal-card.tsx",
+      "scope": "complete",
+      "sha256": "f0bf9d6321d6b2cfc1ed086405c6e482a6920e037990c69a4c588c8d3790897d",
+      "line_count": 119
+    },
+    {
+      "path": "apps/www/registry/default/ui/shift-card.tsx",
+      "scope": "complete",
+      "sha256": "5b7f4e7b5ccf16937471e7fb4ce6018824a9a0c8a58d5d548a20817ebf119063",
+      "line_count": 135
+    },
+    {
+      "path": "apps/www/registry/default/ui/sortable-list.tsx",
+      "scope": "complete",
+      "sha256": "979b95228828714cc3b407d29ff313a83071e7f4849d203504a15b71702db147",
+      "line_count": 296
+    },
+    {
+      "path": "apps/www/registry/default/ui/three-d-carousel.tsx",
+      "scope": "complete",
+      "sha256": "0f622000d30d05262a7372afed6de9780f3cb9932593fc8c3bbf4bb0c051aa7d",
+      "line_count": 246
+    },
+    {
+      "path": "apps/www/registry/default/ui/cutout-card.tsx",
+      "scope": "complete",
+      "sha256": "d43929624cb2edd74b58e820f06046e169b48641c2be8bb05c07e4b2a1d60761",
+      "line_count": 392
+    },
+    {
+      "path": "apps/www/registry/default/ui/vote-tally.tsx",
+      "scope": "complete",
+      "sha256": "dc029c01650c0aafb90fd4b46fccfdf60f708244d919cb310e27b2c54936332c",
+      "line_count": 409
+    },
+    {
+      "path": "apps/www/registry/default/ui/dock.tsx",
+      "scope": "complete",
+      "sha256": "f8451be841e7fe7268917d198ea40bd81e9c6829413b31f40c23dada300b8020",
+      "line_count": 444
+    },
+    {
+      "path": "apps/www/registry/default/ui/distorted-glass.tsx",
+      "scope": "complete",
+      "sha256": "0659cc25506d321110081d023712620b4bd0dc076fabda0bdf8a0b6ba9f1a467",
+      "line_count": 55
+    },
+    {
+      "path": "apps/www/registry/default/ui/edge-blur.tsx",
+      "scope": "complete",
+      "sha256": "cfd5a96f5155c81c0461a5075cbe9bd4851580170bbf0ecd8b35edbb8254bb04",
+      "line_count": 41
+    },
+    {
+      "path": "apps/www/registry/default/ui/animated-number.tsx",
+      "scope": "complete",
+      "sha256": "931d66afa230ac129283dc0816fa60180716f2477dab7bb75dc2585be0392ee0",
+      "line_count": 42
+    },
+    {
+      "path": "apps/www/registry/default/ui/side-panel.tsx",
+      "scope": "complete",
+      "sha256": "5b253b7d3f4aced71abae8212109cd4660f4e606adc95a87b075a17c50e9ed94",
+      "line_count": 128
+    },
+    {
+      "path": "apps/www/registry/default/ui/expandable-card.tsx",
+      "scope": "Compared duplicate implementation sections to expandable; not a second imported component",
+      "sha256": "5ac476495108b68eda7f215b185c1c85aad0190babc7dfadec079465ead50261",
+      "line_count": 555
+    },
+    {
+      "path": "apps/www/registry/default/ui/expandable-screen.tsx",
+      "scope": "Root open/close/scroll effect, trigger/content/background, full relevant implementation",
+      "sha256": "7217cfdad828892162db9f9de8ab48d366486174761e2155ae65cddefa247f75",
+      "line_count": 225
+    },
+    {
+      "path": "apps/www/registry/default/ui/morph-surface.tsx",
+      "scope": "Root logic, render seams, shared status, form submit/keyboard and paired outside interaction; full relevant implementation",
+      "sha256": "1178f0d9e0fb37629eba207dcfe7337a8d1140fe5adf801bb5f5e2bf32dd177f",
+      "line_count": 692
+    },
+    {
+      "path": "apps/www/registry/default/ui/feature-carousel.tsx",
+      "scope": "Timer, mobile detection, card/presentation layers, controls and layered step render; source output sections inspected",
+      "sha256": "77260fe70a32637209c743b3ee629a4b334519d022285d8ba7f6d3686614e0e1",
+      "line_count": 734
+    },
+    {
+      "path": "apps/www/registry/default/ui/choice-poll.tsx",
+      "scope": "Types, root/selection logic, option and results, keyboard options container, exports; full relevant implementation",
+      "sha256": "31b24831aff52c8d1f7e5b8c68a450e2422350b3df5bb0130eb721afb603b51a",
+      "line_count": 776
+    },
+    {
+      "path": "apps/www/registry/default/ui/floating-panel.tsx",
+      "scope": "Active implementation root/trigger/content/form/parts; commented backup excluded",
+      "sha256": "89a17766f7c0ea0a259472be8a570fa28fba5274683c990d3bb3fd2eb1467e33",
+      "line_count": 948
+    },
+    {
+      "path": "apps/www/registry/default/ui/toolbar-expandable.tsx",
+      "scope": "State/nav selection and scroll, content measurement, native touch scroll, masks and cleanup; selected implementation sections",
+      "sha256": "51c2b8b7d84efe4b37e1e68c965fb6609ebd9d914e16d5b01fb50ff58874972a",
+      "line_count": 681
+    },
+    {
+      "path": "apps/www/registry/default/ui/family-drawer.tsx",
+      "scope": "First385 lines: root state, measurement/duration, primitive composition, trigger/overlay/content/close/header",
+      "sha256": "2f514e7dbb1eeee1b4f3c04d94d7687b97a1ec7412a07df3d953e57a85d5ea9c",
+      "line_count": 541
+    },
+    {
+      "path": "apps/www/registry/default/ui/onboarding.tsx",
+      "scope": "First160 lines: progress implementation and step/context API only",
+      "sha256": "285bab0b593122b0834d3d5805599503d769836a2f9cf2bc84b22ddb7f1188f5",
+      "line_count": 885
+    },
+    {
+      "path": "apps/www/registry/default/ui/texture-button.tsx",
+      "scope": "First100 lines: variants/types/Slot seam; not full JSX behavior audit",
+      "sha256": "763941ae9d3ed7f8be0f974e0ba621888d2bfc379801ea8d6b983124857abad3",
+      "line_count": 113
+    },
+    {
+      "path": "apps/www/registry/default/ui/color-picker.tsx",
+      "scope": "First235 lines: conversions/parser, state, prop sync, picker plane/hue/text controls",
+      "sha256": "6c933910039f10218ee7145ff5027eeada1219198ace49464fb35e4fee76e62d",
+      "line_count": 269
+    },
+    {
+      "path": "package.json",
+      "scope": "complete",
+      "sha256": "a7461a7e0a7576e98145f3989af04c78339ddba524c65f6bb447d0e801515f8a",
+      "line_count": 80
+    },
+    {
+      "path": ".agents/skills/components-build/SKILL.md",
+      "scope": "complete",
+      "sha256": "70112d10a93d129d9af2fc7b50194f9c83c0c5c4e6192e76e3323d8b44b38263",
+      "line_count": 157
+    },
+    {
+      "path": ".agents/skills/components-build/rules/principles.md",
+      "scope": "complete",
+      "sha256": "798bab5101f334b6df3be642a41e4a24c2615e4b1b6673d7a9ca3bada4b7a7cd",
+      "line_count": 144
+    },
+    {
+      "path": ".agents/skills/components-build/rules/composition.md",
+      "scope": "complete",
+      "sha256": "83dfafdc7c2af3f19e7348fb0157fc1ad7eaecf00dd325eca98c9ea71d61ce48",
+      "line_count": 128
+    },
+    {
+      "path": ".agents/skills/components-build/rules/state.md",
+      "scope": "complete",
+      "sha256": "0245c41ad29557e8d79e073092446ce0b097087888e9c8a6f4e662a2b89d2a1a",
+      "line_count": 164
+    },
+    {
+      "path": ".agents/skills/components-build/rules/accessibility.md",
+      "scope": "complete",
+      "sha256": "8b5cda48be391e9a9af72bd2e55db617f7129a77b6abbc04639576bf5ef374d8",
+      "line_count": 192
+    },
+    {
+      "path": ".agents/skills/components-build/rules/design-tokens.md",
+      "scope": "complete",
+      "sha256": "12c35b6c863ba2f4119e2cd216b306095d1889e31478e062dbdd6986e791c8c0",
+      "line_count": 141
+    },
+    {
+      "path": ".agents/skills/components-build/rules/as-child.md",
+      "scope": "complete",
+      "sha256": "c8714c946e6b836433f911ad28c020a9af2acde5a84b2a6d65f359c5735f038e",
+      "line_count": 188
+    },
+    {
+      "path": "apps/www/package.json",
+      "scope": "complete",
+      "sha256": "203b2b9ebe7fa518f571431fef52afd2d7054aa39c3fd939f91ad91627e2ed8d",
+      "line_count": 153
+    },
+    {
+      "path": "apps/www/lib/utils.ts",
+      "scope": "complete",
+      "sha256": "13db82bc78cb95ccef1a74c2f4f3f98971fbc2bd5551ad457c6fd1330360f76b",
+      "line_count": 10
+    },
+    {
+      "path": "apps/www/registry/schema.ts",
+      "scope": "complete",
+      "sha256": "8aeabf38d684eadd53ae18fb5ce1b82a4e772c374a2e6d09155eba9ba07a1754",
+      "line_count": 87
+    },
+    {
+      "path": "apps/www/hooks/use-click-outside.ts",
+      "scope": "complete",
+      "sha256": "ccf415a7bae40bc2be4e76e207b14644efa19c02b4d34ec14eef9d601836e334",
+      "line_count": 27
+    },
+    {
+      "path": "apps/www/hooks/use-media-query.tsx",
+      "scope": "complete",
+      "sha256": "a3c985c85c7819e1889bb11c1d612763221cf09b646c62104df68eaba3f8b8a0",
+      "line_count": 19
+    },
+    {
+      "path": "apps/www/hooks/use-lock-body.ts",
+      "scope": "complete",
+      "sha256": "ecb27f03d449608d4eeb0f189e77647af90c201e6ad112b44b1122eb8c07a984",
+      "line_count": 12
+    },
+    {
+      "path": "apps/www/content/docs/theming.mdx",
+      "scope": "complete",
+      "sha256": "4721bc51810f1e397dafca719dfb7c0fed796aa12ad72fe929f425858cf098a0",
+      "line_count": 190
+    },
+    {
+      "path": ".agents/skills/components-build/rules/registry.md",
+      "scope": "Source distribution concept, metadata structure and example sections",
+      "sha256": "eb7e1cd735022564493c9f18ee55b82f51b31aec5f537ae08aa4f1af5524de15",
+      "line_count": 158
+    },
+    {
+      "path": "apps/www/registry/ui.ts",
+      "scope": "UI catalog metadata, dependency/file mapping",
+      "sha256": "2a5a83c0f34c7b7f8ed27437ebe0a359811184db304d89844d17e9b89df88038",
+      "line_count": 1043
+    },
+    {
+      "path": "apps/www/registry/examples.ts",
+      "scope": "Example inventory and mapping",
+      "sha256": "0c8ce26704e09f606ad9250872c90e733f7ed3e120ee56264ad9ce9259510e6b",
+      "line_count": 893
+    },
+    {
+      "path": "apps/www/registry.json",
+      "scope": "Complete programmatic registry inventory; no claim of deep component coverage",
+      "sha256": "33990f66271f53d4c43e8c4022fe4e9ce1111d5b28fda6cb6795ee02a034cfae",
+      "line_count": 2141
+    },
+    {
+      "path": "apps/www/scripts/build-registry.mts",
+      "scope": "First100 lines: index generation, JSON build and source/dependency metadata",
+      "sha256": "1a53a55f8dc095ae656585b8b5ad59cacd240411fbb629a70c460ab319760ebe",
+      "line_count": 153
+    },
+    {
+      "path": "apps/www/content/docs/components/expandable.mdx",
+      "scope": "Complete; primarily references/install rather than implementation detail",
+      "sha256": "8fc6a9ab7b395b3c565679fbd1ec43e322f09bd046232b87fd210cfd6c77a3d8",
+      "line_count": 62
+    },
+    {
+      "path": "apps/www/content/docs/components/cutout-card.mdx",
+      "scope": "First95 lines: usage/parts and representative card composition",
+      "sha256": "324ed153913093b9b007181241757e14e383e84203605d571fbc6655b9ad7915",
+      "line_count": 85
+    },
+    {
+      "path": "apps/www/content/docs/components/direction-aware-tabs.mdx",
+      "scope": "First85 lines plus displayed usage example",
+      "sha256": "e8c8b86d991e1612eb9eb8856183c680720affb3c2582d481719157bf2ed8bbc",
+      "line_count": 130
+    },
+    {
+      "path": "apps/www/registry/default/example/expandable-demo.tsx",
+      "scope": "Product/weather/design-sync composed card examples and final overview; selected displayed sections",
+      "sha256": "e42b9f3d225340c321ec431302f3e125128a30b0e3fe9d871d04bad45ffd8c80",
+      "line_count": 433
+    },
+    {
+      "path": "apps/www/registry/default/example/direction-aware-tabs-demo.tsx",
+      "scope": "Complete; numeric ID assumption and same API across themed demo content",
+      "sha256": "ef8b9e3e572d66f5dc8c6125627e52d9e9755b0d59c2cabb8acc1b95ad9b9881",
+      "line_count": 85
+    }
+  ],
+  "source_map": [
+    {
+      "capability": "Measured persistent disclosure",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/expandable.tsx",
+        "apps/www/registry/default/ui/cutout-card.tsx",
+        "apps/www/registry/default/ui/toolbar-expandable.tsx"
+      ],
+      "original_name": "expandable",
+      "classification": "CORE",
+      "retained": "Context root, composed trigger/body/card parts, inner size measurement and spring outer size",
+      "generalized": "One vertical disclosure with native props and arbitrary project card shell",
+      "modified": "Native button, IDs, inert hidden body, focus return, callback plus uncontrolled state, observer cleanup, instant keyboard/reduced motion",
+      "rejected": "Fixed 320/480 widths; uncancelled hover timers; ignored expandBehavior/animateIn; generic div trigger",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md",
+        "fluidity/skills/fluidity-components/assets/composition/measured-disclosure.tsx",
+        "fluidity/skills/fluidity-components/assets/composition/use-measured-size.ts"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent details/settings/forms",
+        "interaction_quality": "Strong measured continuity; no input lock in adaptation",
+        "adaptability": "Flexible parts; host classes",
+        "accessibility": "Source lacks expanded relationship and hidden-focus protection; corrected locally",
+        "responsive_behavior": "Natural inner height; fluid host width",
+        "implementation_quality": "Source has ignored APIs and timer races; narrowed implementation",
+        "dependency_cost": "Source React,motion,react-use-measure; local React,motion",
+        "performance": "Observer watches inner box; avoid feedback loops; no content blur",
+        "uniqueness": "Persistent compound form body differs from simple unmounted disclosure",
+        "composability": "Root/Trigger/Content and native article shell",
+        "maintainability": "Removed duplicate variant file and unimplemented options"
+      }
+    },
+    {
+      "capability": "Directional local panels",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/direction-aware-tabs.tsx",
+        "apps/www/registry/default/ui/choice-poll.tsx"
+      ],
+      "original_name": "direction-aware-tabs",
+      "classification": "CORE",
+      "retained": "Ordered movement, shared active indicator, measured wrapper, presence",
+      "generalized": "Stable string IDs and array order; horizontal local-content tabs",
+      "modified": "Scoped LayoutGroup; tab roles and relationships; RTL roving keys; exit inert; immediate keyboard; short pointer translation; release verification adds stable entity-based DOM IDs, latest presence modality for every exiting panel, and focus restoration after external removal",
+      "rejected": "isAnimating input gate; ID magnitude determines direction; global bubble ID; 300px/blur",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md",
+        "fluidity/skills/fluidity-components/assets/composition/direction-aware-tabs.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Frequent tabbed local detail",
+        "interaction_quality": "Preserves direction and latest requested state",
+        "adaptability": "Label/content array; project classes; controlled value",
+        "accessibility": "Source lacks tablist/tab/panel semantics and keyboard model; local fixes",
+        "responsive_behavior": "Overflowing tab row; measured content height",
+        "implementation_quality": "Source initializes ID zero and locks transitions; corrected",
+        "dependency_cost": "Source motion and react-use-measure; local React,motion",
+        "performance": "Short translation/opacity; no per-frame React numeric state",
+        "uniqueness": "Distinct directional reading-order cue",
+        "composability": "Independent selection marker/panel/height layers",
+        "maintainability": "Unique IDs and documented valid-value fallback; parent preserves form state"
+      }
+    },
+    {
+      "capability": "Semantic content card",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/minimal-card.tsx"
+      ],
+      "original_name": "minimal-card",
+      "classification": "CORE",
+      "retained": "Independent media,title,description,content,footer parts",
+      "generalized": "Article shell, project-selected heading and actions",
+      "modified": "Neutral native article with data-slot",
+      "rejected": "Fixed 190px media and copied shadow palette; unused next/image import",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md",
+        "fluidity/skills/fluidity-components/assets/composition/measured-disclosure.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Very common information grouping",
+        "interaction_quality": "Static shell does not imply an action",
+        "adaptability": "All skin and content supplied by host",
+        "accessibility": "Source heading/paragraph/alt types useful; avoid clickable div semantics",
+        "responsive_behavior": "Replace fixed media height with meaningful aspect ratio",
+        "implementation_quality": "Simple forward-ref native parts",
+        "dependency_cost": "No runtime dependency needed beyond React",
+        "performance": "Static component; no motion needed",
+        "uniqueness": "General composition rather than special visual identity",
+        "composability": "Independent native parts",
+        "maintainability": "Small shell avoids duplicating existing project card"
+      }
+    },
+    {
+      "capability": "Specialized media card composition",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/cutout-card.tsx"
+      ],
+      "original_name": "cutout-card",
+      "classification": "SPECIALIZED",
+      "retained": "Compound media/content/footer/overlay/action; data-slot/state; controlled hover; external handler cancellation; static inset geometry",
+      "generalized": "Reusable card layers independent of cutout styling",
+      "modified": "Always-visible essential actions; focus/touch behavior; complete reduced-motion branch",
+      "rejected": "Invisible focusable actions; image CSS zoom under reduced motion; mandatory corner styling",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful media-led catalog/editorial cards",
+        "interaction_quality": "Good separate action model, but hover-only affordance incomplete",
+        "adaptability": "Strong parts and override slots",
+        "accessibility": "Pointer-events/opacity do not hide descendants from tab order",
+        "responsive_behavior": "Source responsive image sizes; host aspect-ratio/layout replaces card sizes",
+        "implementation_quality": "Modern state/handler composition; action visibility needs repair",
+        "dependency_cost": "React,motion,Radix controllable state; source Next image optional in host",
+        "performance": "Static edge geometry prevents compositing seams; omit blur if unnecessary",
+        "uniqueness": "Inset media labels useful occasionally",
+        "composability": "Context and data slots decouple visuals",
+        "maintainability": "Remove optional decoration and validate CSS as well as JS motion"
+      }
+    },
+    {
+      "capability": "Pointer reorder recipe",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/sortable-list.tsx"
+      ],
+      "original_name": "sortable-list",
+      "classification": "SPECIALIZED",
+      "retained": "Controlled Reorder.Group values, stable item identity, useDragControls, measured expanding row and position layout",
+      "generalized": "Named handle-only drag plus explicit move/delete actions",
+      "modified": "Keyboard alternative, live final position, valid list DOM and scoped identity",
+      "rejected": "Whole-row drag, unlabeled trash, empty handle, completion-as-delete label and z-index9999",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md",
+        "fluidity/skills/fluidity-components/assets/extensions/stacked-card-set.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful user-controlled ordering",
+        "interaction_quality": "Separate drag and explicit removal retained",
+        "adaptability": "Data and render callback can generalize",
+        "accessibility": "No source keyboard reorder; local recipe requires buttons/announcement",
+        "responsive_behavior": "Measured rows support content; remove min-widths",
+        "implementation_quality": "Clear controlled group, tangled item demo state",
+        "dependency_cost": "React,motion,measurement and checkbox in source; use project primitives",
+        "performance": "Position layout for inner text; animate only changed rows",
+        "uniqueness": "Direct reorder differs from selected-card navigation",
+        "composability": "Render item seam, group/item model",
+        "maintainability": "Stable IDs; removal and completion separately modeled"
+      }
+    },
+    {
+      "capability": "Measured modal view switching",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/family-drawer.tsx"
+      ],
+      "original_name": "family-drawer",
+      "classification": "SPECIALIZED",
+      "retained": "Vaul root/portal/content, independent view state and measured view wrapper",
+      "generalized": "Project drawer controls with inner content measurement",
+      "modified": "Update uncontrolled state then notify; Drawer.Title/Description; named close; viewport cap; instant keyboard",
+      "rejected": "Callback-or-setter shortcut; icon-only close; demo fixed placement; arbitrary view reset",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful compact multi-view drawer",
+        "interaction_quality": "Underlying Vaul owns gesture/modal behavior",
+        "adaptability": "View registry and native primitive composition",
+        "accessibility": "Source delegates focus but title/description and close naming incomplete",
+        "responsive_behavior": "Measured height useful; add max-height, safe areas and inner scroll",
+        "implementation_quality": "State callback shortcut broken in uncontrolled observer usage",
+        "dependency_cost": "Vaul,motion,react-use-measure,Slot; use existing equivalent",
+        "performance": "One measured wrapper; height-based fade 0.15-0.27 is optional",
+        "uniqueness": "Multi-view modal differs from inline disclosure",
+        "composability": "Root/Trigger/Portal/Overlay/Content/Close and inner view slots",
+        "maintainability": "Keep view state and lifecycle explicit; no timeout reset"
+      }
+    },
+    {
+      "capability": "Inline morphing form",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/morph-surface.tsx"
+      ],
+      "original_name": "morph-surface",
+      "classification": "SPECIALIZED",
+      "retained": "Trigger/form/status layers, render seams, async submit promise and shared indicator",
+      "generalized": "Generic inline edit/submit surface, persistent draft and explicit phases",
+      "modified": "Pending,error,retry; accessible labels; platform shortcut; timer cleanup; focus restoration",
+      "rejected": "Console-only errors; hardcoded Feedback identity; delayed success reset; clear-on-close assumption",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful compact contextual forms",
+        "interaction_quality": "Paired pointer dismissal and shared identity valuable",
+        "adaptability": "RenderTrigger/renderContent/renderIndicator seams",
+        "accessibility": "Text area relies on placeholder; restore focus and name actions",
+        "responsive_behavior": "Source fixed360x200; replace with measured responsive container",
+        "implementation_quality": "Separates state but lacks pending/error UI and callback parity",
+        "dependency_cost": "React,motion; no external feedback service required",
+        "performance": "Animate shell and optional indicator, not large content blur",
+        "uniqueness": "Compact trigger-to-form continuity",
+        "composability": "Render callbacks and controlled open state",
+        "maintainability": "Explicit phase model and asynchronous ownership prevent false success"
+      }
+    },
+    {
+      "capability": "Safe inline outside interaction",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/morph-surface.tsx"
+      ],
+      "original_name": "morph-surface",
+      "classification": "CORE",
+      "retained": "Dismiss only when interaction starts and ends outside while open",
+      "generalized": "Reusable nonmodal pointer hook with supplied inside roots",
+      "modified": "Composed path, pointercancel, primary pointer guard, remove duplicate touch-end handling",
+      "rejected": "Blind document mousedown dismissal; using hook as a modal focus manager",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md",
+        "fluidity/skills/fluidity-components/assets/composition/use-outside-interaction.ts"
+      ],
+      "evaluation": {
+        "general_usefulness": "Common inline surface need",
+        "interaction_quality": "Prevents drag-out and opening-click dismissal",
+        "adaptability": "Accepts owned refs including portals",
+        "accessibility": "Pointer-only utility; semantic primitive owns keyboard/focus",
+        "responsive_behavior": "Input-independent geometry from DOM containment",
+        "implementation_quality": "Bound event cleanup and paired state",
+        "dependency_cost": "React and browser PointerEvent APIs",
+        "performance": "Listeners only while open; no animation dependency",
+        "uniqueness": "Meaningful improvement over common naive click-outside",
+        "composability": "Hook independent of visuals/form state",
+        "maintainability": "Explicit nonmodal scope prevents conflicting nested dismissal systems"
+      }
+    },
+    {
+      "capability": "Expandable application toolbar",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/toolbar-expandable.tsx"
+      ],
+      "original_name": "toolbar-expandable",
+      "classification": "SPECIALIZED",
+      "retained": "Step selection drives measured content; persistent scrollable navigation; native coarse-pointer scrolling and masks",
+      "generalized": "Explicit selected step with project controls and overflow strategy",
+      "modified": "Proper selected/expanded relationships; reduced-motion scroll; clean timer-free measurement",
+      "rejected": "Delayed scrollButtonIntoView; broad click outside; fixed max widths",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful compact inspectors and guided detail",
+        "interaction_quality": "Selection remains accessible alongside content",
+        "adaptability": "Step IDs,title,description,content slots",
+        "accessibility": "Source buttons named; missing semantic selection/expanded model needs design choice",
+        "responsive_behavior": "Coarse pointer native overflow; resize-aware masks",
+        "implementation_quality": "Useful observer cleanup; delayed scroll creates races",
+        "dependency_cost": "React,motion,Radix ScrollArea; native scroll sufficient often",
+        "performance": "ResizeObserver only for needed content; masks optional",
+        "uniqueness": "Persistent toolbar plus disclosure has application value",
+        "composability": "Navigation separated from panel content",
+        "maintainability": "Use one measurement utility and no duplicated custom scroll subsystem"
+      }
+    },
+    {
+      "capability": "Poll draft and result model",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/choice-poll.tsx"
+      ],
+      "original_name": "choice-poll",
+      "classification": "SPECIALIZED",
+      "retained": "Separate selected IDs, hasVoted and votes; option context; exact percent text; independent indicator/label/progress",
+      "generalized": "Survey choice controls use native radio/checkbox semantics",
+      "modified": "Explicit undefined controlled check; nonnegative results; separate submit; named group",
+      "rejected": "Incomplete listbox semantics; single radio-like selection toggles off; controlled empty string becomes uncontrolled",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful surveys and option decisions",
+        "interaction_quality": "Separates selection from submission/results",
+        "adaptability": "Compound root/option/label/results parts",
+        "accessibility": "Source arrow focus exists but no roving index/multiselect attribute/name; prefer native choices",
+        "responsive_behavior": "Full-width responsive option composition",
+        "implementation_quality": "Immutable selection useful; truthy state bug",
+        "dependency_cost": "React,Radix controllable state,CVA,lucide; native inputs often suffice",
+        "performance": "CSS result fill; accessible final number, no frame announcements",
+        "uniqueness": "Draft/result separation reusable",
+        "composability": "Option context supports independent visual parts",
+        "maintainability": "Validate counts; avoid undocumented radio/listbox hybrid"
+      }
+    },
+    {
+      "capability": "Voting results and user vote state",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/vote-tally.tsx"
+      ],
+      "original_name": "vote-tally",
+      "classification": "SPECIALIZED",
+      "retained": "Separate counts and voted IDs, immutable count changes and pressed toggle",
+      "generalized": "Generic item voting/reaction model with server authority",
+      "modified": "Pending/rollback, item-specific names, sort data before list render",
+      "rejected": "ul/div/li grouping; automatic resort of focused item; treating client count as authority",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful prioritization/feedback lists",
+        "interaction_quality": "Pressed toggle and count separate",
+        "adaptability": "Generic record/set state and slots",
+        "accessibility": "Native button aria-pressed useful; generic name and invalid grouping need repair",
+        "responsive_behavior": "Native list can reflow; host layout",
+        "implementation_quality": "Clamps unvote at zero and uses immutable state",
+        "dependency_cost": "React,Radix controllable state; no service needed to render",
+        "performance": "Keep updates local; no mandatory animation",
+        "uniqueness": "Distinct from single-submission poll",
+        "composability": "Root/item/trigger/count/title/description",
+        "maintainability": "Server owns vote validity; focus-stable sorting"
+      }
+    },
+    {
+      "capability": "Sidebar measured expansion",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/side-panel.tsx"
+      ],
+      "original_name": "side-panel",
+      "classification": "REFERENCE",
+      "retained": "Inner measurement and replaceable button renderer",
+      "generalized": "Merged into disclosure/host sidebar recipe",
+      "modified": "Fluid width and source-independent tokens",
+      "rejected": "97% open width, fixed160/260 widths, redundant wrapper",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful technique; separate component unnecessary",
+        "interaction_quality": "Measured reveal preferable to guessed height",
+        "adaptability": "renderButton is useful seam",
+        "accessibility": "ARIA and focus supplied by renderer; source doesn't enforce contract",
+        "responsive_behavior": "Two breakpoints do not cover arbitrary host widths",
+        "implementation_quality": "Nested measurement straightforward; some ref props unused",
+        "dependency_cost": "Motion and react-use-measure despite registry omission",
+        "performance": "One inner measurement; avoid multiple competing transitions",
+        "uniqueness": "Duplicate of disclosure capability",
+        "composability": "Replaceable trigger and arbitrary children",
+        "maintainability": "Consolidation reduces redundant APIs"
+      }
+    },
+    {
+      "capability": "Shared surface to detail",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/expandable-screen.tsx"
+      ],
+      "original_name": "expandable-screen",
+      "classification": "REFERENCE",
+      "retained": "Shared geometry separate from content opacity; root/trigger/detail composition",
+      "generalized": "Accessible dialog primitive plus motion skin",
+      "modified": "Generated ID, real button, dialog focus/Escape, scroll cleanup",
+      "rejected": "Manual overflow hidden/unset mutation; fixed default layout ID; click-only trigger",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful detail transition occasionally",
+        "interaction_quality": "Continuity is good; semantic dialog incomplete",
+        "adaptability": "Surface/content split reusable",
+        "accessibility": "No source focus containment/Escape; replace with primitive",
+        "responsive_behavior": "Viewport fill and overflow useful; respect safe areas",
+        "implementation_quality": "Source scroll effect lacks cleanup and original state preservation",
+        "dependency_cost": "React,motion,lucide; host dialog adds semantic engine",
+        "performance": "Animate one surface; avoid duplicating all large content",
+        "uniqueness": "Shared geometry overlaps Motion Patterns; unify",
+        "composability": "Parts allow independent background/content",
+        "maintainability": "Use one overlay lifecycle owner"
+      }
+    },
+    {
+      "capability": "Anchored panel origin and label continuity",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/floating-panel.tsx"
+      ],
+      "original_name": "floating-panel",
+      "classification": "REFERENCE",
+      "retained": "Trigger bounding rectangle, scoped unique label identity, independent form parts",
+      "generalized": "Host positioned popover with shared-label motion",
+      "modified": "Collision/resize/scroll strategy, truthful expanded state, draft preservation",
+      "rejected": "aria-expanded false constant; modal without focus trap; close clears note",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful contextual editing",
+        "interaction_quality": "Origin continuity useful, dismissal incomplete",
+        "adaptability": "Compound parts reusable",
+        "accessibility": "aria-modal alone insufficient; native trigger needs correct state",
+        "responsive_behavior": "Source left/top fails at viewport edges",
+        "implementation_quality": "Useful IDs but incomplete position lifecycle",
+        "dependency_cost": "React,motion,lucide; use existing popover engine",
+        "performance": "No repeated rect reads per frame; avoid full-screen blur animation",
+        "uniqueness": "Overlap with Motion popover; retain only extra insight",
+        "composability": "Title/form/label/textarea/footer seams",
+        "maintainability": "Delegate positioning and focus to tested primitive"
+      }
+    },
+    {
+      "capability": "Formatted numeric spring",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/animated-number.tsx"
+      ],
+      "original_name": "animated-number",
+      "classification": "REFERENCE",
+      "retained": "Numeric spring drives formatting transform independently",
+      "generalized": "Visual optional animated number with exact accessible final value",
+      "modified": "Reduced-motion jump, tabular digits, engine completion event",
+      "rejected": "Strict-equality completion check per change; universal animated finance values",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Common dashboards/counts",
+        "interaction_quality": "Spring can connect changes when motion helps",
+        "adaptability": "Caller format and precision are useful",
+        "accessibility": "Source lacks reduced motion and exact accessible alternative",
+        "responsive_behavior": "Inline text reflows naturally; reserve digit width",
+        "implementation_quality": "Compact hook architecture; completion fragile",
+        "dependency_cost": "React,motion; use Intl formatter",
+        "performance": "Motion value avoids per-frame React render",
+        "uniqueness": "Overlap with Motion animated-number; deduplicate",
+        "composability": "Format callback independent of animation",
+        "maintainability": "Document precision and event semantics"
+      }
+    },
+    {
+      "capability": "Pointer-distance dock mapping",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/dock.tsx"
+      ],
+      "original_name": "dock",
+      "classification": "REFERENCE",
+      "retained": "Shared mouse motion value, distance-to-center transform and spring width",
+      "generalized": "Small optional navigation dock using Motion Patterns architecture",
+      "modified": "One pointer stream, client coordinates, stable named keyboard controls",
+      "rejected": "Duplicate per-item tracking; infinite click bounce; mixed page/client coordinates",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md",
+        "fluidity/skills/fluidity-components/assets/extensions/stacked-card-set.tsx"
+      ],
+      "evaluation": {
+        "general_usefulness": "Specialized navigation, not default navbar",
+        "interaction_quality": "Distance response useful; launch bounce extraneous",
+        "adaptability": "Host controls and icon render slot",
+        "accessibility": "Buttons need names; no source reduced motion",
+        "responsive_behavior": "Fixed absolute placement unsuitable for narrow screens",
+        "implementation_quality": "Redundant animation pipelines and coordinate mismatch",
+        "dependency_cost": "React,motion only, but duplicate hooks add complexity",
+        "performance": "One shared stream instead of global listener per card",
+        "uniqueness": "Prefer simpler overlapping Motion dock",
+        "composability": "Context-based mouse field generalizes",
+        "maintainability": "Remove redundant state and arbitrary numeric ID parsing"
+      }
+    },
+    {
+      "capability": "Velocity and detail handoff reference",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/three-d-carousel.tsx"
+      ],
+      "original_name": "three-d-carousel",
+      "classification": "REFERENCE",
+      "retained": "Motion stops while detail open; image identity shared; velocity affects release",
+      "generalized": "Support only selected-card gesture principles",
+      "modified": "Use final offset once and accessible manual controls",
+      "rejected": "Accumulated total offset each event; cylinder geometry; click-only faces; remote placeholders",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Narrow visual gallery case",
+        "interaction_quality": "Velocity useful; source drag arithmetic incorrect",
+        "adaptability": "Hardcoded keywords/cards limit adaptation",
+        "accessibility": "No keyboard faces or dialog focus",
+        "responsive_behavior": "1100/1800px cylinder and fixed500px viewport",
+        "implementation_quality": "Source gesture accumulation and mixed transform ownership",
+        "dependency_cost": "React,motion; imported hooks local",
+        "performance": "3D faces/blur expensive relative to bounded two-dimensional stack",
+        "uniqueness": "Do not keep duplicate carousel; extract release idea",
+        "composability": "Selected image state independent from carousel activity",
+        "maintainability": "Avoid brittle geometry, URLs-as-IDs and click overlay"
+      }
+    },
+    {
+      "capability": "Layered presentation recipe",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/feature-carousel.tsx"
+      ],
+      "original_name": "feature-carousel",
+      "classification": "REFERENCE",
+      "retained": "Step-indexed content, layered figure composition, small entrance presets",
+      "generalized": "Manual accessible step presentation",
+      "modified": "Named step controls, pause policy only if autoplay requested, responsive aspect ratios",
+      "rejected": "Three-second auto timer; isAnimating input lock; no-op nav callback; full-card click overlay",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful product explanation when layers carry information",
+        "interaction_quality": "Source sequencing readable but interaction blocks",
+        "adaptability": "Image-set props useful, embedded global steps restrict reuse",
+        "accessibility": "Click overlay and div steps lack keyboard operation",
+        "responsive_behavior": "Fixed450px min height and absolute offsets require redesign",
+        "implementation_quality": "Timer cleaned but debug logs and hardcoded fourth image remain",
+        "dependency_cost": "React,motion,Next image,clsx,balancer; remove optional extras",
+        "performance": "Limit concurrently animated layers and avoid idle autoplay",
+        "uniqueness": "Layered composition distinct; autoplay isn't unique value",
+        "composability": "Extract figure slots rather than monolithic showcase",
+        "maintainability": "Stable step data with no hardcoded brand media"
+      }
+    },
+    {
+      "capability": "Color-picker information architecture",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/color-picker.tsx"
+      ],
+      "original_name": "color-picker",
+      "classification": "REFERENCE",
+      "retained": "Swatch plus editable value, channel control and presets in popover",
+      "generalized": "Canonical color model with separate draft text",
+      "modified": "Valid parser, labelled ranges, exact preview, no prop-sync callback emission",
+      "rejected": "Malformed HSL regex; HSL/HSV-plane mismatch; invalid input becomes black",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful specialized design control",
+        "interaction_quality": "Multiple representations useful; invalid source math",
+        "adaptability": "Controlled color/onChange API generalizes",
+        "accessibility": "Hue range unlabeled, plane mouse-only; use existing accessible picker",
+        "responsive_behavior": "Fixed200/240px widths not a full responsive solution",
+        "implementation_quality": "Parsing and synchronization defects prohibit direct reuse",
+        "dependency_cost": "React,motion,Radix popover and project inputs; native color may suffice",
+        "performance": "Native controls eliminate custom pointer field",
+        "uniqueness": "No need to duplicate host color picker",
+        "composability": "Popover/text/range composition useful",
+        "maintainability": "Canonical model and roundtrip tests necessary before implementation"
+      }
+    },
+    {
+      "capability": "Onboarding step model",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/onboarding.tsx"
+      ],
+      "original_name": "onboarding",
+      "classification": "REFERENCE",
+      "retained": "Step and substep types; progress role and exact step text",
+      "generalized": "Stable step-state model and explicit next/back actions",
+      "modified": "Keep progress bounded; verify actual navigation/validation before implementation",
+      "rejected": "Claiming API-only inspection as complete behavior audit",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Useful multi-step onboarding",
+        "interaction_quality": "API separates nested steps; handlers not fully inspected",
+        "adaptability": "Compound API and controlled values promising",
+        "accessibility": "Progress min/max/value and step labels inspected",
+        "responsive_behavior": "Full responsive content not inspected",
+        "implementation_quality": "Partial source inspection only",
+        "dependency_cost": "React,Radix state,CVA,project Button",
+        "performance": "No motion requirement in inspected progress",
+        "uniqueness": "State vocabulary useful; no reusable asset accepted",
+        "composability": "Context plus typed parts",
+        "maintainability": "Further source/test validation required before adapting unseen handlers"
+      }
+    },
+    {
+      "capability": "Button composition seam",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/texture-button.tsx"
+      ],
+      "original_name": "texture-button",
+      "classification": "REFERENCE",
+      "retained": "Native props, CVA variants and Slot seam; inner radius follows outer padding",
+      "generalized": "Use project button and optional material skin",
+      "modified": "Preserve semantic element, focus and forwarded props",
+      "rejected": "Texture palette, nested wrappers and broad variants merely for decoration",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Buttons essential; texture not necessary",
+        "interaction_quality": "Native interactions retained",
+        "adaptability": "className,variants,asChild useful",
+        "accessibility": "Need semantic child and named icon; only first100 lines inspected",
+        "responsive_behavior": "Host button sizing; avoid full-width default everywhere",
+        "implementation_quality": "Known Slot/CVA pattern; no wholesale copy",
+        "dependency_cost": "React,Radix Slot,CVA,cn helper",
+        "performance": "Static CSS preferred; no motion engine required",
+        "uniqueness": "Duplicate base control; retain seam only",
+        "composability": "Slot and native props integrate existing control",
+        "maintainability": "Avoid adding another button API"
+      }
+    },
+    {
+      "capability": "Scroll-edge visual mask",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/edge-blur.tsx"
+      ],
+      "original_name": "edge-blur",
+      "classification": "REFERENCE",
+      "retained": "Noninteractive mask layers gradient toward clear content",
+      "generalized": "Optional scroll boundary affordance",
+      "modified": "Preserve readability; use gradient if enough",
+      "rejected": "Five fixed viewport-wide blur layers as default",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Occasional scroll context",
+        "interaction_quality": "No interactive behavior",
+        "adaptability": "Position/height simple API",
+        "accessibility": "Must not obscure content; decorative and noninteractive",
+        "responsive_behavior": "Fixed viewport edge needs scoped container option",
+        "implementation_quality": "Simple map of blur strengths",
+        "dependency_cost": "CSS and React only",
+        "performance": "Multiple backdrop filters add compositing cost",
+        "uniqueness": "Gradient usually adequate; specialized visual",
+        "composability": "Independent overlay",
+        "maintainability": "Keep optional and measure actual device performance"
+      }
+    },
+    {
+      "capability": "Distorted glass decoration",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        "apps/www/registry/default/ui/distorted-glass.tsx"
+      ],
+      "original_name": "distorted-glass",
+      "classification": "REJECT",
+      "retained": "No essential interaction retained",
+      "generalized": "None; glass extension uses readable surface technique",
+      "modified": "None; implementation not shipped",
+      "rejected": "Fixed media sizes; fractal displacement; global filter ID; framework-specific style",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ],
+      "evaluation": {
+        "general_usefulness": "Low generalizable utility",
+        "interaction_quality": "No interaction model",
+        "adaptability": "One className but hardcoded geometry/style",
+        "accessibility": "Pure decoration must not reduce legibility",
+        "responsive_behavior": "Hidden below xl and fixed widths",
+        "implementation_quality": "Global SVG ID collision risk",
+        "dependency_cost": "React,Next styled-jsx convention",
+        "performance": "Noise/displacement cost without interaction benefit",
+        "uniqueness": "Novel effect duplicated by simpler visual treatments",
+        "composability": "Not a behavior primitive",
+        "maintainability": "Rejected implementation; no local effect asset"
+      }
+    },
+    {
+      "capability": "Component API and source distribution rules",
+      "source_repository": "local:composition-patterns",
+      "source_files": [
+        ".agents/skills/components-build/SKILL.md",
+        ".agents/skills/components-build/rules/principles.md",
+        ".agents/skills/components-build/rules/composition.md",
+        ".agents/skills/components-build/rules/state.md",
+        ".agents/skills/components-build/rules/accessibility.md",
+        ".agents/skills/components-build/rules/design-tokens.md",
+        ".agents/skills/components-build/rules/as-child.md",
+        ".agents/skills/components-build/rules/registry.md",
+        "apps/www/registry/schema.ts",
+        "apps/www/lib/utils.ts"
+      ],
+      "original_name": "components-build / components.build",
+      "classification": "CORE",
+      "retained": "Small semantic parts, native props, controlled/uncontrolled state, class merging, data slots, source ownership, typed registry files and dependency metadata",
+      "generalized": "Host-design-system-first compositional guidance across all component families",
+      "modified": "Reconcile HSL/OKLCH token representation with project convention; reject incomplete illustrative dialog as production implementation; avoid wrapping one-purpose components in needless context",
+      "rejected": "Composition website absoluteUrl fallback, absolute visual token rules, external-registry runtime dependency",
+      "outputs": [
+        "fluidity/skills/fluidity-components/references/composition-patterns.md"
+      ]
+    }
+  ],
+  "reconciliation": [
+    {
+      "sources": [
+        "expandable",
+        "side-panel",
+        "expandable-card"
+      ],
+      "rule": "One persistent measured compound disclosure; eliminate duplicate wrapper APIs and source duplicate file"
+    },
+    {
+      "sources": [
+        "direction-aware-tabs",
+        "choice-poll",
+        ".agents/skills/components-build/rules/accessibility.md"
+      ],
+      "rule": "Preserve ordered motion, use complete tab semantics and scoped IDs; keyboard state changes are immediate under canonical Fluidity policy"
+    },
+    {
+      "sources": [
+        "family-drawer",
+        "expandable-screen",
+        "floating-panel"
+      ],
+      "rule": "Let accessible primitives own modal/popover behavior; animation does not substitute focus/collision/scroll lifecycle"
+    },
+    {
+      "sources": [
+        "minimal-card",
+        "cutout-card",
+        "shift-card"
+      ],
+      "rule": "Keep neutral card composition; essential actions visible and card is not intrinsically clickable; discard hover-only shifting demo"
+    },
+    {
+      "sources": [
+        "sortable-list",
+        "three-d-carousel",
+        "Application list-stack/card-swipe"
+      ],
+      "rule": "Stack selection distinct from reorder; bounded index, contextual layering, handle-only optional drag, stable selection and inert inactive content"
+    },
+    {
+      "sources": [
+        "dock",
+        "Motion Patterns dock"
+      ],
+      "rule": "Prefer smaller single-motion-value distance mapping; no duplicate global streams or infinite bounce"
+    },
+    {
+      "sources": [
+        "distorted-glass",
+        "edge-blur",
+        "Fluidity Apple Glass Card"
+      ],
+      "rule": "Readable surface and optional bounded backdrop effect; no fractal distortion or mandatory layered viewport blur"
+    },
+    {
+      "sources": [
+        "theming.mdx",
+        "components-build design-tokens.md"
+      ],
+      "rule": "Preserve host HSL-channel or full-color token format; do not mix wrappers"
+    }
+  ],
+  "verification": {
+    "source_commit_verified": true,
+    "dependency_install_performed": false,
+    "upstream_build_run": false,
+    "local_type_and_browser_checks": "Root integration validation owns final verification; this file records extraction evidence, not a test success claim",
+    "integration_regressions": "Browser regression tests reproduce and then pass stale keyboard exits and dynamic duplicate IDs/focus restoration; see development/VALIDATION.md"
+  },
+  "inventory": [
+    {
+      "name": "text-animate",
+      "description": "Animated text component with customizable reveal effects and timing",
+      "files": [
+        "apps/www/registry/default/ui/text-animate.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "cosmic-button",
+      "description": "Animated button/link with cosmic gradient border effect, renders as anchor or button",
+      "files": [
+        "apps/www/registry/default/ui/cosmic-button.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "texture-button",
+      "description": "Button component with texture overlay effects and customizable variants",
+      "files": [
+        "apps/www/registry/default/ui/texture-button.tsx"
+      ],
+      "declared_dependencies": [
+        "@radix-ui/react-slot"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "First100 lines: variants/types/Slot seam; not full JSX behavior audit",
+      "classification": "REFERENCE",
+      "included_local_implementation": false
+    },
+    {
+      "name": "texture-card",
+      "description": "Card component with texture background and customizable styling options",
+      "files": [
+        "apps/www/registry/default/ui/texture-card.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "timer",
+      "description": "Countdown timer component with customizable duration and visual styles",
+      "files": [
+        "apps/www/registry/default/ui/timer.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "shift-card",
+      "description": "Card component with shift animation effects and hover interactions",
+      "files": [
+        "apps/www/registry/default/ui/shift-card.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "minimal-card",
+      "description": "Clean and minimal card component with subtle styling and hover effects",
+      "files": [
+        "apps/www/registry/default/ui/minimal-card.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "CORE",
+      "included_local_implementation": true
+    },
+    {
+      "name": "cutout-card",
+      "description": "Image card with cutout corners, hover motion, inset labels, pins, and reveal actions",
+      "files": [
+        "apps/www/registry/default/ui/cutout-card.tsx"
+      ],
+      "declared_dependencies": [
+        "motion",
+        "@radix-ui/react-use-controllable-state"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "SPECIALIZED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "dynamic-island",
+      "description": "iOS-style dynamic island component with expandable content and smooth animations",
+      "files": [
+        "apps/www/registry/default/ui/dynamic-island.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "direction-aware-tabs",
+      "description": "Tab component with direction-aware animations and smooth transitions",
+      "files": [
+        "apps/www/registry/default/ui/direction-aware-tabs.tsx"
+      ],
+      "declared_dependencies": [
+        "motion",
+        "react-use-measure"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "CORE",
+      "included_local_implementation": true
+    },
+    {
+      "name": "bg-animate-button",
+      "description": "Button component with animated background effects and gradient transitions",
+      "files": [
+        "apps/www/registry/default/ui/bg-animate-button.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "border-beam-button",
+      "description": "Shadcn Button wrapped in Border Beam: animated border glow with compact icon and text variants",
+      "files": [
+        "apps/www/registry/default/ui/border-beam-button.tsx"
+      ],
+      "declared_dependencies": [
+        "border-beam"
+      ],
+      "declared_registry_dependencies": [
+        "button"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "family-button",
+      "description": "Button component with family-style design and interactive hover effects",
+      "files": [
+        "apps/www/registry/default/ui/family-button.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "side-panel",
+      "description": "Sliding side panel component with customizable positioning and animations",
+      "files": [
+        "apps/www/registry/default/ui/side-panel.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "REFERENCE",
+      "included_local_implementation": false
+    },
+    {
+      "name": "bg-media",
+      "description": "Background media component with video/image support and overlay effects",
+      "files": [
+        "apps/www/registry/default/ui/bg-media.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "three-d-carousel",
+      "description": "3D carousel component with perspective effects and smooth item transitions",
+      "files": [
+        "apps/www/registry/default/ui/three-d-carousel.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "REFERENCE",
+      "included_local_implementation": false
+    },
+    {
+      "name": "tweet-grid",
+      "description": "Grid layout component for displaying tweet-like content cards",
+      "files": [
+        "apps/www/registry/default/ui/tweet-grid.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "gradient-heading",
+      "description": "Heading component with gradient text effects and customizable styling",
+      "files": [
+        "apps/www/registry/default/ui/gradient-heading.tsx"
+      ],
+      "declared_dependencies": [
+        "@radix-ui/react-slot"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "typewriter",
+      "description": "Typewriter effect component with customizable typing speed and cursor animation",
+      "files": [
+        "apps/www/registry/default/ui/typewriter.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "animated-number",
+      "description": "Number component with smooth counting animations and customizable formatting",
+      "files": [
+        "apps/www/registry/default/ui/animated-number.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "REFERENCE",
+      "included_local_implementation": false
+    },
+    {
+      "name": "sortable-list",
+      "description": "Drag-and-drop sortable list component with smooth animations and reordering",
+      "files": [
+        "apps/www/registry/default/ui/sortable-list.tsx"
+      ],
+      "declared_dependencies": [
+        "motion",
+        "react-use-measure"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "SPECIALIZED",
+      "included_local_implementation": true
+    },
+    {
+      "name": "dock",
+      "description": "macOS-style dock component with hover effects and smooth animations",
+      "files": [
+        "apps/www/registry/default/ui/dock.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "REFERENCE",
+      "included_local_implementation": true
+    },
+    {
+      "name": "lightboard",
+      "description": "Interactive lightboard component with customizable grid and lighting effects",
+      "files": [
+        "apps/www/registry/default/ui/lightboard.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "canvas-fractal-grid",
+      "description": "Interactive canvas-based fractal dot grid with mouse tracking and wave effects",
+      "files": [
+        "apps/www/registry/default/ui/canvas-fractal-grid.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "bg-animated-fractal-dot-grid",
+      "description": "Background animated fractal dot grid with performance optimization and responsive design",
+      "files": [
+        "apps/www/registry/default/ui/bg-animated-fractal-dot-grid.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "bg-animated-gradient",
+      "description": "Animated gradient background component with customizable color transitions",
+      "files": [
+        "apps/www/registry/default/ui/bg-animated-gradient.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "bg-image-texture",
+      "description": "Background texture component with multiple texture variants and customizable opacity",
+      "files": [
+        "apps/www/registry/default/ui/bg-image-texture.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "popover",
+      "description": "Animated popover component with form support and smooth transitions",
+      "files": [
+        "apps/www/registry/default/ui/popover.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "floating-panel",
+      "description": "Floating panel component with backdrop blur and position-aware animations",
+      "files": [
+        "apps/www/registry/default/ui/floating-panel.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "Active implementation root/trigger/content/form/parts; commented backup excluded",
+      "classification": "REFERENCE",
+      "included_local_implementation": false
+    },
+    {
+      "name": "color-picker",
+      "description": "Interactive color picker component with HSL support and preset colors",
+      "files": [
+        "apps/www/registry/default/ui/color-picker.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "First235 lines: conversions/parser, state, prop sync, picker plane/hue/text controls",
+      "classification": "REFERENCE",
+      "included_local_implementation": false
+    },
+    {
+      "name": "shader-lens-blur",
+      "description": "WebGL shader component with lens blur effects and mouse interaction",
+      "files": [
+        "apps/www/registry/default/ui/shader-lens-blur.tsx"
+      ],
+      "declared_dependencies": [
+        "motion",
+        "three",
+        "jotai"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "edge-blur",
+      "description": "Stacked backdrop-blur layers with a gradient mask for soft top or bottom screen edges",
+      "files": [
+        "apps/www/registry/default/ui/edge-blur.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "REFERENCE",
+      "included_local_implementation": false
+    },
+    {
+      "name": "dither-image",
+      "description": "Compound Next.js image figure with CSS Bayer dither via dither-plugin, partial reveal overlays, and typed tuning props",
+      "files": [
+        "apps/www/registry/default/ui/dither-image.tsx"
+      ],
+      "declared_dependencies": [
+        "dither-plugin"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "popover-form",
+      "description": "Form popover component with success states and animated transitions",
+      "files": [
+        "apps/www/registry/default/ui/popover-form.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "expandable",
+      "description": "Expandable component system with smooth animations and customizable presets",
+      "files": [
+        "apps/www/registry/default/ui/expandable.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "CORE",
+      "included_local_implementation": true
+    },
+    {
+      "name": "logo-carousel",
+      "description": "Animated logo carousel with staggered animations and customizable columns",
+      "files": [
+        "apps/www/registry/default/ui/logo-carousel.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "loading-carousel",
+      "description": "Loading carousel component with smooth transitions and customizable content",
+      "files": [
+        "apps/www/registry/default/ui/loading-carousel.tsx"
+      ],
+      "declared_dependencies": [
+        "embla-carousel-autoplay",
+        "lucide-react",
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        "carousel"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "hover-video-player",
+      "description": "Video player component that plays on hover with smooth animations",
+      "files": [
+        "apps/www/registry/default/ui/hover-video-player.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "neumorph-eyebrow",
+      "description": "Neumorphic eyebrow component with soft shadow effects and modern styling",
+      "files": [
+        "apps/www/registry/default/ui/neumorph-eyebrow.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "neumorph-button",
+      "description": "Neumorphic button component with soft shadows and tactile interaction effects",
+      "files": [
+        "apps/www/registry/default/ui/neumorph-button.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "feature-carousel",
+      "description": "Feature carousel component with smooth transitions and customizable layouts",
+      "files": [
+        "apps/www/registry/default/ui/feature-carousel.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "Timer, mobile detection, card/presentation layers, controls and layered step render; source output sections inspected",
+      "classification": "REFERENCE",
+      "included_local_implementation": false
+    },
+    {
+      "name": "choice-poll",
+      "description": "Poll component with single or multiple selection, optional results, and keyboard navigation",
+      "files": [
+        "apps/www/registry/default/ui/choice-poll.tsx"
+      ],
+      "declared_dependencies": [
+        "@radix-ui/react-use-controllable-state",
+        "lucide-react"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "Types, root/selection logic, option and results, keyboard options container, exports; full relevant implementation",
+      "classification": "SPECIALIZED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "feature-poll",
+      "description": "Feature poll component with single or multiple selection, optional results, and keyboard navigation",
+      "files": [
+        "apps/www/registry/default/ui/feature-poll.tsx"
+      ],
+      "declared_dependencies": [
+        "@radix-ui/react-use-controllable-state",
+        "lucide-react"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "feature-voting",
+      "description": "List of features with up-vote support, optional sorting by vote count, and controlled or uncontrolled state",
+      "files": [
+        "apps/www/registry/default/ui/feature-voting.tsx"
+      ],
+      "declared_dependencies": [
+        "@radix-ui/react-use-controllable-state"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "vote-tally",
+      "description": "List of items with up-vote support, optional sorting by vote count, and controlled or uncontrolled state",
+      "files": [
+        "apps/www/registry/default/ui/vote-tally.tsx"
+      ],
+      "declared_dependencies": [
+        "@radix-ui/react-use-controllable-state"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "SPECIALIZED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "poll-widget",
+      "description": "Poll widget with inline, popover, and dialog modes, optional results, and animations",
+      "files": [
+        "apps/www/registry/default/ui/poll-widget.tsx"
+      ],
+      "declared_dependencies": [
+        "@radix-ui/react-use-controllable-state",
+        "class-variance-authority",
+        "lucide-react",
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "prompt-library",
+      "description": "Browse, insert, and manage prompt templates with categories and custom prompts",
+      "files": [
+        "apps/www/registry/default/ui/prompt-library.tsx"
+      ],
+      "declared_dependencies": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "ai-instructions",
+      "description": "Manage and toggle AI instructions with a popover, search, and create-dialog",
+      "files": [
+        "apps/www/registry/default/ui/ai-instructions.tsx"
+      ],
+      "declared_dependencies": [
+        "@hugeicons/core-free-icons",
+        "@hugeicons/react"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "intro-disclosure",
+      "description": "Intro disclosure component with expandable content and smooth animations",
+      "files": [
+        "apps/www/registry/default/ui/intro-disclosure.tsx"
+      ],
+      "declared_dependencies": [
+        "motion",
+        "react-use-measure"
+      ],
+      "declared_registry_dependencies": [
+        "button",
+        "aspect-ratio"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "text-gif",
+      "description": "Text component with GIF-like animation effects and customizable styling",
+      "files": [
+        "apps/www/registry/default/ui/text-gif.tsx"
+      ],
+      "declared_dependencies": [],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "stripe-bg-guides",
+      "description": "Stripe-style background guides component with animated patterns and effects",
+      "files": [
+        "apps/www/registry/default/ui/stripe-bg-guides.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "svg-shapes",
+      "description": "Wide-aspect SVG shape and panel components for backgrounds and hero decorations",
+      "files": [
+        "apps/www/registry/default/ui/svg-shapes.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "svg-shapes-animated",
+      "description": "Scroll-triggered stroke-draw animations for wide SVG shapes and panels using Motion",
+      "files": [
+        "apps/www/registry/default/ui/svg-shapes-animated.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "svg-bands",
+      "description": "Wide SVG section bands, battlement and zigzag trims, steep hero edges, and ornamental frames",
+      "files": [
+        "apps/www/registry/default/ui/svg-bands.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "grid-beam",
+      "description": "Canvas grid beam animation with palette presets, SVG dividers, and composable headless pieces via useGridBeam",
+      "files": [
+        "apps/www/registry/default/ui/grid-beam.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "youtube-video-player",
+      "description": "YouTube video player component with custom controls and smooth animations",
+      "files": [
+        "apps/www/registry/default/ui/youtube-video-player.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        "button"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "toolbar-expandable",
+      "description": "Expandable toolbar component with step-based navigation, smooth animations, and enhanced scrolling",
+      "files": [
+        "apps/www/registry/default/ui/toolbar-expandable.tsx"
+      ],
+      "declared_dependencies": [
+        "motion",
+        "@radix-ui/react-scroll-area"
+      ],
+      "declared_registry_dependencies": [
+        "badge"
+      ],
+      "inspection_depth": "State/nav selection and scroll, content measurement, native touch scroll, masks and cleanup; selected implementation sections",
+      "classification": "SPECIALIZED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "texture-overlay",
+      "description": "Texture overlay component with various CSS gradient patterns for adding visual texture to backgrounds",
+      "files": [
+        "apps/www/registry/default/ui/texture-overlay.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "squiggle-arrow",
+      "description": "A playful, hand-drawn squiggly arrow component with customizable variants, directions, and sizes",
+      "files": [
+        "apps/www/registry/default/ui/squiggle-arrow.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "code-block",
+      "description": "A beautiful code block component with tabs, copy functionality, and smooth animations",
+      "files": [
+        "apps/www/registry/default/ui/code-block.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "mock-browser-window",
+      "description": "A customizable browser window mockup component with support for Chrome, Safari, and generic styles, customizable sidebars, and themes",
+      "files": [
+        "apps/www/registry/default/ui/mock-browser-window.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        "texture-overlay"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "metal-button",
+      "description": "Shadcn Button wrapped in MetalFx: animated liquid metal ring with text and icon variants",
+      "files": [
+        "apps/www/registry/default/ui/metal-button.tsx"
+      ],
+      "declared_dependencies": [
+        "metal-fx"
+      ],
+      "declared_registry_dependencies": [
+        "button"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "morph-surface",
+      "description": "A morphing surface component with smooth animations, customizable dimensions, and configurable content",
+      "files": [
+        "apps/www/registry/default/ui/morph-surface.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "Root logic, render seams, shared status, form submit/keyboard and paired outside interaction; full relevant implementation",
+      "classification": "SPECIALIZED",
+      "included_local_implementation": true
+    },
+    {
+      "name": "distorted-glass",
+      "description": "A glass morphism effect component using SVG filters with fractal noise to create visual transitions between sections",
+      "files": [
+        "apps/www/registry/default/ui/distorted-glass.tsx"
+      ],
+      "declared_dependencies": [
+        null
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "complete",
+      "classification": "REJECT",
+      "included_local_implementation": false
+    },
+    {
+      "name": "family-drawer",
+      "description": "A multi-view drawer component with smooth animations, view navigation, and customizable content views",
+      "files": [
+        "apps/www/registry/default/ui/family-drawer.tsx"
+      ],
+      "declared_dependencies": [
+        "motion",
+        "react-use-measure",
+        "vaul",
+        "@radix-ui/react-slot"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "First385 lines: root state, measurement/duration, primitive composition, trigger/overlay/content/close/header",
+      "classification": "SPECIALIZED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "expandable-screen",
+      "description": "A full-screen expandable component with morphing animations using shared layout IDs for smooth transitions",
+      "files": [
+        "apps/www/registry/default/ui/expandable-screen.tsx"
+      ],
+      "declared_dependencies": [
+        "motion",
+        "lucide-react"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "Root open/close/scroll effect, trigger/content/background, full relevant implementation",
+      "classification": "REFERENCE",
+      "included_local_implementation": false
+    },
+    {
+      "name": "pixel-heading-character",
+      "description": "Per-character pixel-font heading with four animation modes using Geist pixel fonts",
+      "files": [
+        "apps/www/registry/default/ui/pixel-heading-character.tsx"
+      ],
+      "declared_dependencies": [
+        "geist"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "pixel-heading-word",
+      "description": "Whole-word pixel-font heading that swaps or cycles fonts on hover using Geist pixel fonts",
+      "files": [
+        "apps/www/registry/default/ui/pixel-heading-word.tsx"
+      ],
+      "declared_dependencies": [
+        "geist"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "pixel-paragraph-words-inverse",
+      "description": "Paragraph in pixel font where specific words escape into interactive sans/mono with hover swap or cycle",
+      "files": [
+        "apps/www/registry/default/ui/pixel-paragraph-words-inverse.tsx"
+      ],
+      "declared_dependencies": [
+        "geist"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "pixel-paragraph-words",
+      "description": "Paragraph where specific words render in an interactive pixel font that swaps or cycles on hover",
+      "files": [
+        "apps/www/registry/default/ui/pixel-paragraph-words.tsx"
+      ],
+      "declared_dependencies": [
+        "geist"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "onboarding",
+      "description": "Composable multi-step onboarding primitives: Onboarding root with step navigation, FeatureCarousel, ChoiceGroup radio selector, TipsList, and StepIndicator with dots and pills variants",
+      "files": [
+        "apps/www/registry/default/ui/onboarding.tsx"
+      ],
+      "declared_dependencies": [
+        "@radix-ui/react-use-controllable-state",
+        "class-variance-authority"
+      ],
+      "declared_registry_dependencies": [
+        "button"
+      ],
+      "inspection_depth": "First160 lines: progress implementation and step/context API only",
+      "classification": "REFERENCE",
+      "included_local_implementation": false
+    },
+    {
+      "name": "gradient-button-group",
+      "description": "Premium layered button group with animated active state, gradient ring accents, and theme toggle underlay",
+      "files": [
+        "apps/www/registry/default/ui/gradient-button-group.tsx"
+      ],
+      "declared_dependencies": [
+        "motion"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "terminal-animation",
+      "description": "Composable terminal animation primitives with typed command playback, tabbed scenarios, and customizable output rendering",
+      "files": [
+        "apps/www/registry/default/ui/terminal-animation.tsx"
+      ],
+      "declared_dependencies": [
+        "@radix-ui/react-slot",
+        "@radix-ui/react-use-controllable-state"
+      ],
+      "declared_registry_dependencies": [
+        null
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "hero-dithering",
+      "description": "Split-layout hero section with responsive dithering shader visuals, CTA, and tech stack badges",
+      "files": [
+        "apps/www/registry/default/ui/hero-dithering.tsx"
+      ],
+      "declared_dependencies": [
+        "@paper-design/shaders-react"
+      ],
+      "declared_registry_dependencies": [
+        "badge",
+        "button"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "hero-color-panel",
+      "description": "Split-layout hero section with responsive ColorPanels shader visuals, CTA, and tech stack badges",
+      "files": [
+        "apps/www/registry/default/ui/hero-color-panel.tsx"
+      ],
+      "declared_dependencies": [
+        "@paper-design/shaders-react"
+      ],
+      "declared_registry_dependencies": [
+        "badge",
+        "button"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "hero-static-radial-gradient",
+      "description": "Split-layout hero section with responsive StaticRadialGradient shader visuals, CTA, and tech stack badges",
+      "files": [
+        "apps/www/registry/default/ui/hero-static-radial-gradient.tsx"
+      ],
+      "declared_dependencies": [
+        "@paper-design/shaders-react"
+      ],
+      "declared_registry_dependencies": [
+        "badge",
+        "button"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "hero-heatmap",
+      "description": "Split-layout hero section with responsive Heatmap shader visuals, CTA, and tech stack badges",
+      "files": [
+        "apps/www/registry/default/ui/hero-heatmap.tsx"
+      ],
+      "declared_dependencies": [
+        "@paper-design/shaders-react"
+      ],
+      "declared_registry_dependencies": [
+        "badge",
+        "button"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    },
+    {
+      "name": "hero-liquid-metal",
+      "description": "Split-layout hero section with responsive LiquidMetal shader visuals, CTA, and tech stack badges",
+      "files": [
+        "apps/www/registry/default/ui/hero-liquid-metal.tsx"
+      ],
+      "declared_dependencies": [
+        "@paper-design/shaders-react"
+      ],
+      "declared_registry_dependencies": [
+        "badge",
+        "button"
+      ],
+      "inspection_depth": "catalog_only",
+      "classification": "UNREVIEWED",
+      "included_local_implementation": false
+    }
+  ],
+  "unregistered_ui_files": [
+    "apps/www/registry/default/ui/expandable-card.tsx",
+    "apps/www/registry/default/ui/glow-button.tsx",
+    "apps/www/registry/default/ui/shader-shape-lens-blur copy.tsx",
+    "apps/www/registry/default/ui/type-animate.tsx"
+  ],
+  "snapshot_kind": "renamed-local-copy",
+  "evidence_note": "Hashes describe edited local files; commit identifies historical origin only."
+}
